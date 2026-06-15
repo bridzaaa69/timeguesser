@@ -1,22 +1,247 @@
 [
-    "Kto napísal 1984?",
-    "Kto vytvoril Sherlocka Holmesa?",
-    "Kto napísal Božskú komédiu?",
-    "Kto napísal Malého princa?",
-    "Kto napísal Starec a more?",
-    "Ktorá autorka napísala Harryho Pottera?",
-    "Kto napísal Zločin a trest?",
-    "Kto napísal Hamlet?",
-    "Kto napísal Zabíjať vtáčika?",
-    "Kto napísal Pána prsteňov?",
-    "Kto napísal Anna Kareninu?",
-    "Kto napísal Fausta?",
-    "Kto napísal Robinsona Crusoe?",
-    "Kto napísal Gulliverove cesty?",
-    "Kto napísal Frankensteina?",
-    "Kto napísal Odyseu?",
-    "Kto napísal Búrlivé výšiny?",
-    "Kto napísal Alicu v krajine zázrakov?",
-    "Kto napísal Dekameron?",
-    "Kto napísal Proces?"
+    {
+        "otazka": "Kto napísal 1984?",
+        "odpovede": [
+            "George Orwell",
+            "gEORGE ORWELL",
+            "george orwell",
+            "George orwell",
+            "GEORGE ORWELL",
+            "GeOrGe oRwElL"
+        ]
+    },
+    {
+        "otazka": "Kto vytvoril Sherlocka Holmesa?",
+        "odpovede": [
+            "Arthur Conan Doyle",
+            "Arthur conan doyle",
+            "aRTHUR CONAN DOYLE",
+            "ArThUr cOnAn dOyLe",
+            "arthur conan doyle",
+            "ARTHUR CONAN DOYLE"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Božskú komédiu?",
+        "odpovede": [
+            "Dante Alighieri",
+            "DANTE ALIGHIERI",
+            "Dante alighieri",
+            "DaNtE AlIgHiErI",
+            "dANTE ALIGHIERI",
+            "dante alighieri"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Malého princa?",
+        "odpovede": [
+            "Antoine de Saint-Exupéry",
+            "aNTOINE DE SAINT-EXUPERY",
+            "Antoine de Saint-Exupery",
+            "ANTOINE DE SAINT-EXUPERY",
+            "Antoine de saint-exupery",
+            "Antoine De Saint-Exupery",
+            "AnToInE De sAiNt-eXuPeRy",
+            "antoine de saint-exupery",
+            "Antoine de saint-exupéry",
+            "ANTOINE DE SAINT-EXUPÉRY",
+            "Antoine De Saint-Exupéry",
+            "AnToInE De sAiNt-eXuPéRy",
+            "antoine de saint-exupéry",
+            "aNTOINE DE SAINT-EXUPÉRY"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Starec a more?",
+        "odpovede": [
+            "Ernest Hemingway",
+            "ernest hemingway",
+            "ErNeSt hEmInGwAy",
+            "eRNEST HEMINGWAY",
+            "ERNEST HEMINGWAY",
+            "Ernest hemingway"
+        ]
+    },
+    {
+        "otazka": "Ktorá autorka napísala Harryho Pottera?",
+        "odpovede": [
+            "J. K. Rowlingová",
+            "j. K. ROWLINGOVA",
+            "J. K. Rowlingova",
+            "j. k. rowlingova",
+            "J. K. ROWLINGOVA",
+            "J. k. rowlingova",
+            "J. k. RoWlInGoVa",
+            "j. k. rowlingová",
+            "J. K. ROWLINGOVÁ",
+            "J. k. rowlingová",
+            "j. K. ROWLINGOVÁ",
+            "J. k. RoWlInGoVá"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Zločin a trest?",
+        "odpovede": [
+            "Fiodor Dostojevskij",
+            "fIODOR DOSTOJEVSKIJ",
+            "fiodor dostojevskij",
+            "FiOdOr dOsToJeVsKiJ",
+            "FIODOR DOSTOJEVSKIJ",
+            "Fiodor dostojevskij"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Hamlet?",
+        "odpovede": [
+            "William Shakespeare",
+            "william shakespeare",
+            "wILLIAM SHAKESPEARE",
+            "William shakespeare",
+            "WiLlIaM ShAkEsPeArE",
+            "WILLIAM SHAKESPEARE"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Zabíjať vtáčika?",
+        "odpovede": [
+            "Harper Lee",
+            "HaRpEr lEe",
+            "Harper lee",
+            "harper lee",
+            "hARPER LEE",
+            "HARPER LEE"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Pána prsteňov?",
+        "odpovede": [
+            "J. R. R. Tolkien",
+            "J. r. r. tolkien",
+            "J. R. R. TOLKIEN",
+            "j. r. r. tolkien",
+            "J. r. R. tOlKiEn",
+            "j. R. R. TOLKIEN"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Anna Kareninu?",
+        "odpovede": [
+            "Lev Tolstoj",
+            "Lev tolstoj",
+            "lev tolstoj",
+            "LeV ToLsToJ",
+            "lEV TOLSTOJ",
+            "LEV TOLSTOJ"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Fausta?",
+        "odpovede": [
+            "Johann Wolfgang von Goethe",
+            "JoHaNn wOlFgAnG VoN GoEtHe",
+            "JOHANN WOLFGANG VON GOETHE",
+            "Johann Wolfgang Von Goethe",
+            "jOHANN WOLFGANG VON GOETHE",
+            "johann wolfgang von goethe",
+            "Johann wolfgang von goethe"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Robinsona Crusoe?",
+        "odpovede": [
+            "Daniel Defoe",
+            "DaNiEl dEfOe",
+            "dANIEL DEFOE",
+            "daniel defoe",
+            "DANIEL DEFOE",
+            "Daniel defoe"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Gulliverove cesty?",
+        "odpovede": [
+            "Jonathan Swift",
+            "jonathan swift",
+            "JONATHAN SWIFT",
+            "jONATHAN SWIFT",
+            "JoNaThAn sWiFt",
+            "Jonathan swift"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Frankensteina?",
+        "odpovede": [
+            "Mary Shelley",
+            "mARY SHELLEY",
+            "Mary shelley",
+            "MARY SHELLEY",
+            "MaRy sHeLlEy",
+            "mary shelley"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Odyseu?",
+        "odpovede": [
+            "Homér",
+            "homer",
+            "Homer",
+            "HoMeR",
+            "HOMER",
+            "hOMER",
+            "homér",
+            "HOMÉR",
+            "HoMéR",
+            "hOMÉR"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Búrlivé výšiny?",
+        "odpovede": [
+            "Emily Brontë",
+            "Emily bronte",
+            "EmIlY BrOnTe",
+            "eMILY BRONTE",
+            "EMILY BRONTE",
+            "emily bronte",
+            "Emily Bronte",
+            "EmIlY BrOnTë",
+            "Emily brontë",
+            "EMILY BRONTË",
+            "eMILY BRONTË",
+            "emily brontë"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Alicu v krajine zázrakov?",
+        "odpovede": [
+            "Lewis Carroll",
+            "lewis carroll",
+            "Lewis carroll",
+            "lEWIS CARROLL",
+            "LeWiS CaRrOlL",
+            "LEWIS CARROLL"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Dekameron?",
+        "odpovede": [
+            "Giovanni Boccaccio",
+            "Giovanni boccaccio",
+            "GiOvAnNi bOcCaCcIo",
+            "giovanni boccaccio",
+            "GIOVANNI BOCCACCIO",
+            "gIOVANNI BOCCACCIO"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Proces?",
+        "odpovede": [
+            "Franz Kafka",
+            "franz kafka",
+            "fRANZ KAFKA",
+            "FRANZ KAFKA",
+            "FrAnZ KaFkA",
+            "Franz kafka"
+        ]
+    }
 ]

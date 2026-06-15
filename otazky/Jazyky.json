@@ -1,22 +1,308 @@
 [
-    "Čo je podstatné meno?",
-    "Ako sa nazýva veta s otázkou?",
-    "Ktorý jazyk je úradným jazykom na Slovensku?",
-    "Čo je synonymum?",
-    "Ako sa volá časť reči označujúca dej?",
-    "Ktorý znak sa píše na konci otázky?",
-    "Čo je preklad?",
-    "Ako sa nazýva jazykový štýl v novinách?",
-    "Ktorý jazyk patrí medzi germánske jazyky?",
-    "Čo je pravopis?",
-    "Čo je antonymum?",
-    "Ako sa nazýva priama reč v texte?",
-    "Čo je skloňovanie?",
-    "Ako sa volá proces tvorby nových slov?",
-    "Ktorý znak sa používa na dĺžne?",
-    "Čo je hláska?",
-    "Ako sa nazýva veta oznamovacia?",
-    "Ktorý jazyk patrí medzi románske jazyky?",
-    "Čo je príslovka?",
-    "Ako sa volá vetná členka, ktorá určuje vlastnosť?"
+    {
+        "otazka": "Čo je podstatné meno?",
+        "odpovede": [
+            "Slovo označujúce osobu, vec alebo jav",
+            "Slovo oznacujuce osobu, vec alebo jav",
+            "SlOvO OzNaCuJuCe oSoBu, VeC AlEbO JaV",
+            "Slovo Oznacujuce Osobu, Vec Alebo Jav",
+            "slovo oznacujuce osobu, vec alebo jav",
+            "sLOVO OZNACUJUCE OSOBU, VEC ALEBO JAV",
+            "SLOVO OZNACUJUCE OSOBU, VEC ALEBO JAV",
+            "slovo označujúce osobu, vec alebo jav",
+            "sLOVO OZNAČUJÚCE OSOBU, VEC ALEBO JAV",
+            "SlOvO OzNaČuJúCe oSoBu, VeC AlEbO JaV",
+            "Slovo Označujúce Osobu, Vec Alebo Jav",
+            "SLOVO OZNAČUJÚCE OSOBU, VEC ALEBO JAV"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva veta s otázkou?",
+        "odpovede": [
+            "Otázka",
+            "oTAZKA",
+            "otazka",
+            "OtAzKa",
+            "OTAZKA",
+            "Otazka",
+            "OtÁzKa",
+            "otázka",
+            "oTÁZKA",
+            "OTÁZKA"
+        ]
+    },
+    {
+        "otazka": "Ktorý jazyk je úradným jazykom na Slovensku?",
+        "odpovede": [
+            "Slovenčina",
+            "Slovencina",
+            "sLOVENCINA",
+            "SLOVENCINA",
+            "SlOvEnCiNa",
+            "slovencina",
+            "sLOVENČINA",
+            "SLOVENČINA",
+            "SlOvEnČiNa",
+            "slovenčina"
+        ]
+    },
+    {
+        "otazka": "Čo je synonymum?",
+        "odpovede": [
+            "Slovo s podobným významom",
+            "Slovo s podobnym vyznamom",
+            "SLOVO S PODOBNYM VYZNAMOM",
+            "sLOVO S PODOBNYM VYZNAMOM",
+            "slovo s podobnym vyznamom",
+            "Slovo S Podobnym Vyznamom",
+            "SlOvO S PoDoBnYm vYzNaMoM",
+            "sLOVO S PODOBNÝM VÝZNAMOM",
+            "slovo s podobným významom",
+            "SlOvO S PoDoBnÝm vÝzNaMoM",
+            "Slovo S Podobným Významom",
+            "SLOVO S PODOBNÝM VÝZNAMOM"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá časť reči označujúca dej?",
+        "odpovede": [
+            "Sloveso",
+            "SLOVESO",
+            "SlOvEsO",
+            "sloveso",
+            "sLOVESO"
+        ]
+    },
+    {
+        "otazka": "Ktorý znak sa píše na konci otázky?",
+        "odpovede": [
+            "Otáznik",
+            "oTAZNIK",
+            "OtAzNiK",
+            "Otaznik",
+            "OTAZNIK",
+            "otaznik",
+            "OtÁzNiK",
+            "OTÁZNIK",
+            "otáznik",
+            "oTÁZNIK"
+        ]
+    },
+    {
+        "otazka": "Čo je preklad?",
+        "odpovede": [
+            "Prenos významu do iného jazyka",
+            "Prenos Vyznamu Do Ineho Jazyka",
+            "prenos vyznamu do ineho jazyka",
+            "pRENOS VYZNAMU DO INEHO JAZYKA",
+            "PRENOS VYZNAMU DO INEHO JAZYKA",
+            "Prenos vyznamu do ineho jazyka",
+            "PrEnOs vYzNaMu dO InEhO JaZyKa",
+            "PrEnOs vÝzNaMu dO InÉhO JaZyKa",
+            "pRENOS VÝZNAMU DO INÉHO JAZYKA",
+            "Prenos Významu Do Iného Jazyka",
+            "PRENOS VÝZNAMU DO INÉHO JAZYKA",
+            "prenos významu do iného jazyka"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva jazykový štýl v novinách?",
+        "odpovede": [
+            "Publicistický štýl",
+            "Publicisticky Styl",
+            "PuBlIcIsTiCkY StYl",
+            "publicisticky styl",
+            "pUBLICISTICKY STYL",
+            "PUBLICISTICKY STYL",
+            "Publicisticky styl",
+            "PUBLICISTICKÝ ŠTÝL",
+            "PuBlIcIsTiCkÝ ŠtÝl",
+            "pUBLICISTICKÝ ŠTÝL",
+            "Publicistický Štýl",
+            "publicistický štýl"
+        ]
+    },
+    {
+        "otazka": "Ktorý jazyk patrí medzi germánske jazyky?",
+        "odpovede": [
+            "Nemčina",
+            "nEMCINA",
+            "NeMcInA",
+            "Nemcina",
+            "nemcina",
+            "NEMCINA",
+            "NEMČINA",
+            "nemčina",
+            "nEMČINA",
+            "NeMčInA"
+        ]
+    },
+    {
+        "otazka": "Čo je pravopis?",
+        "odpovede": [
+            "Pravidlá písania",
+            "PRAVIDLA PISANIA",
+            "pravidla pisania",
+            "pRAVIDLA PISANIA",
+            "PrAvIdLa pIsAnIa",
+            "Pravidla pisania",
+            "Pravidla Pisania",
+            "Pravidlá Písania",
+            "PRAVIDLÁ PÍSANIA",
+            "PrAvIdLá pÍsAnIa",
+            "pravidlá písania",
+            "pRAVIDLÁ PÍSANIA"
+        ]
+    },
+    {
+        "otazka": "Čo je antonymum?",
+        "odpovede": [
+            "Slovo s opačným významom",
+            "Slovo S Opacnym Vyznamom",
+            "SlOvO S OpAcNyM VyZnAmOm",
+            "Slovo s opacnym vyznamom",
+            "sLOVO S OPACNYM VYZNAMOM",
+            "SLOVO S OPACNYM VYZNAMOM",
+            "slovo s opacnym vyznamom",
+            "Slovo S Opačným Významom",
+            "sLOVO S OPAČNÝM VÝZNAMOM",
+            "SlOvO S OpAčNýM VýZnAmOm",
+            "SLOVO S OPAČNÝM VÝZNAMOM",
+            "slovo s opačným významom"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva priama reč v texte?",
+        "odpovede": [
+            "Priama reč",
+            "PRIAMA REC",
+            "PrIaMa rEc",
+            "priama rec",
+            "Priama rec",
+            "pRIAMA REC",
+            "Priama Rec",
+            "PrIaMa rEč",
+            "PRIAMA REČ",
+            "priama reč",
+            "pRIAMA REČ",
+            "Priama Reč"
+        ]
+    },
+    {
+        "otazka": "Čo je skloňovanie?",
+        "odpovede": [
+            "Menenie tvaru podstatných mien",
+            "Menenie Tvaru Podstatnych Mien",
+            "mENENIE TVARU PODSTATNYCH MIEN",
+            "menenie tvaru podstatnych mien",
+            "MeNeNiE TvArU PoDsTaTnYcH MiEn",
+            "MENENIE TVARU PODSTATNYCH MIEN",
+            "Menenie tvaru podstatnych mien",
+            "mENENIE TVARU PODSTATNÝCH MIEN",
+            "Menenie Tvaru Podstatných Mien",
+            "MENENIE TVARU PODSTATNÝCH MIEN",
+            "MeNeNiE TvArU PoDsTaTnÝcH MiEn",
+            "menenie tvaru podstatných mien"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá proces tvorby nových slov?",
+        "odpovede": [
+            "Slovotvorba",
+            "slovotvorba",
+            "sLOVOTVORBA",
+            "SLOVOTVORBA",
+            "SlOvOtVoRbA"
+        ]
+    },
+    {
+        "otazka": "Ktorý znak sa používa na dĺžne?",
+        "odpovede": [
+            "Dĺžeň",
+            "DlZeN",
+            "DLZEN",
+            "Dlzen",
+            "dlzen",
+            "dLZEN",
+            "DĺŽeŇ",
+            "dĹŽEŇ",
+            "dĺžeň",
+            "DĹŽEŇ"
+        ]
+    },
+    {
+        "otazka": "Čo je hláska?",
+        "odpovede": [
+            "Zvuková jednotka reči",
+            "zvukova jednotka reci",
+            "Zvukova jednotka reci",
+            "ZvUkOvA JeDnOtKa rEcI",
+            "zVUKOVA JEDNOTKA RECI",
+            "Zvukova Jednotka Reci",
+            "ZVUKOVA JEDNOTKA RECI",
+            "zvuková jednotka reči",
+            "zVUKOVÁ JEDNOTKA REČI",
+            "ZvUkOvÁ JeDnOtKa rEčI",
+            "ZVUKOVÁ JEDNOTKA REČI",
+            "Zvuková Jednotka Reči"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva veta oznamovacia?",
+        "odpovede": [
+            "Oznamovacia veta",
+            "OZNAMOVACIA VETA",
+            "Oznamovacia Veta",
+            "oZNAMOVACIA VETA",
+            "oznamovacia veta",
+            "OzNaMoVaCiA VeTa"
+        ]
+    },
+    {
+        "otazka": "Ktorý jazyk patrí medzi románske jazyky?",
+        "odpovede": [
+            "Francúzština",
+            "francuzstina",
+            "fRANCUZSTINA",
+            "Francuzstina",
+            "FrAnCuZsTiNa",
+            "FRANCUZSTINA",
+            "FrAnCúZšTiNa",
+            "francúzština",
+            "fRANCÚZŠTINA",
+            "FRANCÚZŠTINA"
+        ]
+    },
+    {
+        "otazka": "Čo je príslovka?",
+        "odpovede": [
+            "Slovo určujúce okolnosti deja",
+            "sLOVO URCUJUCE OKOLNOSTI DEJA",
+            "Slovo Urcujuce Okolnosti Deja",
+            "SLOVO URCUJUCE OKOLNOSTI DEJA",
+            "SlOvO UrCuJuCe oKoLnOsTi dEjA",
+            "Slovo urcujuce okolnosti deja",
+            "slovo urcujuce okolnosti deja",
+            "SLOVO URČUJÚCE OKOLNOSTI DEJA",
+            "sLOVO URČUJÚCE OKOLNOSTI DEJA",
+            "Slovo Určujúce Okolnosti Deja",
+            "SlOvO UrČuJúCe oKoLnOsTi dEjA",
+            "slovo určujúce okolnosti deja"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá vetná členka, ktorá určuje vlastnosť?",
+        "odpovede": [
+            "Prívlastok",
+            "PrIvLaStOk",
+            "privlastok",
+            "PRIVLASTOK",
+            "Privlastok",
+            "pRIVLASTOK",
+            "PrÍvLaStOk",
+            "pRÍVLASTOK",
+            "prívlastok",
+            "PRÍVLASTOK"
+        ]
+    }
 ]

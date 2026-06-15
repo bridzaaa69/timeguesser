@@ -1,22 +1,268 @@
 [
-    "Kde sa nachádza Eiffelova veža?",
-    "Kde sa nachádza Taj Mahal?",
-    "Ako sa volá rímsky amfiteáter v Taliansku?",
-    "Ktorá stavba je symbolom Paríža?",
-    "Ktorý hrad je dominantou Bratislavy?",
-    "Ako sa volá kamenný kruh v Anglicku?",
-    "Kde sa nachádza Socha slobody?",
-    "Ktoré staroveké mesto v Peru je známe ruinami Inkov?",
-    "Ako sa volá šikmá veža v Taliansku?",
-    "Ktorá stavba v Číne je známa ako Veľký múr?",
-    "Kde sa nachádza Sagrada Família?",
-    "Ktorý hrad je najväčší v Strednej Európe?",
-    "Kde sa nachádza Západný múr?",
-    "Ktorá pamiatka v Egypte je známa svojím tvarom?",
-    "Kde sa nachádza Opera v Sydney?",
-    "Ako sa volá kláštor na hore Athos?",
-    "Kde sa nachádza Akropola?",
-    "Ako sa volá Oravský hrad?",
-    "Kde sa nachádza Westminsterský palác?",
-    "Ktorá pamiatka v Česku je symbolom Prahy?"
+    {
+        "otazka": "Kde sa nachádza Eiffelova veža?",
+        "odpovede": [
+            "Paríž",
+            "Pariz",
+            "PaRiZ",
+            "PARIZ",
+            "pariz",
+            "pARIZ",
+            "pARÍŽ",
+            "PARÍŽ",
+            "paríž",
+            "PaRíŽ"
+        ]
+    },
+    {
+        "otazka": "Kde sa nachádza Taj Mahal?",
+        "odpovede": [
+            "Agra",
+            "aGRA",
+            "agra",
+            "AgRa",
+            "AGRA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá rímsky amfiteáter v Taliansku?",
+        "odpovede": [
+            "Koloseum",
+            "KoLoSeUm",
+            "kOLOSEUM",
+            "koloseum",
+            "KOLOSEUM"
+        ]
+    },
+    {
+        "otazka": "Ktorá stavba je symbolom Paríža?",
+        "odpovede": [
+            "Eiffelova veža",
+            "Eiffelova veza",
+            "eIFFELOVA VEZA",
+            "EiFfElOvA VeZa",
+            "eiffelova veza",
+            "Eiffelova Veza",
+            "EIFFELOVA VEZA",
+            "eiffelova veža",
+            "EIFFELOVA VEŽA",
+            "eIFFELOVA VEŽA",
+            "EiFfElOvA VeŽa",
+            "Eiffelova Veža"
+        ]
+    },
+    {
+        "otazka": "Ktorý hrad je dominantou Bratislavy?",
+        "odpovede": [
+            "Bratislavský hrad",
+            "bRATISLAVSKY HRAD",
+            "BrAtIsLaVsKy hRaD",
+            "Bratislavsky Hrad",
+            "Bratislavsky hrad",
+            "bratislavsky hrad",
+            "BRATISLAVSKY HRAD",
+            "bRATISLAVSKÝ HRAD",
+            "Bratislavský Hrad",
+            "BrAtIsLaVsKý hRaD",
+            "BRATISLAVSKÝ HRAD",
+            "bratislavský hrad"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá kamenný kruh v Anglicku?",
+        "odpovede": [
+            "Stonehenge",
+            "sTONEHENGE",
+            "stonehenge",
+            "StOnEhEnGe",
+            "STONEHENGE"
+        ]
+    },
+    {
+        "otazka": "Kde sa nachádza Socha slobody?",
+        "odpovede": [
+            "New York",
+            "NeW YoRk",
+            "New york",
+            "nEW YORK",
+            "new york",
+            "NEW YORK"
+        ]
+    },
+    {
+        "otazka": "Ktoré staroveké mesto v Peru je známe ruinami Inkov?",
+        "odpovede": [
+            "Machu Picchu",
+            "MaChU PiCcHu",
+            "MACHU PICCHU",
+            "mACHU PICCHU",
+            "Machu picchu",
+            "machu picchu"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá šikmá veža v Taliansku?",
+        "odpovede": [
+            "Pisa",
+            "pisa",
+            "PiSa",
+            "PISA",
+            "pISA"
+        ]
+    },
+    {
+        "otazka": "Ktorá stavba v Číne je známa ako Veľký múr?",
+        "odpovede": [
+            "Veľký čínsky múr",
+            "VELKY CINSKY MUR",
+            "Velky Cinsky Mur",
+            "velky cinsky mur",
+            "Velky cinsky mur",
+            "vELKY CINSKY MUR",
+            "VeLkY CiNsKy mUr",
+            "veľký čínsky múr",
+            "VEĽKÝ ČÍNSKY MÚR",
+            "vEĽKÝ ČÍNSKY MÚR",
+            "VeĽkÝ ČíNsKy mÚr",
+            "Veľký Čínsky Múr"
+        ]
+    },
+    {
+        "otazka": "Kde sa nachádza Sagrada Família?",
+        "odpovede": [
+            "Barcelona",
+            "barcelona",
+            "bARCELONA",
+            "BaRcElOnA",
+            "BARCELONA"
+        ]
+    },
+    {
+        "otazka": "Ktorý hrad je najväčší v Strednej Európe?",
+        "odpovede": [
+            "Spišský hrad",
+            "SPISSKY HRAD",
+            "sPISSKY HRAD",
+            "Spissky hrad",
+            "Spissky Hrad",
+            "spissky hrad",
+            "SpIsSkY HrAd",
+            "spišský hrad",
+            "SpIšSkÝ HrAd",
+            "SPIŠSKÝ HRAD",
+            "Spišský Hrad",
+            "sPIŠSKÝ HRAD"
+        ]
+    },
+    {
+        "otazka": "Kde sa nachádza Západný múr?",
+        "odpovede": [
+            "Jeruzalem",
+            "jERUZALEM",
+            "jeruzalem",
+            "JERUZALEM",
+            "JeRuZaLeM"
+        ]
+    },
+    {
+        "otazka": "Ktorá pamiatka v Egypte je známa svojím tvarom?",
+        "odpovede": [
+            "Pyramídy",
+            "pYRAMIDY",
+            "Pyramidy",
+            "pyramidy",
+            "PyRaMiDy",
+            "PYRAMIDY",
+            "PyRaMíDy",
+            "PYRAMÍDY",
+            "pyramídy",
+            "pYRAMÍDY"
+        ]
+    },
+    {
+        "otazka": "Kde sa nachádza Opera v Sydney?",
+        "odpovede": [
+            "Sydney",
+            "sYDNEY",
+            "sydney",
+            "SYDNEY",
+            "SyDnEy"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá kláštor na hore Athos?",
+        "odpovede": [
+            "Svätá hora Athos",
+            "Svata hora Athos",
+            "Svata hora athos",
+            "SvAtA HoRa aThOs",
+            "Svata Hora Athos",
+            "SVATA HORA ATHOS",
+            "svata hora athos",
+            "sVATA HORA ATHOS",
+            "SvÄtÁ HoRa aThOs",
+            "SVÄTÁ HORA ATHOS",
+            "svätá hora athos",
+            "sVÄTÁ HORA ATHOS",
+            "Svätá Hora Athos",
+            "Svätá hora athos"
+        ]
+    },
+    {
+        "otazka": "Kde sa nachádza Akropola?",
+        "odpovede": [
+            "Atény",
+            "Ateny",
+            "ateny",
+            "ATENY",
+            "AtEnY",
+            "aTENY",
+            "AtÉnY",
+            "atény",
+            "ATÉNY",
+            "aTÉNY"
+        ]
+    },
+    {
+        "otazka": "Na ktorej rieke leží Oravský hrad?",
+        "odpovede": [
+            "Orava",
+            "ORAVA",
+            "OrAvA",
+            "oRAVA",
+            "orava"
+        ]
+    },
+    {
+        "otazka": "Kde sa nachádza Westminsterský palác?",
+        "odpovede": [
+            "Londýn",
+            "lONDYN",
+            "Londyn",
+            "LoNdYn",
+            "londyn",
+            "LONDYN",
+            "LoNdÝn",
+            "londýn",
+            "LONDÝN",
+            "lONDÝN"
+        ]
+    },
+    {
+        "otazka": "Ktorá pamiatka v Česku je symbolom Prahy?",
+        "odpovede": [
+            "Pražský hrad",
+            "prazsky hrad",
+            "PRAZSKY HRAD",
+            "PrAzSkY HrAd",
+            "Prazsky hrad",
+            "Prazsky Hrad",
+            "pRAZSKY HRAD",
+            "PRAŽSKÝ HRAD",
+            "pražský hrad",
+            "pRAŽSKÝ HRAD",
+            "PrAžSkÝ HrAd",
+            "Pražský Hrad"
+        ]
+    }
 ]

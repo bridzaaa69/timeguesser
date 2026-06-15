@@ -1,22 +1,277 @@
 [
-    "Čo znamená skratka POV?",
-    "Ako sa nazýva krátke video na sociálnych sieťach?",
-    "Čo je meme?",
-    "Čo znamená cringe?",
-    "Čo je hype?",
-    "Ako sa volá internetový tvorca obsahu?",
-    "Čo je trend?",
-    "Ako sa nazýva prehnane dramatická reakcia v komentároch?",
-    "Čo znamená slovo rizz?",
-    "Ako sa volá opakované používanie jedného zvuku v meme?",
-    "Čo je doomscrolling?",
-    "Ako sa nazýva reakcia typu based?",
-    "Čo znamená skratka FYP?",
-    "Ako sa volá obsah, ktorý je zámerne absurdný?",
-    "Čo je clickbait?",
-    "Ako sa nazýva filtrovaný obraz alebo efekt na videu?",
-    "Čo znamená skratka NPC v internetovom slangu?",
-    "Ako sa volá moment, keď sa niečo stane virálnym?",
-    "Čo je reaction video?",
-    "Ako sa nazýva trend, ktorý sa šíri z jedného videa na druhé?"
+    {
+        "otazka": "Čo znamená skratka POV?",
+        "odpovede": [
+            "Point of view",
+            "point of view",
+            "PoInT Of vIeW",
+            "pOINT OF VIEW",
+            "Point Of View",
+            "POINT OF VIEW"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva krátke video na sociálnych sieťach?",
+        "odpovede": [
+            "Short",
+            "sHORT",
+            "short",
+            "ShOrT",
+            "SHORT"
+        ]
+    },
+    {
+        "otazka": "Čo je meme?",
+        "odpovede": [
+            "Vtipný internetový obrázok alebo trend",
+            "vtipny internetovy obrazok alebo trend",
+            "VtIpNy iNtErNeToVy oBrAzOk aLeBo tReNd",
+            "VTIPNY INTERNETOVY OBRAZOK ALEBO TREND",
+            "Vtipny internetovy obrazok alebo trend",
+            "vTIPNY INTERNETOVY OBRAZOK ALEBO TREND",
+            "Vtipny Internetovy Obrazok Alebo Trend",
+            "vtipný internetový obrázok alebo trend",
+            "Vtipný Internetový Obrázok Alebo Trend",
+            "VtIpNý iNtErNeToVý oBrÁzOk aLeBo tReNd",
+            "VTIPNÝ INTERNETOVÝ OBRÁZOK ALEBO TREND",
+            "vTIPNÝ INTERNETOVÝ OBRÁZOK ALEBO TREND"
+        ]
+    },
+    {
+        "otazka": "Čo znamená cringe?",
+        "odpovede": [
+            "Trapnosť",
+            "TRAPNOST",
+            "Trapnost",
+            "TrApNoSt",
+            "trapnost",
+            "tRAPNOST",
+            "trapnosť",
+            "TrApNoSť",
+            "tRAPNOSŤ",
+            "TRAPNOSŤ"
+        ]
+    },
+    {
+        "otazka": "Čo je hype?",
+        "odpovede": [
+            "Veľké nadšenie okolo niečoho",
+            "VeLkE NaDsEnIe oKoLo nIeCoHo",
+            "velke nadsenie okolo niecoho",
+            "vELKE NADSENIE OKOLO NIECOHO",
+            "Velke Nadsenie Okolo Niecoho",
+            "Velke nadsenie okolo niecoho",
+            "VELKE NADSENIE OKOLO NIECOHO",
+            "VEĽKÉ NADŠENIE OKOLO NIEČOHO",
+            "Veľké Nadšenie Okolo Niečoho",
+            "VeĽkÉ NaDšEnIe oKoLo nIeČoHo",
+            "vEĽKÉ NADŠENIE OKOLO NIEČOHO",
+            "veľké nadšenie okolo niečoho"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá internetový tvorca obsahu?",
+        "odpovede": [
+            "Influencer",
+            "INFLUENCER",
+            "iNFLUENCER",
+            "InFlUeNcEr",
+            "influencer"
+        ]
+    },
+    {
+        "otazka": "Čo je trend?",
+        "odpovede": [
+            "Módny alebo populárny jav",
+            "MODNY ALEBO POPULARNY JAV",
+            "mODNY ALEBO POPULARNY JAV",
+            "Modny Alebo Popularny Jav",
+            "Modny alebo popularny jav",
+            "MoDnY AlEbO PoPuLaRnY JaV",
+            "modny alebo popularny jav",
+            "módny alebo populárny jav",
+            "MÓDNY ALEBO POPULÁRNY JAV",
+            "MóDnY AlEbO PoPuLáRnY JaV",
+            "Módny Alebo Populárny Jav",
+            "mÓDNY ALEBO POPULÁRNY JAV"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva prehnane dramatická reakcia v komentároch?",
+        "odpovede": [
+            "Overreaction",
+            "OvErReAcTiOn",
+            "overreaction",
+            "oVERREACTION",
+            "OVERREACTION"
+        ]
+    },
+    {
+        "otazka": "Čo znamená slovo rizz?",
+        "odpovede": [
+            "Charizma",
+            "CHARIZMA",
+            "charizma",
+            "cHARIZMA",
+            "ChArIzMa"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá opakované používanie jedného zvuku v meme?",
+        "odpovede": [
+            "Zvukový efekt",
+            "zVUKOVY EFEKT",
+            "ZvUkOvY EfEkT",
+            "ZVUKOVY EFEKT",
+            "zvukovy efekt",
+            "Zvukovy efekt",
+            "Zvukovy Efekt",
+            "ZvUkOvÝ EfEkT",
+            "ZVUKOVÝ EFEKT",
+            "Zvukový Efekt",
+            "zvukový efekt",
+            "zVUKOVÝ EFEKT"
+        ]
+    },
+    {
+        "otazka": "Čo je doomscrolling?",
+        "odpovede": [
+            "Neustále prezeranie negatívnych správ",
+            "NEUSTALE PREZERANIE NEGATIVNYCH SPRAV",
+            "nEUSTALE PREZERANIE NEGATIVNYCH SPRAV",
+            "Neustale prezeranie negativnych sprav",
+            "Neustale Prezeranie Negativnych Sprav",
+            "NeUsTaLe pReZeRaNiE NeGaTiVnYcH SpRaV",
+            "neustale prezeranie negativnych sprav",
+            "nEUSTÁLE PREZERANIE NEGATÍVNYCH SPRÁV",
+            "NEUSTÁLE PREZERANIE NEGATÍVNYCH SPRÁV",
+            "neustále prezeranie negatívnych správ",
+            "NeUsTáLe pReZeRaNiE NeGaTíVnYcH SpRáV",
+            "Neustále Prezeranie Negatívnych Správ"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva reakcia typu based?",
+        "odpovede": [
+            "Sebavedomý postoj",
+            "Sebavedomy postoj",
+            "sebavedomy postoj",
+            "Sebavedomy Postoj",
+            "SEBAVEDOMY POSTOJ",
+            "sEBAVEDOMY POSTOJ",
+            "SeBaVeDoMy pOsToJ",
+            "SEBAVEDOMÝ POSTOJ",
+            "sEBAVEDOMÝ POSTOJ",
+            "sebavedomý postoj",
+            "SeBaVeDoMý pOsToJ",
+            "Sebavedomý Postoj"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka FYP?",
+        "odpovede": [
+            "For You Page",
+            "FoR YoU PaGe",
+            "for you page",
+            "FOR YOU PAGE",
+            "For you page",
+            "fOR YOU PAGE"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá obsah, ktorý je zámerne absurdný?",
+        "odpovede": [
+            "Shitpost",
+            "shitpost",
+            "ShItPoSt",
+            "sHITPOST",
+            "SHITPOST"
+        ]
+    },
+    {
+        "otazka": "Čo je clickbait?",
+        "odpovede": [
+            "Lákavý titulok na kliknutie",
+            "Lakavy titulok na kliknutie",
+            "lakavy titulok na kliknutie",
+            "lAKAVY TITULOK NA KLIKNUTIE",
+            "LaKaVy tItUlOk nA KlIkNuTiE",
+            "Lakavy Titulok Na Kliknutie",
+            "LAKAVY TITULOK NA KLIKNUTIE",
+            "LáKaVý tItUlOk nA KlIkNuTiE",
+            "LÁKAVÝ TITULOK NA KLIKNUTIE",
+            "Lákavý Titulok Na Kliknutie",
+            "lÁKAVÝ TITULOK NA KLIKNUTIE",
+            "lákavý titulok na kliknutie"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva filtrovaný obraz alebo efekt na videu?",
+        "odpovede": [
+            "Filter",
+            "filter",
+            "fILTER",
+            "FiLtEr",
+            "FILTER"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka NPC v internetovom slangu?",
+        "odpovede": [
+            "Správanie bez vlastného myslenia",
+            "SpRaVaNiE BeZ VlAsTnEhO MySlEnIa",
+            "spravanie bez vlastneho myslenia",
+            "Spravanie Bez Vlastneho Myslenia",
+            "sPRAVANIE BEZ VLASTNEHO MYSLENIA",
+            "SPRAVANIE BEZ VLASTNEHO MYSLENIA",
+            "Spravanie bez vlastneho myslenia",
+            "SpRáVaNiE BeZ VlAsTnÉhO MySlEnIa",
+            "sPRÁVANIE BEZ VLASTNÉHO MYSLENIA",
+            "správanie bez vlastného myslenia",
+            "SPRÁVANIE BEZ VLASTNÉHO MYSLENIA",
+            "Správanie Bez Vlastného Myslenia"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá moment, keď sa niečo stane virálnym?",
+        "odpovede": [
+            "Virálnosť",
+            "ViRaLnOsT",
+            "Viralnost",
+            "viralnost",
+            "VIRALNOST",
+            "vIRALNOST",
+            "ViRáLnOsŤ",
+            "virálnosť",
+            "VIRÁLNOSŤ",
+            "vIRÁLNOSŤ"
+        ]
+    },
+    {
+        "otazka": "Čo je reaction video?",
+        "odpovede": [
+            "Video s reakciou na iný obsah",
+            "vIDEO S REAKCIOU NA INY OBSAH",
+            "Video S Reakciou Na Iny Obsah",
+            "video s reakciou na iny obsah",
+            "ViDeO S ReAkCiOu nA InY ObSaH",
+            "Video s reakciou na iny obsah",
+            "VIDEO S REAKCIOU NA INY OBSAH",
+            "vIDEO S REAKCIOU NA INÝ OBSAH",
+            "VIDEO S REAKCIOU NA INÝ OBSAH",
+            "Video S Reakciou Na Iný Obsah",
+            "video s reakciou na iný obsah",
+            "ViDeO S ReAkCiOu nA InÝ ObSaH"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva trend, ktorý sa šíri z jedného videa na druhé?",
+        "odpovede": [
+            "Challenge",
+            "CHALLENGE",
+            "challenge",
+            "cHALLENGE",
+            "ChAlLeNgE"
+        ]
+    }
 ]

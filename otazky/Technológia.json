@@ -1,22 +1,311 @@
 [
-    "Čo je umelá inteligencia?",
-    "Ako sa nazýva zariadenie na telefonovanie a internet?",
-    "Čo znamená Wi-Fi?",
-    "Čo je cloud computing?",
-    "Čo je operačný systém?",
-    "Ktoré zariadenie nosíme na zápästí a meria pohyb?",
-    "Čo je robotika?",
-    "Čo je 3D tlač?",
-    "Čo je Bluetooth?",
-    "Čo je startup?",
-    "Ktoré zariadenie slúži na zobrazenie obrazu?",
-    "Čo je streamovanie?",
-    "Čo je virtuálna realita?",
-    "Čo je rozšírená realita?",
-    "Čo je internet vecí?",
-    "Čo je mikročip?",
-    "Ktorá technológia používa dotykovú obrazovku?",
-    "Čo je GPS?",
-    "Ktorý formát sa často používa na kompresiu obrazu?",
-    "Čo je softvér?"
+    {
+        "otazka": "Čo je strojové učenie?",
+        "odpovede": [
+            "Učenie sa z dát bez explicitného programovania",
+            "UCENIE SA Z DAT BEZ EXPLICITNEHO PROGRAMOVANIA",
+            "UcEnIe sA Z DaT BeZ ExPlIcItNeHo pRoGrAmOvAnIa",
+            "Ucenie Sa Z Dat Bez Explicitneho Programovania",
+            "Ucenie sa z dat bez explicitneho programovania",
+            "ucenie sa z dat bez explicitneho programovania",
+            "uCENIE SA Z DAT BEZ EXPLICITNEHO PROGRAMOVANIA",
+            "Učenie Sa Z Dát Bez Explicitného Programovania",
+            "učenie sa z dát bez explicitného programovania",
+            "UčEnIe sA Z DáT BeZ ExPlIcItNéHo pRoGrAmOvAnIa",
+            "UČENIE SA Z DÁT BEZ EXPLICITNÉHO PROGRAMOVANIA",
+            "uČENIE SA Z DÁT BEZ EXPLICITNÉHO PROGRAMOVANIA"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva zariadenie na telefonovanie a internet?",
+        "odpovede": [
+            "Smartfón",
+            "sMARTFON",
+            "smartfon",
+            "SMARTFON",
+            "SmArTfOn",
+            "Smartfon",
+            "smartfón",
+            "SmArTfÓn",
+            "sMARTFÓN",
+            "SMARTFÓN"
+        ]
+    },
+    {
+        "otazka": "Čo znamená Wi-Fi?",
+        "odpovede": [
+            "Bezdrôtové pripojenie k internetu",
+            "BeZdRoToVe pRiPoJeNiE K InTeRnEtU",
+            "BEZDROTOVE PRIPOJENIE K INTERNETU",
+            "Bezdrotove pripojenie k internetu",
+            "bEZDROTOVE PRIPOJENIE K INTERNETU",
+            "bezdrotove pripojenie k internetu",
+            "Bezdrotove Pripojenie K Internetu",
+            "bezdrôtové pripojenie k internetu",
+            "Bezdrôtové Pripojenie K Internetu",
+            "bEZDRÔTOVÉ PRIPOJENIE K INTERNETU",
+            "BEZDRÔTOVÉ PRIPOJENIE K INTERNETU",
+            "BeZdRôToVé pRiPoJeNiE K InTeRnEtU"
+        ]
+    },
+    {
+        "otazka": "Čo je cloud computing?",
+        "odpovede": [
+            "Výpočty a úložisko cez internet",
+            "VYPOCTY A ULOZISKO CEZ INTERNET",
+            "Vypocty A Ulozisko Cez Internet",
+            "VyPoCtY A UlOzIsKo cEz iNtErNeT",
+            "vYPOCTY A ULOZISKO CEZ INTERNET",
+            "vypocty a ulozisko cez internet",
+            "Vypocty a ulozisko cez internet",
+            "výpočty a úložisko cez internet",
+            "Výpočty A Úložisko Cez Internet",
+            "VÝPOČTY A ÚLOŽISKO CEZ INTERNET",
+            "VýPoČtY A ÚlOžIsKo cEz iNtErNeT",
+            "vÝPOČTY A ÚLOŽISKO CEZ INTERNET"
+        ]
+    },
+    {
+        "otazka": "Čo je open-source operačný systém pre servery?",
+        "odpovede": [
+            "Linux",
+            "LiNuX",
+            "linux",
+            "lINUX",
+            "LINUX"
+        ]
+    },
+    {
+        "otazka": "Ktoré zariadenie nosíme na zápästí a meria pohyb?",
+        "odpovede": [
+            "Smart hodinky",
+            "smart hodinky",
+            "SmArT HoDiNkY",
+            "sMART HODINKY",
+            "Smart Hodinky",
+            "SMART HODINKY"
+        ]
+    },
+    {
+        "otazka": "Čo je robotika?",
+        "odpovede": [
+            "Oblasť tvorby a ovládania robotov",
+            "OBLAST TVORBY A OVLADANIA ROBOTOV",
+            "ObLaSt tVoRbY A OvLaDaNiA RoBoToV",
+            "oblast tvorby a ovladania robotov",
+            "Oblast Tvorby A Ovladania Robotov",
+            "oBLAST TVORBY A OVLADANIA ROBOTOV",
+            "Oblast tvorby a ovladania robotov",
+            "oBLASŤ TVORBY A OVLÁDANIA ROBOTOV",
+            "oblasť tvorby a ovládania robotov",
+            "Oblasť Tvorby A Ovládania Robotov",
+            "OBLASŤ TVORBY A OVLÁDANIA ROBOTOV",
+            "ObLaSť tVoRbY A OvLáDaNiA RoBoToV"
+        ]
+    },
+    {
+        "otazka": "Čo je 3D tlač?",
+        "odpovede": [
+            "Vytváranie trojrozmerných predmetov tlačou",
+            "Vytvaranie Trojrozmernych Predmetov Tlacou",
+            "VyTvArAnIe tRoJrOzMeRnYcH PrEdMeToV TlAcOu",
+            "Vytvaranie trojrozmernych predmetov tlacou",
+            "vYTVARANIE TROJROZMERNYCH PREDMETOV TLACOU",
+            "VYTVARANIE TROJROZMERNYCH PREDMETOV TLACOU",
+            "vytvaranie trojrozmernych predmetov tlacou",
+            "vytváranie trojrozmerných predmetov tlačou",
+            "VYTVÁRANIE TROJROZMERNÝCH PREDMETOV TLAČOU",
+            "Vytváranie Trojrozmerných Predmetov Tlačou",
+            "VyTvÁrAnIe tRoJrOzMeRnÝcH PrEdMeToV TlAčOu",
+            "vYTVÁRANIE TROJROZMERNÝCH PREDMETOV TLAČOU"
+        ]
+    },
+    {
+        "otazka": "Čo je Bluetooth?",
+        "odpovede": [
+            "Bezdrôtová technológia na krátke vzdialenosti",
+            "BEZDROTOVA TECHNOLOGIA NA KRATKE VZDIALENOSTI",
+            "Bezdrotova Technologia Na Kratke Vzdialenosti",
+            "BeZdRoToVa tEcHnOlOgIa nA KrAtKe vZdIaLeNoStI",
+            "Bezdrotova technologia na kratke vzdialenosti",
+            "bezdrotova technologia na kratke vzdialenosti",
+            "bEZDROTOVA TECHNOLOGIA NA KRATKE VZDIALENOSTI",
+            "bezdrôtová technológia na krátke vzdialenosti",
+            "BeZdRôToVá tEcHnOlÓgIa nA KrÁtKe vZdIaLeNoStI",
+            "BEZDRÔTOVÁ TECHNOLÓGIA NA KRÁTKE VZDIALENOSTI",
+            "bEZDRÔTOVÁ TECHNOLÓGIA NA KRÁTKE VZDIALENOSTI",
+            "Bezdrôtová Technológia Na Krátke Vzdialenosti"
+        ]
+    },
+    {
+        "otazka": "Čo je startup?",
+        "odpovede": [
+            "Mladá inovatívna firma",
+            "Mlada inovativna firma",
+            "MLADA INOVATIVNA FIRMA",
+            "mLADA INOVATIVNA FIRMA",
+            "Mlada Inovativna Firma",
+            "MlAdA InOvAtIvNa fIrMa",
+            "mlada inovativna firma",
+            "mLADÁ INOVATÍVNA FIRMA",
+            "mladá inovatívna firma",
+            "MlAdÁ InOvAtÍvNa fIrMa",
+            "MLADÁ INOVATÍVNA FIRMA",
+            "Mladá Inovatívna Firma"
+        ]
+    },
+    {
+        "otazka": "Ktoré zariadenie slúži na zobrazenie obrazu?",
+        "odpovede": [
+            "Monitor",
+            "MoNiToR",
+            "mONITOR",
+            "MONITOR",
+            "monitor"
+        ]
+    },
+    {
+        "otazka": "Čo je streamovanie?",
+        "odpovede": [
+            "Prenos médií cez internet v reálnom čase",
+            "pRENOS MEDII CEZ INTERNET V REALNOM CASE",
+            "Prenos Medii Cez Internet V Realnom Case",
+            "Prenos medii cez internet v realnom case",
+            "PRENOS MEDII CEZ INTERNET V REALNOM CASE",
+            "PrEnOs mEdIi cEz iNtErNeT V ReAlNoM CaSe",
+            "prenos medii cez internet v realnom case",
+            "PrEnOs mÉdIí cEz iNtErNeT V ReÁlNoM ČaSe",
+            "prenos médií cez internet v reálnom čase",
+            "PRENOS MÉDIÍ CEZ INTERNET V REÁLNOM ČASE",
+            "pRENOS MÉDIÍ CEZ INTERNET V REÁLNOM ČASE",
+            "Prenos Médií Cez Internet V Reálnom Čase"
+        ]
+    },
+    {
+        "otazka": "Čo je virtuálna realita?",
+        "odpovede": [
+            "Simulované prostredie cez headset",
+            "Simulovane prostredie cez headset",
+            "simulovane prostredie cez headset",
+            "Simulovane Prostredie Cez Headset",
+            "SIMULOVANE PROSTREDIE CEZ HEADSET",
+            "SiMuLoVaNe pRoStReDiE CeZ HeAdSeT",
+            "sIMULOVANE PROSTREDIE CEZ HEADSET",
+            "Simulované Prostredie Cez Headset",
+            "SIMULOVANÉ PROSTREDIE CEZ HEADSET",
+            "sIMULOVANÉ PROSTREDIE CEZ HEADSET",
+            "simulované prostredie cez headset",
+            "SiMuLoVaNé pRoStReDiE CeZ HeAdSeT"
+        ]
+    },
+    {
+        "otazka": "Čo je rozšírená realita?",
+        "odpovede": [
+            "Doplnenie reality digitálnymi prvkami",
+            "Doplnenie reality digitalnymi prvkami",
+            "Doplnenie Reality Digitalnymi Prvkami",
+            "DoPlNeNiE ReAlItY DiGiTaLnYmI PrVkAmI",
+            "doplnenie reality digitalnymi prvkami",
+            "DOPLNENIE REALITY DIGITALNYMI PRVKAMI",
+            "dOPLNENIE REALITY DIGITALNYMI PRVKAMI",
+            "dOPLNENIE REALITY DIGITÁLNYMI PRVKAMI",
+            "DoPlNeNiE ReAlItY DiGiTáLnYmI PrVkAmI",
+            "Doplnenie Reality Digitálnymi Prvkami",
+            "doplnenie reality digitálnymi prvkami",
+            "DOPLNENIE REALITY DIGITÁLNYMI PRVKAMI"
+        ]
+    },
+    {
+        "otazka": "Čo je internet vecí?",
+        "odpovede": [
+            "Sieť inteligentných zariadení",
+            "Siet inteligentnych zariadeni",
+            "SIET INTELIGENTNYCH ZARIADENI",
+            "Siet Inteligentnych Zariadeni",
+            "SiEt iNtElIgEnTnYcH ZaRiAdEnI",
+            "sIET INTELIGENTNYCH ZARIADENI",
+            "siet inteligentnych zariadeni",
+            "sieť inteligentných zariadení",
+            "Sieť Inteligentných Zariadení",
+            "SIEŤ INTELIGENTNÝCH ZARIADENÍ",
+            "SiEť iNtElIgEnTnÝcH ZaRiAdEnÍ",
+            "sIEŤ INTELIGENTNÝCH ZARIADENÍ"
+        ]
+    },
+    {
+        "otazka": "Čo je mikročip?",
+        "odpovede": [
+            "Malý polovodičový obvod",
+            "Maly Polovodicovy Obvod",
+            "mALY POLOVODICOVY OBVOD",
+            "MALY POLOVODICOVY OBVOD",
+            "Maly polovodicovy obvod",
+            "maly polovodicovy obvod",
+            "MaLy pOlOvOdIcOvY ObVoD",
+            "MaLý pOlOvOdIčOvÝ ObVoD",
+            "Malý Polovodičový Obvod",
+            "mALÝ POLOVODIČOVÝ OBVOD",
+            "MALÝ POLOVODIČOVÝ OBVOD",
+            "malý polovodičový obvod"
+        ]
+    },
+    {
+        "otazka": "Ktoré zariadenie bežne ovládame dotykom prsta?",
+        "odpovede": [
+            "Smartfón",
+            "sMARTFON",
+            "SmArTfOn",
+            "smartfon",
+            "SMARTFON",
+            "Smartfon",
+            "SMARTFÓN",
+            "sMARTFÓN",
+            "SmArTfÓn",
+            "smartfón"
+        ]
+    },
+    {
+        "otazka": "Čo je GPS?",
+        "odpovede": [
+            "Systém určovania polohy",
+            "SyStEm uRcOvAnIa pOlOhY",
+            "sYSTEM URCOVANIA POLOHY",
+            "System urcovania polohy",
+            "System Urcovania Polohy",
+            "system urcovania polohy",
+            "SYSTEM URCOVANIA POLOHY",
+            "Systém Určovania Polohy",
+            "systém určovania polohy",
+            "sYSTÉM URČOVANIA POLOHY",
+            "SyStÉm uRčOvAnIa pOlOhY",
+            "SYSTÉM URČOVANIA POLOHY"
+        ]
+    },
+    {
+        "otazka": "Ktorý formát sa často používa na kompresiu obrazu?",
+        "odpovede": [
+            "JPEG",
+            "Jpeg",
+            "jPEG",
+            "jpeg",
+            "JpEg"
+        ]
+    },
+    {
+        "otazka": "Čo je softvér?",
+        "odpovede": [
+            "Počítačový program",
+            "pocitacovy program",
+            "POCITACOVY PROGRAM",
+            "Pocitacovy program",
+            "Pocitacovy Program",
+            "PoCiTaCoVy pRoGrAm",
+            "pOCITACOVY PROGRAM",
+            "PoČíTaČoVý pRoGrAm",
+            "pOČÍTAČOVÝ PROGRAM",
+            "Počítačový Program",
+            "POČÍTAČOVÝ PROGRAM",
+            "počítačový program"
+        ]
+    }
 ]

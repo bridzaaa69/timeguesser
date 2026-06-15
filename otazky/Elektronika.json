@@ -1,22 +1,300 @@
 [
-    "Čo meria voltmeter?",
-    "Ako sa nazýva súčiastka, ktorá prepúšťa prúd len jedným smerom?",
-    "Čo je elektrický odpor?",
-    "Ktorá súčiastka uchováva elektrický náboj?",
-    "Ako sa volá polovodičová súčiastka na zosilňovanie signálu?",
-    "Čo meria ampérmeter?",
-    "Ako sa nazýva zdroj jednosmerného napätia?",
-    "Čo je LED?",
-    "Ako sa volá schéma elektrického obvodu?",
-    "Ktorý symbol značí zemnenie?",
-    "Čo je tranzistor?",
-    "Ako sa nazýva cievka?",
-    "Čo robí poistka?",
-    "Čo je striedavý prúd?",
-    "Ako sa volá zariadenie na premenu napätia?",
-    "Čo je filter v elektronike?",
-    "Čo je kapacita?",
-    "Ako sa nazýva merač elektrickej energie?",
-    "Ktorá súčiastka mení svetlo na elektrický signál?",
-    "Čo je integrovaný obvod?"
+    {
+        "otazka": "Čo meria voltmeter?",
+        "odpovede": [
+            "Napätie",
+            "nAPATIE",
+            "napatie",
+            "NaPaTiE",
+            "Napatie",
+            "NAPATIE",
+            "napätie",
+            "NaPäTiE",
+            "NAPÄTIE",
+            "nAPÄTIE"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva súčiastka, ktorá prepúšťa prúd len jedným smerom?",
+        "odpovede": [
+            "Dióda",
+            "dioda",
+            "DIODA",
+            "Dioda",
+            "DiOdA",
+            "dIODA",
+            "dióda",
+            "DiÓdA",
+            "DIÓDA",
+            "dIÓDA"
+        ]
+    },
+    {
+        "otazka": "Čo je elektrický odpor?",
+        "odpovede": [
+            "Odpor prúdu",
+            "ODPOR PRUDU",
+            "oDPOR PRUDU",
+            "odpor prudu",
+            "Odpor prudu",
+            "OdPoR PrUdU",
+            "Odpor Prudu",
+            "ODPOR PRÚDU",
+            "oDPOR PRÚDU",
+            "Odpor Prúdu",
+            "OdPoR PrÚdU",
+            "odpor prúdu"
+        ]
+    },
+    {
+        "otazka": "Ktorá súčiastka uchováva elektrický náboj?",
+        "odpovede": [
+            "Kondenzátor",
+            "kondenzator",
+            "kONDENZATOR",
+            "KONDENZATOR",
+            "Kondenzator",
+            "KoNdEnZaToR",
+            "kONDENZÁTOR",
+            "KONDENZÁTOR",
+            "KoNdEnZáToR",
+            "kondenzátor"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá polovodičová súčiastka na zosilňovanie signálu?",
+        "odpovede": [
+            "Tranzistor",
+            "tRANZISTOR",
+            "TrAnZiStOr",
+            "tranzistor",
+            "TRANZISTOR"
+        ]
+    },
+    {
+        "otazka": "Čo meria ampérmeter?",
+        "odpovede": [
+            "Prúd",
+            "PRUD",
+            "pRUD",
+            "prud",
+            "PrUd",
+            "Prud",
+            "pRÚD",
+            "prúd",
+            "PrÚd",
+            "PRÚD"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva zdroj jednosmerného napätia?",
+        "odpovede": [
+            "Batéria",
+            "BaTeRiA",
+            "Bateria",
+            "BATERIA",
+            "bATERIA",
+            "bateria",
+            "BaTéRiA",
+            "BATÉRIA",
+            "bATÉRIA",
+            "batéria"
+        ]
+    },
+    {
+        "otazka": "Čo je LED?",
+        "odpovede": [
+            "Svetelná dióda",
+            "SvEtElNa dIoDa",
+            "Svetelna Dioda",
+            "svetelna dioda",
+            "Svetelna dioda",
+            "SVETELNA DIODA",
+            "sVETELNA DIODA",
+            "SVETELNÁ DIÓDA",
+            "Svetelná Dióda",
+            "SvEtElNá dIóDa",
+            "sVETELNÁ DIÓDA",
+            "svetelná dióda"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá schéma elektrického obvodu?",
+        "odpovede": [
+            "Značkový plán",
+            "znackovy plan",
+            "Znackovy Plan",
+            "zNACKOVY PLAN",
+            "ZnAcKoVy pLaN",
+            "Znackovy plan",
+            "ZNACKOVY PLAN",
+            "ZNAČKOVÝ PLÁN",
+            "Značkový Plán",
+            "ZnAčKoVý pLáN",
+            "značkový plán",
+            "zNAČKOVÝ PLÁN"
+        ]
+    },
+    {
+        "otazka": "Aká jednotka meria elektrický odpor?",
+        "odpovede": [
+            "Ohm",
+            "OHM",
+            "OhM",
+            "oHM",
+            "ohm"
+        ]
+    },
+    {
+        "otazka": "Čo je tranzistor?",
+        "odpovede": [
+            "Polovodičová spínacia súčiastka",
+            "Polovodicova Spinacia Suciastka",
+            "Polovodicova spinacia suciastka",
+            "polovodicova spinacia suciastka",
+            "POLOVODICOVA SPINACIA SUCIASTKA",
+            "PoLoVoDiCoVa sPiNaCiA SuCiAsTkA",
+            "pOLOVODICOVA SPINACIA SUCIASTKA",
+            "pOLOVODIČOVÁ SPÍNACIA SÚČIASTKA",
+            "polovodičová spínacia súčiastka",
+            "POLOVODIČOVÁ SPÍNACIA SÚČIASTKA",
+            "Polovodičová Spínacia Súčiastka",
+            "PoLoVoDiČoVá sPíNaCiA SúČiAsTkA"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva cievka?",
+        "odpovede": [
+            "Induktor",
+            "iNDUKTOR",
+            "INDUKTOR",
+            "induktor",
+            "InDuKtOr"
+        ]
+    },
+    {
+        "otazka": "Čo robí poistka?",
+        "odpovede": [
+            "Ochrana obvodu pred preťažením",
+            "OcHrAnA ObVoDu pReD PrEtAzEnIm",
+            "Ochrana Obvodu Pred Pretazenim",
+            "OCHRANA OBVODU PRED PRETAZENIM",
+            "oCHRANA OBVODU PRED PRETAZENIM",
+            "ochrana obvodu pred pretazenim",
+            "Ochrana obvodu pred pretazenim",
+            "OCHRANA OBVODU PRED PREŤAŽENÍM",
+            "Ochrana Obvodu Pred Preťažením",
+            "oCHRANA OBVODU PRED PREŤAŽENÍM",
+            "OcHrAnA ObVoDu pReD PrEťAžEnÍm",
+            "ochrana obvodu pred preťažením"
+        ]
+    },
+    {
+        "otazka": "Čo je striedavý prúd?",
+        "odpovede": [
+            "Prúd meniaci smer",
+            "PRUD MENIACI SMER",
+            "Prud Meniaci Smer",
+            "Prud meniaci smer",
+            "PrUd mEnIaCi sMeR",
+            "prud meniaci smer",
+            "pRUD MENIACI SMER",
+            "Prúd Meniaci Smer",
+            "pRÚD MENIACI SMER",
+            "PrÚd mEnIaCi sMeR",
+            "prúd meniaci smer",
+            "PRÚD MENIACI SMER"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá zariadenie na premenu napätia?",
+        "odpovede": [
+            "Transformátor",
+            "TRANSFORMATOR",
+            "Transformator",
+            "transformator",
+            "TrAnSfOrMaToR",
+            "tRANSFORMATOR",
+            "TrAnSfOrMáToR",
+            "TRANSFORMÁTOR",
+            "transformátor",
+            "tRANSFORMÁTOR"
+        ]
+    },
+    {
+        "otazka": "Čo je filter v elektronike?",
+        "odpovede": [
+            "Súčiastka na odstránenie frekvencií",
+            "SuCiAsTkA Na oDsTrAnEnIe fReKvEnCiI",
+            "SUCIASTKA NA ODSTRANENIE FREKVENCII",
+            "Suciastka Na Odstranenie Frekvencii",
+            "Suciastka na odstranenie frekvencii",
+            "suciastka na odstranenie frekvencii",
+            "sUCIASTKA NA ODSTRANENIE FREKVENCII",
+            "SúČiAsTkA Na oDsTrÁnEnIe fReKvEnCiÍ",
+            "SÚČIASTKA NA ODSTRÁNENIE FREKVENCIÍ",
+            "súčiastka na odstránenie frekvencií",
+            "Súčiastka Na Odstránenie Frekvencií",
+            "sÚČIASTKA NA ODSTRÁNENIE FREKVENCIÍ"
+        ]
+    },
+    {
+        "otazka": "Čo je kapacita?",
+        "odpovede": [
+            "Schopnosť uchovať náboj",
+            "sCHOPNOST UCHOVAT NABOJ",
+            "SCHOPNOST UCHOVAT NABOJ",
+            "ScHoPnOsT UcHoVaT NaBoJ",
+            "schopnost uchovat naboj",
+            "Schopnost Uchovat Naboj",
+            "Schopnost uchovat naboj",
+            "Schopnosť Uchovať Náboj",
+            "schopnosť uchovať náboj",
+            "SCHOPNOSŤ UCHOVAŤ NÁBOJ",
+            "sCHOPNOSŤ UCHOVAŤ NÁBOJ",
+            "ScHoPnOsŤ UcHoVaŤ NáBoJ"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva merač elektrickej energie?",
+        "odpovede": [
+            "Elektromer",
+            "ELEKTROMER",
+            "eLEKTROMER",
+            "elektromer",
+            "ElEkTrOmEr"
+        ]
+    },
+    {
+        "otazka": "Ktorá súčiastka mení svetlo na elektrický signál?",
+        "odpovede": [
+            "Fotodióda",
+            "FOTODIODA",
+            "fotodioda",
+            "fOTODIODA",
+            "Fotodioda",
+            "FoToDiOdA",
+            "fotodióda",
+            "FoToDiÓdA",
+            "fOTODIÓDA",
+            "FOTODIÓDA"
+        ]
+    },
+    {
+        "otazka": "Čo je integrovaný obvod?",
+        "odpovede": [
+            "Čip s viacerými súčiastkami",
+            "CIP S VIACERYMI SUCIASTKAMI",
+            "CiP S ViAcErYmI SuCiAsTkAmI",
+            "Cip s viacerymi suciastkami",
+            "cip s viacerymi suciastkami",
+            "cIP S VIACERYMI SUCIASTKAMI",
+            "Cip S Viacerymi Suciastkami",
+            "ČIP S VIACERÝMI SÚČIASTKAMI",
+            "Čip S Viacerými Súčiastkami",
+            "čIP S VIACERÝMI SÚČIASTKAMI",
+            "čip s viacerými súčiastkami",
+            "ČiP S ViAcErÝmI SúČiAsTkAmI"
+        ]
+    }
 ]

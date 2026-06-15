@@ -1,22 +1,286 @@
 [
-    "Aké je hlavné mesto Slovenska?",
-    "Koľko krajov má Slovensko?",
-    "Ako sa volá najvyšší vrch Slovenska?",
-    "Ktorá rieka preteká Bratislavou?",
-    "Ako sa volá pohorie na severe Slovenska?",
-    "Ktorý národný park je známy tatranskými štítmi?",
-    "Ktoré mesto je známe Spišským hradom?",
-    "Ktorá jaskyňa je známa ľadovou výzdobou?",
-    "Ktoré mesto je krajským mestom východného Slovenska?",
-    "Ako sa volá rieka tvoriaca hranicu s Maďarskom?",
-    "Ktoré pohorie je známe Malou Fatrou?",
-    "Ktorý región je známy vinohradmi a termálnymi kúpaliskami?",
-    "Ktoré mesto je známe kúpeľmi Piešťany?",
-    "Ako sa volá hrad v Oravskom regióne?",
-    "Ktoré mesto je známe ako metropola východu?",
-    "Ako sa volá nížina na juhu Slovenska?",
-    "Ktoré mesto je známe dreveným kostolom a historickým centrom?",
-    "Ako sa volá najväčšie pohorie na hranici s Poľskom?",
-    "Ktorý vodný tok preteká cez Trenčín?",
-    "Ktoré mesto je známe baníckou minulosťou a tajchmi?"
+    {
+        "otazka": "Aké je hlavné mesto Slovenska?",
+        "odpovede": [
+            "Bratislava",
+            "bRATISLAVA",
+            "bratislava",
+            "BrAtIsLaVa",
+            "BRATISLAVA"
+        ]
+    },
+    {
+        "otazka": "Koľko krajov má Slovensko?",
+        "odpovede": [
+            "8"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá najvyšší vrch Slovenska?",
+        "odpovede": [
+            "Gerlachovský štít",
+            "GeRlAcHoVsKy sTiT",
+            "Gerlachovsky stit",
+            "gerlachovsky stit",
+            "Gerlachovsky Stit",
+            "GERLACHOVSKY STIT",
+            "gERLACHOVSKY STIT",
+            "GeRlAcHoVsKý šTíT",
+            "gerlachovský štít",
+            "gERLACHOVSKÝ ŠTÍT",
+            "GERLACHOVSKÝ ŠTÍT",
+            "Gerlachovský Štít"
+        ]
+    },
+    {
+        "otazka": "Ktorá rieka preteká Bratislavou?",
+        "odpovede": [
+            "Dunaj",
+            "DUNAJ",
+            "dUNAJ",
+            "dunaj",
+            "DuNaJ"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá pohorie na severe Slovenska?",
+        "odpovede": [
+            "Tatry",
+            "TATRY",
+            "tATRY",
+            "TaTrY",
+            "tatry"
+        ]
+    },
+    {
+        "otazka": "Ktorý národný park je známy tatranskými štítmi?",
+        "odpovede": [
+            "TANAP",
+            "tANAP",
+            "TaNaP",
+            "tanap",
+            "Tanap"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je známe Spišským hradom?",
+        "odpovede": [
+            "Spišské Podhradie",
+            "sPISSKE PODHRADIE",
+            "SpIsSkE PoDhRaDiE",
+            "spisske podhradie",
+            "Spisske podhradie",
+            "Spisske Podhradie",
+            "SPISSKE PODHRADIE",
+            "sPIŠSKÉ PODHRADIE",
+            "SpIšSkÉ PoDhRaDiE",
+            "spišské podhradie",
+            "SPIŠSKÉ PODHRADIE",
+            "Spišské podhradie"
+        ]
+    },
+    {
+        "otazka": "Ktorá jaskyňa je známa ľadovou výzdobou?",
+        "odpovede": [
+            "Dobšinská ľadová jaskyňa",
+            "DOBSINSKA LADOVA JASKYNA",
+            "Dobsinska ladova jaskyna",
+            "Dobsinska Ladova Jaskyna",
+            "dOBSINSKA LADOVA JASKYNA",
+            "dobsinska ladova jaskyna",
+            "DoBsInSkA LaDoVa jAsKyNa",
+            "DOBŠINSKÁ ĽADOVÁ JASKYŇA",
+            "dobšinská ľadová jaskyňa",
+            "DoBšInSkÁ ĽaDoVá jAsKyŇa",
+            "Dobšinská Ľadová Jaskyňa",
+            "dOBŠINSKÁ ĽADOVÁ JASKYŇA"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je krajským mestom východného Slovenska?",
+        "odpovede": [
+            "Košice",
+            "KoSiCe",
+            "KOSICE",
+            "Kosice",
+            "kosice",
+            "kOSICE",
+            "košice",
+            "KOŠICE",
+            "KoŠiCe",
+            "kOŠICE"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá rieka tvoriaca hranicu s Maďarskom?",
+        "odpovede": [
+            "Ipeľ",
+            "Ipel",
+            "IPEL",
+            "iPEL",
+            "ipel",
+            "IpEl",
+            "ipeľ",
+            "iPEĽ",
+            "IPEĽ",
+            "IpEľ"
+        ]
+    },
+    {
+        "otazka": "Ktoré pohorie na Slovensku nesie názov Malá Fatra?",
+        "odpovede": [
+            "Malá Fatra",
+            "Mala Fatra",
+            "MALA FATRA",
+            "Mala fatra",
+            "mALA FATRA",
+            "MaLa fAtRa",
+            "mala fatra",
+            "mALÁ FATRA",
+            "malá fatra",
+            "MALÁ FATRA",
+            "MaLá fAtRa",
+            "Malá fatra"
+        ]
+    },
+    {
+        "otazka": "Ktorý región je známy vinohradmi a termálnymi kúpaliskami?",
+        "odpovede": [
+            "Južné Slovensko",
+            "Juzne Slovensko",
+            "Juzne slovensko",
+            "JuZnE SlOvEnSkO",
+            "jUZNE SLOVENSKO",
+            "juzne slovensko",
+            "JUZNE SLOVENSKO",
+            "jUŽNÉ SLOVENSKO",
+            "JuŽnÉ SlOvEnSkO",
+            "Južné slovensko",
+            "JUŽNÉ SLOVENSKO",
+            "južné slovensko"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je známe kúpeľmi Piešťany?",
+        "odpovede": [
+            "Piešťany",
+            "Piestany",
+            "PIESTANY",
+            "PiEsTaNy",
+            "piestany",
+            "pIESTANY",
+            "piešťany",
+            "pIEŠŤANY",
+            "PiEšŤaNy",
+            "PIEŠŤANY"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá hrad v Oravskom regióne?",
+        "odpovede": [
+            "Oravský hrad",
+            "oravsky hrad",
+            "oRAVSKY HRAD",
+            "OrAvSkY HrAd",
+            "Oravsky hrad",
+            "Oravsky Hrad",
+            "ORAVSKY HRAD",
+            "OrAvSkÝ HrAd",
+            "Oravský Hrad",
+            "oRAVSKÝ HRAD",
+            "ORAVSKÝ HRAD",
+            "oravský hrad"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je známe univerzitným kampusom na Tehelnom poli?",
+        "odpovede": [
+            "Košice",
+            "kosice",
+            "KoSiCe",
+            "KOSICE",
+            "Kosice",
+            "kOSICE",
+            "kOŠICE",
+            "košice",
+            "KOŠICE",
+            "KoŠiCe"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá nížina na juhu Slovenska?",
+        "odpovede": [
+            "Podunajská nížina",
+            "pODUNAJSKA NIZINA",
+            "Podunajska Nizina",
+            "PoDuNaJsKa nIzInA",
+            "PODUNAJSKA NIZINA",
+            "Podunajska nizina",
+            "podunajska nizina",
+            "Podunajská Nížina",
+            "pODUNAJSKÁ NÍŽINA",
+            "PODUNAJSKÁ NÍŽINA",
+            "podunajská nížina",
+            "PoDuNaJsKá nÍžInA"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je známe dreveným kostolom a historickým centrom?",
+        "odpovede": [
+            "Bardejov",
+            "bARDEJOV",
+            "BARDEJOV",
+            "BaRdEjOv",
+            "bardejov"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá najväčšie pohorie na hranici s Poľskom?",
+        "odpovede": [
+            "Vysoké Tatry",
+            "VYSOKE TATRY",
+            "Vysoke Tatry",
+            "VySoKe tAtRy",
+            "Vysoke tatry",
+            "vYSOKE TATRY",
+            "vysoke tatry",
+            "vYSOKÉ TATRY",
+            "VYSOKÉ TATRY",
+            "VySoKé tAtRy",
+            "vysoké tatry",
+            "Vysoké tatry"
+        ]
+    },
+    {
+        "otazka": "Ktorý vodný tok preteká cez Trenčín?",
+        "odpovede": [
+            "Váh",
+            "vah",
+            "VaH",
+            "vAH",
+            "Vah",
+            "VAH",
+            "vÁH",
+            "VÁH",
+            "VáH",
+            "váh"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je známe baníckou minulosťou a tajchmi?",
+        "odpovede": [
+            "Banská Štiavnica",
+            "banska stiavnica",
+            "bANSKA STIAVNICA",
+            "Banska Stiavnica",
+            "Banska stiavnica",
+            "BaNsKa sTiAvNiCa",
+            "BANSKA STIAVNICA",
+            "bANSKÁ ŠTIAVNICA",
+            "BANSKÁ ŠTIAVNICA",
+            "banská štiavnica",
+            "Banská štiavnica",
+            "BaNsKá šTiAvNiCa"
+        ]
+    }
 ]

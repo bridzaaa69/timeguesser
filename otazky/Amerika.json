@@ -1,22 +1,263 @@
 [
-    "Ktoré mesto je hlavným mestom USA?",
-    "Ako sa volá najdlhšia rieka Južnej Ameriky?",
-    "Ktorý štát je najväčší v Južnej Amerike?",
-    "Ako sa volá pohorie na západe Severnej Ameriky?",
-    "Ktoré jazero je najväčšie v Severnej Amerike?",
-    "Ktorý prieliv oddeľuje Áziu od Severnej Ameriky?",
-    "Ako sa volá kanál v Strednej Amerike spájajúci dva oceány?",
-    "Ktorá krajina má najviac obyvateľov v Južnej Amerike?",
-    "Ktoré mesto je hlavným mestom Kanady?",
-    "Ako sa volá najvyšší vrch Severnej Ameriky?",
-    "Ktorý štát leží medzi Kanadou a Mexikom?",
-    "Ktorý ostrov je najväčší v Karibiku?",
-    "Ktorý oceán leží na západnom pobreží Ameriky?",
-    "Ktorá krajina má mesto Rio de Janeiro?",
-    "Ako sa volá známa púšť v severnom Mexiku a USA?",
-    "Ktoré mesto je hlavným mestom Brazílie?",
-    "Ktorý štát leží na juhu Južnej Ameriky a je známy Patagóniou?",
-    "Ako sa volá vodopád na hranici USA a Kanady?",
-    "Ktorá krajina má hlavné mesto Lima?",
-    "Ktoré pohorie prechádza po západnom pobreží Južnej Ameriky?"
+    {
+        "otazka": "Ktoré mesto je hlavným mestom USA?",
+        "odpovede": [
+            "Washington",
+            "WaShInGtOn",
+            "wASHINGTON",
+            "WASHINGTON",
+            "washington"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá najdlhšia rieka Južnej Ameriky?",
+        "odpovede": [
+            "Amazonka",
+            "AMAZONKA",
+            "aMAZONKA",
+            "amazonka",
+            "AmAzOnKa"
+        ]
+    },
+    {
+        "otazka": "Ktorý štát je najväčší v Južnej Amerike?",
+        "odpovede": [
+            "Brazília",
+            "BRAZILIA",
+            "Brazilia",
+            "brazilia",
+            "bRAZILIA",
+            "BrAzIlIa",
+            "BrAzÍlIa",
+            "bRAZÍLIA",
+            "brazília",
+            "BRAZÍLIA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá pohorie na západe Severnej Ameriky?",
+        "odpovede": [
+            "Skalnaté hory",
+            "SKALNATE HORY",
+            "sKALNATE HORY",
+            "SkAlNaTe hOrY",
+            "Skalnate Hory",
+            "skalnate hory",
+            "Skalnate hory",
+            "sKALNATÉ HORY",
+            "skalnaté hory",
+            "SKALNATÉ HORY",
+            "Skalnaté Hory",
+            "SkAlNaTé hOrY"
+        ]
+    },
+    {
+        "otazka": "Ktoré jazero je najväčšie v Severnej Amerike?",
+        "odpovede": [
+            "Superior",
+            "SUPERIOR",
+            "superior",
+            "SuPeRiOr",
+            "sUPERIOR"
+        ]
+    },
+    {
+        "otazka": "Ktorý prieliv oddeľuje Áziu od Severnej Ameriky?",
+        "odpovede": [
+            "Beringov prieliv",
+            "beringov prieliv",
+            "bERINGOV PRIELIV",
+            "BERINGOV PRIELIV",
+            "Beringov Prieliv",
+            "BeRiNgOv pRiElIv"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá kanál v Strednej Amerike spájajúci dva oceány?",
+        "odpovede": [
+            "Panamský prieplav",
+            "panamsky prieplav",
+            "PANAMSKY PRIEPLAV",
+            "Panamsky prieplav",
+            "Panamsky Prieplav",
+            "PaNaMsKy pRiEpLaV",
+            "pANAMSKY PRIEPLAV",
+            "PaNaMsKý pRiEpLaV",
+            "panamský prieplav",
+            "Panamský Prieplav",
+            "PANAMSKÝ PRIEPLAV",
+            "pANAMSKÝ PRIEPLAV"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má najviac obyvateľov v Južnej Amerike?",
+        "odpovede": [
+            "Brazília",
+            "BRAZILIA",
+            "Brazilia",
+            "brazilia",
+            "bRAZILIA",
+            "BrAzIlIa",
+            "BrAzÍlIa",
+            "bRAZÍLIA",
+            "brazília",
+            "BRAZÍLIA"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je hlavným mestom Kanady?",
+        "odpovede": [
+            "Ottawa",
+            "oTTAWA",
+            "OtTaWa",
+            "ottawa",
+            "OTTAWA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá najvyšší vrch Severnej Ameriky?",
+        "odpovede": [
+            "Denali",
+            "denali",
+            "DeNaLi",
+            "DENALI",
+            "dENALI"
+        ]
+    },
+    {
+        "otazka": "Ktorý štát leží medzi Kanadou a Mexikom?",
+        "odpovede": [
+            "USA",
+            "usa",
+            "uSA",
+            "Usa",
+            "UsA"
+        ]
+    },
+    {
+        "otazka": "Ktorý ostrov je najväčší v Karibiku?",
+        "odpovede": [
+            "Kuba",
+            "KuBa",
+            "kUBA",
+            "kuba",
+            "KUBA"
+        ]
+    },
+    {
+        "otazka": "Ktorý oceán leží na západnom pobreží Ameriky?",
+        "odpovede": [
+            "Tichý oceán",
+            "Tichy ocean",
+            "tichy ocean",
+            "tICHY OCEAN",
+            "TiChY OcEaN",
+            "TICHY OCEAN",
+            "Tichy Ocean",
+            "TiChÝ OcEáN",
+            "tichý oceán",
+            "TICHÝ OCEÁN",
+            "Tichý Oceán",
+            "tICHÝ OCEÁN"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má mesto Rio de Janeiro?",
+        "odpovede": [
+            "Brazília",
+            "BRAZILIA",
+            "Brazilia",
+            "brazilia",
+            "bRAZILIA",
+            "BrAzIlIa",
+            "BrAzÍlIa",
+            "bRAZÍLIA",
+            "brazília",
+            "BRAZÍLIA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá známa púšť v severnom Mexiku a USA?",
+        "odpovede": [
+            "Sonorská púšť",
+            "Sonorska Pust",
+            "Sonorska pust",
+            "SONORSKA PUST",
+            "sONORSKA PUST",
+            "SoNoRsKa pUsT",
+            "sonorska pust",
+            "Sonorská Púšť",
+            "SoNoRsKá pÚšŤ",
+            "sONORSKÁ PÚŠŤ",
+            "sonorská púšť",
+            "SONORSKÁ PÚŠŤ"
+        ]
+    },
+    {
+        "otazka": "Ktoré mesto je hlavným mestom Brazílie?",
+        "odpovede": [
+            "Brasília",
+            "Brasilia",
+            "brasilia",
+            "bRASILIA",
+            "BRASILIA",
+            "BrAsIlIa",
+            "bRASÍLIA",
+            "brasília",
+            "BrAsÍlIa",
+            "BRASÍLIA"
+        ]
+    },
+    {
+        "otazka": "Ktorý štát leží na juhu Južnej Ameriky a je známy Patagóniou?",
+        "odpovede": [
+            "Argentína",
+            "ArGeNtInA",
+            "ARGENTINA",
+            "aRGENTINA",
+            "argentina",
+            "Argentina",
+            "ArGeNtÍnA",
+            "aRGENTÍNA",
+            "argentína",
+            "ARGENTÍNA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá vodopád na hranici USA a Kanady?",
+        "odpovede": [
+            "Niagarské vodopády",
+            "nIAGARSKE VODOPADY",
+            "niagarske vodopady",
+            "NiAgArSkE VoDoPaDy",
+            "Niagarske vodopady",
+            "Niagarske Vodopady",
+            "NIAGARSKE VODOPADY",
+            "NIAGARSKÉ VODOPÁDY",
+            "NiAgArSkÉ VoDoPáDy",
+            "niagarské vodopády",
+            "nIAGARSKÉ VODOPÁDY",
+            "Niagarské Vodopády"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má hlavné mesto Lima?",
+        "odpovede": [
+            "Peru",
+            "PERU",
+            "peru",
+            "PeRu",
+            "pERU"
+        ]
+    },
+    {
+        "otazka": "Ktoré pohorie prechádza po západnom pobreží Južnej Ameriky?",
+        "odpovede": [
+            "Andy",
+            "andy",
+            "ANDY",
+            "aNDY",
+            "AnDy"
+        ]
+    }
 ]

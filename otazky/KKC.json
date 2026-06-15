@@ -1,22 +1,285 @@
 [
-    "Ktorý sviatok pripomína narodenie Ježiša?",
-    "Ktorý sviatok pripomína zmŕtvychvstanie Ježiša?",
-    "Ako sa nazýva budova na bohoslužby?",
-    "Kto je podľa kresťanstva Boží syn?",
-    "Čo je Biblia?",
-    "Ktorý deň je pre kresťanov posvätný?",
-    "Ako sa volá modlitba začínajúca slovami Otče náš?",
-    "Kto bol prvý pápež?",
-    "Čo je liturgia?",
-    "Ako sa nazýva znak kresťanstva v podobe kríža?",
-    "Ktorý sviatok sa slávi 6. januára?",
-    "Kto dostal desať prikázaní?",
-    "Ako sa nazýva cirkevná stavba s vežou?",
-    "Čo je pôst?",
-    "Kto je apoštol národov?",
-    "Ako sa volá miesto narodenia Ježiša?",
-    "Čo je advent?",
-    "Kto napísal evanjeliá?",
-    "Ako sa nazýva sviatok všetkých svätých?",
-    "Čo znamená Veľká noc v kresťanstve?"
+    {
+        "otazka": "Ktorý sviatok pripomína narodenie Ježiša?",
+        "odpovede": [
+            "Vianoce",
+            "vianoce",
+            "ViAnOcE",
+            "VIANOCE",
+            "vIANOCE"
+        ]
+    },
+    {
+        "otazka": "Ktorý sviatok pripomína zmŕtvychvstanie Ježiša?",
+        "odpovede": [
+            "Veľká noc",
+            "velka noc",
+            "VELKA NOC",
+            "vELKA NOC",
+            "Velka noc",
+            "Velka Noc",
+            "VeLkA NoC",
+            "VEĽKÁ NOC",
+            "Veľká Noc",
+            "VeĽkÁ NoC",
+            "vEĽKÁ NOC",
+            "veľká noc"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva budova na bohoslužby?",
+        "odpovede": [
+            "Kostol",
+            "KoStOl",
+            "kOSTOL",
+            "kostol",
+            "KOSTOL"
+        ]
+    },
+    {
+        "otazka": "Kto je podľa kresťanstva Boží syn?",
+        "odpovede": [
+            "Ježiš Kristus",
+            "jezis kristus",
+            "JEZIS KRISTUS",
+            "JeZiS KrIsTuS",
+            "Jezis Kristus",
+            "jEZIS KRISTUS",
+            "Jezis kristus",
+            "JeŽiŠ KrIsTuS",
+            "JEŽIŠ KRISTUS",
+            "Ježiš kristus",
+            "jEŽIŠ KRISTUS",
+            "ježiš kristus"
+        ]
+    },
+    {
+        "otazka": "Čo je Biblia?",
+        "odpovede": [
+            "Posvätná kniha kresťanov",
+            "Posvatna kniha krestanov",
+            "pOSVATNA KNIHA KRESTANOV",
+            "POSVATNA KNIHA KRESTANOV",
+            "posvatna kniha krestanov",
+            "PoSvAtNa kNiHa kReStAnOv",
+            "Posvatna Kniha Krestanov",
+            "Posvätná Kniha Kresťanov",
+            "POSVÄTNÁ KNIHA KRESŤANOV",
+            "pOSVÄTNÁ KNIHA KRESŤANOV",
+            "posvätná kniha kresťanov",
+            "PoSvÄtNá kNiHa kReSťAnOv"
+        ]
+    },
+    {
+        "otazka": "Ktorý deň je pre kresťanov posvätný?",
+        "odpovede": [
+            "Nedeľa",
+            "Nedela",
+            "nEDELA",
+            "NeDeLa",
+            "NEDELA",
+            "nedela",
+            "NEDEĽA",
+            "NeDeĽa",
+            "nEDEĽA",
+            "nedeľa"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá modlitba začínajúca slovami Otče náš?",
+        "odpovede": [
+            "Otčenáš",
+            "OTCENAS",
+            "otcenas",
+            "Otcenas",
+            "OtCeNaS",
+            "oTCENAS",
+            "oTČENÁŠ",
+            "OTČENÁŠ",
+            "OtČeNáŠ",
+            "otčenáš"
+        ]
+    },
+    {
+        "otazka": "Kto bol prvý pápež?",
+        "odpovede": [
+            "Peter",
+            "PETER",
+            "peter",
+            "pETER",
+            "PeTeR"
+        ]
+    },
+    {
+        "otazka": "Čo je liturgia?",
+        "odpovede": [
+            "Bohoslužobný obrad",
+            "Bohosluzobny Obrad",
+            "Bohosluzobny obrad",
+            "bohosluzobny obrad",
+            "BoHoSlUzObNy oBrAd",
+            "bOHOSLUZOBNY OBRAD",
+            "BOHOSLUZOBNY OBRAD",
+            "BoHoSlUžObNý oBrAd",
+            "bohoslužobný obrad",
+            "Bohoslužobný Obrad",
+            "BOHOSLUŽOBNÝ OBRAD",
+            "bOHOSLUŽOBNÝ OBRAD"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva znak kresťanstva v podobe kríža?",
+        "odpovede": [
+            "Kríž",
+            "KRIZ",
+            "Kriz",
+            "kRIZ",
+            "KrIz",
+            "kriz",
+            "KRÍŽ",
+            "KrÍž",
+            "kRÍŽ",
+            "kríž"
+        ]
+    },
+    {
+        "otazka": "Ktorý sviatok sa slávi 6. januára?",
+        "odpovede": [
+            "Traja králi",
+            "Traja krali",
+            "TrAjA KrAlI",
+            "tRAJA KRALI",
+            "Traja Krali",
+            "TRAJA KRALI",
+            "traja krali",
+            "TRAJA KRÁLI",
+            "traja králi",
+            "TrAjA KrÁlI",
+            "tRAJA KRÁLI",
+            "Traja Králi"
+        ]
+    },
+    {
+        "otazka": "Kto dostal desať prikázaní?",
+        "odpovede": [
+            "Mojžiš",
+            "mOJZIS",
+            "MoJzIs",
+            "mojzis",
+            "MOJZIS",
+            "Mojzis",
+            "MoJžIš",
+            "mojžiš",
+            "MOJŽIŠ",
+            "mOJŽIŠ"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva najvyšší cirkevný predstavený?",
+        "odpovede": [
+            "Pápež",
+            "PAPEZ",
+            "Papez",
+            "pAPEZ",
+            "PaPeZ",
+            "papez",
+            "pápež",
+            "PáPeŽ",
+            "PÁPEŽ",
+            "pÁPEŽ"
+        ]
+    },
+    {
+        "otazka": "Čo je pôst?",
+        "odpovede": [
+            "Obdobie zdržania sa jedla",
+            "OBDOBIE ZDRZANIA SA JEDLA",
+            "Obdobie Zdrzania Sa Jedla",
+            "Obdobie zdrzania sa jedla",
+            "oBDOBIE ZDRZANIA SA JEDLA",
+            "ObDoBiE ZdRzAnIa sA JeDlA",
+            "obdobie zdrzania sa jedla",
+            "OBDOBIE ZDRŽANIA SA JEDLA",
+            "ObDoBiE ZdRžAnIa sA JeDlA",
+            "Obdobie Zdržania Sa Jedla",
+            "oBDOBIE ZDRŽANIA SA JEDLA",
+            "obdobie zdržania sa jedla"
+        ]
+    },
+    {
+        "otazka": "Kto je apoštol národov?",
+        "odpovede": [
+            "Pavol",
+            "PaVoL",
+            "pAVOL",
+            "PAVOL",
+            "pavol"
+        ]
+    },
+    {
+        "otazka": "Ktorý sviatok pripadá na 25. december?",
+        "odpovede": [
+            "Vianoce",
+            "ViAnOcE",
+            "vianoce",
+            "VIANOCE",
+            "vIANOCE"
+        ]
+    },
+    {
+        "otazka": "Čo je advent?",
+        "odpovede": [
+            "Obdobie pred Vianocami",
+            "Obdobie pred vianocami",
+            "ObDoBiE PrEd vIaNoCaMi",
+            "OBDOBIE PRED VIANOCAMI",
+            "obdobie pred vianocami",
+            "oBDOBIE PRED VIANOCAMI",
+            "Obdobie Pred Vianocami"
+        ]
+    },
+    {
+        "otazka": "Kto napísal evanjeliá?",
+        "odpovede": [
+            "Evanjelisti",
+            "EvAnJeLiStI",
+            "eVANJELISTI",
+            "EVANJELISTI",
+            "evanjelisti"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva sviatok všetkých svätých?",
+        "odpovede": [
+            "Sviatok všetkých svätých",
+            "sviatok vsetkych svatych",
+            "SvIaToK VsEtKyCh sVaTyCh",
+            "SVIATOK VSETKYCH SVATYCH",
+            "Sviatok Vsetkych Svatych",
+            "sVIATOK VSETKYCH SVATYCH",
+            "Sviatok vsetkych svatych",
+            "sviatok všetkých svätých",
+            "SvIaToK VšEtKýCh sVäTýCh",
+            "SVIATOK VŠETKÝCH SVÄTÝCH",
+            "Sviatok Všetkých Svätých",
+            "sVIATOK VŠETKÝCH SVÄTÝCH"
+        ]
+    },
+    {
+        "otazka": "Čo znamená Veľká noc v kresťanstve?",
+        "odpovede": [
+            "Zmŕtvychvstanie Ježiša",
+            "Zmrtvychvstanie jezisa",
+            "zMRTVYCHVSTANIE JEZISA",
+            "zmrtvychvstanie jezisa",
+            "ZmRtVyChVsTaNiE JeZiSa",
+            "Zmrtvychvstanie Jezisa",
+            "ZMRTVYCHVSTANIE JEZISA",
+            "ZMŔTVYCHVSTANIE JEŽIŠA",
+            "Zmŕtvychvstanie ježiša",
+            "zMŔTVYCHVSTANIE JEŽIŠA",
+            "ZmŔtVyChVsTaNiE JeŽiŠa",
+            "zmŕtvychvstanie ježiša"
+        ]
+    }
 ]

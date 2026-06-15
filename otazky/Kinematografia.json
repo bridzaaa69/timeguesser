@@ -1,22 +1,287 @@
 [
-    "Čo robí režisér?",
-    "Čo je scenár?",
-    "Kto hrá hlavnú postavu vo filme?",
-    "Ako sa volá hudba vo filme?",
-    "Čo je strih?",
-    "Ako sa volá cena pre najlepšie filmy v USA?",
-    "Čo je animovaný film?",
-    "Ako sa nazýva žáner s napätím a strachom?",
-    "Čo je kamera?",
-    "Ako sa volá film natočený podľa knihy?",
-    "Čo je filmový festival?",
-    "Ako sa nazýva filmový záznam zvuku?",
-    "Čo je casting?",
-    "Ako sa volá miesto, kde sa premieta film?",
-    "Čo robí producent?",
-    "Čo je dokumentárny film?",
-    "Ako sa nazýva 3D počítačová animácia?",
-    "Čo je trailer?",
-    "Ako sa volá film s veľkým rozpočtom a úspechom?",
-    "Čo je dabing?"
+    {
+        "otazka": "Čo robí režisér?",
+        "odpovede": [
+            "Riadi natáčanie filmu",
+            "rIADI NATACANIE FILMU",
+            "Riadi Natacanie Filmu",
+            "RiAdI NaTaCaNiE FiLmU",
+            "riadi natacanie filmu",
+            "RIADI NATACANIE FILMU",
+            "Riadi natacanie filmu",
+            "rIADI NATÁČANIE FILMU",
+            "Riadi Natáčanie Filmu",
+            "RIADI NATÁČANIE FILMU",
+            "RiAdI NaTáČaNiE FiLmU",
+            "riadi natáčanie filmu"
+        ]
+    },
+    {
+        "otazka": "Čo je scenár?",
+        "odpovede": [
+            "Textový plán filmu",
+            "tEXTOVY PLAN FILMU",
+            "textovy plan filmu",
+            "Textovy Plan Filmu",
+            "Textovy plan filmu",
+            "TEXTOVY PLAN FILMU",
+            "TeXtOvY PlAn fIlMu",
+            "tEXTOVÝ PLÁN FILMU",
+            "textový plán filmu",
+            "TeXtOvÝ PlÁn fIlMu",
+            "Textový Plán Filmu",
+            "TEXTOVÝ PLÁN FILMU"
+        ]
+    },
+    {
+        "otazka": "Kto hrá hlavnú postavu vo filme?",
+        "odpovede": [
+            "Herec",
+            "hEREC",
+            "HEREC",
+            "HeReC",
+            "herec"
+        ]
+    },
+    {
+        "otazka": "Kto stojí za vizuálnou stránkou filmu?",
+        "odpovede": [
+            "Kameraman",
+            "KAMERAMAN",
+            "KaMeRaMaN",
+            "kAMERAMAN",
+            "kameraman"
+        ]
+    },
+    {
+        "otazka": "Čo je strih?",
+        "odpovede": [
+            "Spájanie záberov",
+            "SpAjAnIe zAbErOv",
+            "sPAJANIE ZABEROV",
+            "Spajanie Zaberov",
+            "spajanie zaberov",
+            "SPAJANIE ZABEROV",
+            "Spajanie zaberov",
+            "SpÁjAnIe zÁbErOv",
+            "Spájanie Záberov",
+            "SPÁJANIE ZÁBEROV",
+            "spájanie záberov",
+            "sPÁJANIE ZÁBEROV"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá cena pre najlepšie filmy v USA?",
+        "odpovede": [
+            "Oscar",
+            "oscar",
+            "OSCAR",
+            "oSCAR",
+            "OsCaR"
+        ]
+    },
+    {
+        "otazka": "Čo je animovaný film?",
+        "odpovede": [
+            "Film z kreslených alebo digitálnych obrázkov",
+            "FiLm z kReSlEnYcH AlEbO DiGiTaLnYcH ObRaZkOv",
+            "film z kreslenych alebo digitalnych obrazkov",
+            "FILM Z KRESLENYCH ALEBO DIGITALNYCH OBRAZKOV",
+            "Film z kreslenych alebo digitalnych obrazkov",
+            "Film Z Kreslenych Alebo Digitalnych Obrazkov",
+            "fILM Z KRESLENYCH ALEBO DIGITALNYCH OBRAZKOV",
+            "film z kreslených alebo digitálnych obrázkov",
+            "FILM Z KRESLENÝCH ALEBO DIGITÁLNYCH OBRÁZKOV",
+            "FiLm z kReSlEnÝcH AlEbO DiGiTáLnYcH ObRáZkOv",
+            "fILM Z KRESLENÝCH ALEBO DIGITÁLNYCH OBRÁZKOV",
+            "Film Z Kreslených Alebo Digitálnych Obrázkov"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva žáner s napätím a strachom?",
+        "odpovede": [
+            "Horor",
+            "HOROR",
+            "HoRoR",
+            "horor",
+            "hOROR"
+        ]
+    },
+    {
+        "otazka": "Čo je kamera?",
+        "odpovede": [
+            "Zariadenie na snímanie obrazu",
+            "ZARIADENIE NA SNIMANIE OBRAZU",
+            "zariadenie na snimanie obrazu",
+            "zARIADENIE NA SNIMANIE OBRAZU",
+            "ZaRiAdEnIe nA SnImAnIe oBrAzU",
+            "Zariadenie Na Snimanie Obrazu",
+            "Zariadenie na snimanie obrazu",
+            "ZaRiAdEnIe nA SnÍmAnIe oBrAzU",
+            "Zariadenie Na Snímanie Obrazu",
+            "zARIADENIE NA SNÍMANIE OBRAZU",
+            "zariadenie na snímanie obrazu",
+            "ZARIADENIE NA SNÍMANIE OBRAZU"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá film natočený podľa knihy?",
+        "odpovede": [
+            "Filmová adaptácia",
+            "FILMOVA ADAPTACIA",
+            "fILMOVA ADAPTACIA",
+            "filmova adaptacia",
+            "Filmova Adaptacia",
+            "FiLmOvA AdApTaCiA",
+            "Filmova adaptacia",
+            "filmová adaptácia",
+            "FiLmOvÁ AdApTáCiA",
+            "Filmová Adaptácia",
+            "FILMOVÁ ADAPTÁCIA",
+            "fILMOVÁ ADAPTÁCIA"
+        ]
+    },
+    {
+        "otazka": "Čo je filmový festival?",
+        "odpovede": [
+            "Prehliadka filmov",
+            "PREHLIADKA FILMOV",
+            "pREHLIADKA FILMOV",
+            "PrEhLiAdKa fIlMoV",
+            "Prehliadka Filmov",
+            "prehliadka filmov"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva filmový záznam zvuku?",
+        "odpovede": [
+            "Zvukový záznam",
+            "zVUKOVY ZAZNAM",
+            "Zvukovy zaznam",
+            "ZVUKOVY ZAZNAM",
+            "zvukovy zaznam",
+            "Zvukovy Zaznam",
+            "ZvUkOvY ZaZnAm",
+            "ZvUkOvÝ ZáZnAm",
+            "zvukový záznam",
+            "ZVUKOVÝ ZÁZNAM",
+            "zVUKOVÝ ZÁZNAM",
+            "Zvukový Záznam"
+        ]
+    },
+    {
+        "otazka": "Čo je casting?",
+        "odpovede": [
+            "Výber hercov",
+            "VYBER HERCOV",
+            "vyber hercov",
+            "Vyber Hercov",
+            "vYBER HERCOV",
+            "Vyber hercov",
+            "VyBeR HeRcOv",
+            "výber hercov",
+            "Výber Hercov",
+            "vÝBER HERCOV",
+            "VÝBER HERCOV",
+            "VýBeR HeRcOv"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá miesto, kde sa premieta film?",
+        "odpovede": [
+            "Kino",
+            "KiNo",
+            "KINO",
+            "kINO",
+            "kino"
+        ]
+    },
+    {
+        "otazka": "Čo robí producent?",
+        "odpovede": [
+            "Zabezpečuje financovanie a organizáciu filmu",
+            "zabezpecuje financovanie a organizaciu filmu",
+            "zABEZPECUJE FINANCOVANIE A ORGANIZACIU FILMU",
+            "ZABEZPECUJE FINANCOVANIE A ORGANIZACIU FILMU",
+            "ZaBeZpEcUjE FiNaNcOvAnIe a oRgAnIzAcIu fIlMu",
+            "Zabezpecuje financovanie a organizaciu filmu",
+            "Zabezpecuje Financovanie A Organizaciu Filmu",
+            "zABEZPEČUJE FINANCOVANIE A ORGANIZÁCIU FILMU",
+            "zabezpečuje financovanie a organizáciu filmu",
+            "ZaBeZpEčUjE FiNaNcOvAnIe a oRgAnIzÁcIu fIlMu",
+            "ZABEZPEČUJE FINANCOVANIE A ORGANIZÁCIU FILMU",
+            "Zabezpečuje Financovanie A Organizáciu Filmu"
+        ]
+    },
+    {
+        "otazka": "Čo je dokumentárny film?",
+        "odpovede": [
+            "Film o skutočných udalostiach",
+            "film o skutocnych udalostiach",
+            "Film O Skutocnych Udalostiach",
+            "FILM O SKUTOCNYCH UDALOSTIACH",
+            "FiLm o sKuToCnYcH UdAlOsTiAcH",
+            "fILM O SKUTOCNYCH UDALOSTIACH",
+            "Film o skutocnych udalostiach",
+            "film o skutočných udalostiach",
+            "fILM O SKUTOČNÝCH UDALOSTIACH",
+            "FILM O SKUTOČNÝCH UDALOSTIACH",
+            "FiLm o sKuToČnÝcH UdAlOsTiAcH",
+            "Film O Skutočných Udalostiach"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva 3D počítačová animácia?",
+        "odpovede": [
+            "CGI",
+            "Cgi",
+            "cgi",
+            "CgI",
+            "cGI"
+        ]
+    },
+    {
+        "otazka": "Čo je trailer?",
+        "odpovede": [
+            "Krátka ukážka filmu",
+            "Kratka Ukazka Filmu",
+            "kRATKA UKAZKA FILMU",
+            "Kratka ukazka filmu",
+            "KrAtKa uKaZkA FiLmU",
+            "kratka ukazka filmu",
+            "KRATKA UKAZKA FILMU",
+            "KRÁTKA UKÁŽKA FILMU",
+            "kRÁTKA UKÁŽKA FILMU",
+            "krátka ukážka filmu",
+            "KrÁtKa uKáŽkA FiLmU",
+            "Krátka Ukážka Filmu"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá film s veľkým rozpočtom a úspechom?",
+        "odpovede": [
+            "Blockbuster",
+            "bLOCKBUSTER",
+            "BlOcKbUsTeR",
+            "blockbuster",
+            "BLOCKBUSTER"
+        ]
+    },
+    {
+        "otazka": "Čo je dabing?",
+        "odpovede": [
+            "Nahradenie pôvodného hlasu iným",
+            "NaHrAdEnIe pOvOdNeHo hLaSu iNyM",
+            "nahradenie povodneho hlasu inym",
+            "NAHRADENIE POVODNEHO HLASU INYM",
+            "Nahradenie Povodneho Hlasu Inym",
+            "Nahradenie povodneho hlasu inym",
+            "nAHRADENIE POVODNEHO HLASU INYM",
+            "NAHRADENIE PÔVODNÉHO HLASU INÝM",
+            "nahradenie pôvodného hlasu iným",
+            "Nahradenie Pôvodného Hlasu Iným",
+            "NaHrAdEnIe pÔvOdNéHo hLaSu iNýM",
+            "nAHRADENIE PÔVODNÉHO HLASU INÝM"
+        ]
+    }
 ]

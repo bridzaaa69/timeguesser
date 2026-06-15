@@ -1,22 +1,333 @@
 [
-    "Čo je ústava?",
-    "Kto schvaľuje zákony na Slovensku?",
-    "Čo je občianske právo?",
-    "Čo je trestné právo?",
-    "Ako sa nazýva súd v trestných veciach?",
-    "Čo je zmluva?",
-    "Kto zastupuje štát v trestnom konaní?",
-    "Čo znamená GDPR?",
-    "Čo je zákon?",
-    "Ako sa volá nižší právny predpis než zákon?",
-    "Kto rozhoduje v spore medzi dvoma stranami?",
-    "Čo je právo na obranu?",
-    "Čo je plnomocenstvo?",
-    "Čo je priestupok?",
-    "Čo je trestný čin?",
-    "Kto je sudca?",
-    "Čo je odvolanie?",
-    "Ako sa nazýva základný zákon štátu?",
-    "Čo je právna norma?",
-    "Čo je zodpovednosť za škodu?"
+    {
+        "otazka": "Čo je ústava?",
+        "odpovede": [
+            "Základný zákon štátu",
+            "zAKLADNY ZAKON STATU",
+            "Zakladny Zakon Statu",
+            "ZaKlAdNy zAkOn sTaTu",
+            "ZAKLADNY ZAKON STATU",
+            "Zakladny zakon statu",
+            "zakladny zakon statu",
+            "ZÁKLADNÝ ZÁKON ŠTÁTU",
+            "základný zákon štátu",
+            "ZáKlAdNý zÁkOn šTáTu",
+            "Základný Zákon Štátu",
+            "zÁKLADNÝ ZÁKON ŠTÁTU"
+        ]
+    },
+    {
+        "otazka": "Kto schvaľuje zákony na Slovensku?",
+        "odpovede": [
+            "Národná rada SR",
+            "narodna rada sr",
+            "nARODNA RADA SR",
+            "Narodna rada SR",
+            "Narodna rada sr",
+            "Narodna Rada Sr",
+            "NaRoDnA RaDa sR",
+            "NARODNA RADA SR",
+            "Národná Rada Sr",
+            "NÁRODNÁ RADA SR",
+            "národná rada sr",
+            "Národná rada sr",
+            "NáRoDnÁ RaDa sR",
+            "nÁRODNÁ RADA SR"
+        ]
+    },
+    {
+        "otazka": "Čo je občianske právo?",
+        "odpovede": [
+            "Právo upravujúce vzťahy medzi ľuďmi",
+            "pravo upravujuce vztahy medzi ludmi",
+            "PrAvO UpRaVuJuCe vZtAhY MeDzI LuDmI",
+            "pRAVO UPRAVUJUCE VZTAHY MEDZI LUDMI",
+            "PRAVO UPRAVUJUCE VZTAHY MEDZI LUDMI",
+            "Pravo Upravujuce Vztahy Medzi Ludmi",
+            "Pravo upravujuce vztahy medzi ludmi",
+            "Právo Upravujúce Vzťahy Medzi Ľuďmi",
+            "pRÁVO UPRAVUJÚCE VZŤAHY MEDZI ĽUĎMI",
+            "PrÁvO UpRaVuJúCe vZťAhY MeDzI ĽuĎmI",
+            "PRÁVO UPRAVUJÚCE VZŤAHY MEDZI ĽUĎMI",
+            "právo upravujúce vzťahy medzi ľuďmi"
+        ]
+    },
+    {
+        "otazka": "Čo je trestné právo?",
+        "odpovede": [
+            "Právo o trestných činoch",
+            "PrAvO O TrEsTnYcH CiNoCh",
+            "PRAVO O TRESTNYCH CINOCH",
+            "Pravo o trestnych cinoch",
+            "pravo o trestnych cinoch",
+            "pRAVO O TRESTNYCH CINOCH",
+            "Pravo O Trestnych Cinoch",
+            "PrÁvO O TrEsTnÝcH ČiNoCh",
+            "PRÁVO O TRESTNÝCH ČINOCH",
+            "pRÁVO O TRESTNÝCH ČINOCH",
+            "Právo O Trestných Činoch",
+            "právo o trestných činoch"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva súd v trestných veciach?",
+        "odpovede": [
+            "Trestný súd",
+            "trestny sud",
+            "TRESTNY SUD",
+            "Trestny Sud",
+            "Trestny sud",
+            "tRESTNY SUD",
+            "TrEsTnY SuD",
+            "trestný súd",
+            "TrEsTnÝ SúD",
+            "tRESTNÝ SÚD",
+            "TRESTNÝ SÚD",
+            "Trestný Súd"
+        ]
+    },
+    {
+        "otazka": "Čo je zmluva?",
+        "odpovede": [
+            "Dohoda dvoch alebo viacerých strán",
+            "Dohoda Dvoch Alebo Viacerych Stran",
+            "dohoda dvoch alebo viacerych stran",
+            "DOHODA DVOCH ALEBO VIACERYCH STRAN",
+            "Dohoda dvoch alebo viacerych stran",
+            "dOHODA DVOCH ALEBO VIACERYCH STRAN",
+            "DoHoDa dVoCh aLeBo vIaCeRyCh sTrAn",
+            "DoHoDa dVoCh aLeBo vIaCeRýCh sTrÁn",
+            "dohoda dvoch alebo viacerých strán",
+            "dOHODA DVOCH ALEBO VIACERÝCH STRÁN",
+            "DOHODA DVOCH ALEBO VIACERÝCH STRÁN",
+            "Dohoda Dvoch Alebo Viacerých Strán"
+        ]
+    },
+    {
+        "otazka": "Kto zastupuje štát v trestnom konaní?",
+        "odpovede": [
+            "Prokurátor",
+            "PrOkUrAtOr",
+            "PROKURATOR",
+            "Prokurator",
+            "prokurator",
+            "pROKURATOR",
+            "prokurátor",
+            "pROKURÁTOR",
+            "PrOkUrÁtOr",
+            "PROKURÁTOR"
+        ]
+    },
+    {
+        "otazka": "Čo znamená GDPR?",
+        "odpovede": [
+            "Ochrana osobných údajov v EÚ",
+            "OCHRANA OSOBNYCH UDAJOV V EU",
+            "Ochrana Osobnych Udajov V Eu",
+            "OcHrAnA OsObNyCh uDaJoV V Eu",
+            "ochrana osobnych udajov v eu",
+            "oCHRANA OSOBNYCH UDAJOV V EU",
+            "Ochrana osobnych udajov v eu",
+            "Ochrana osobnych udajov v EU",
+            "OCHRANA OSOBNÝCH ÚDAJOV V EÚ",
+            "oCHRANA OSOBNÝCH ÚDAJOV V EÚ",
+            "Ochrana osobných údajov v eú",
+            "OcHrAnA OsObNýCh úDaJoV V Eú",
+            "Ochrana Osobných Údajov V Eú",
+            "ochrana osobných údajov v eú"
+        ]
+    },
+    {
+        "otazka": "Čo je zákon?",
+        "odpovede": [
+            "Právny predpis schválený parlamentom",
+            "pRAVNY PREDPIS SCHVALENY PARLAMENTOM",
+            "Pravny Predpis Schvaleny Parlamentom",
+            "PRAVNY PREDPIS SCHVALENY PARLAMENTOM",
+            "PrAvNy pReDpIs sChVaLeNy pArLaMeNtOm",
+            "pravny predpis schvaleny parlamentom",
+            "Pravny predpis schvaleny parlamentom",
+            "PRÁVNY PREDPIS SCHVÁLENÝ PARLAMENTOM",
+            "Právny Predpis Schválený Parlamentom",
+            "právny predpis schválený parlamentom",
+            "PrÁvNy pReDpIs sChVáLeNý pArLaMeNtOm",
+            "pRÁVNY PREDPIS SCHVÁLENÝ PARLAMENTOM"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá nižší právny predpis než zákon?",
+        "odpovede": [
+            "Vyhláška",
+            "VYHLASKA",
+            "VyHlAsKa",
+            "Vyhlaska",
+            "vYHLASKA",
+            "vyhlaska",
+            "vyhláška",
+            "vYHLÁŠKA",
+            "VyHlÁšKa",
+            "VYHLÁŠKA"
+        ]
+    },
+    {
+        "otazka": "Kto rozhoduje v spore medzi dvoma stranami?",
+        "odpovede": [
+            "Sudca",
+            "SuDcA",
+            "sudca",
+            "sUDCA",
+            "SUDCA"
+        ]
+    },
+    {
+        "otazka": "Čo je právo na obranu?",
+        "odpovede": [
+            "Možnosť brániť sa v konaní",
+            "MoZnOsT BrAnIt sA V KoNaNi",
+            "Moznost Branit Sa V Konani",
+            "Moznost branit sa v konani",
+            "moznost branit sa v konani",
+            "mOZNOST BRANIT SA V KONANI",
+            "MOZNOST BRANIT SA V KONANI",
+            "možnosť brániť sa v konaní",
+            "mOŽNOSŤ BRÁNIŤ SA V KONANÍ",
+            "MoŽnOsŤ BrÁnIť sA V KoNaNí",
+            "MOŽNOSŤ BRÁNIŤ SA V KONANÍ",
+            "Možnosť Brániť Sa V Konaní"
+        ]
+    },
+    {
+        "otazka": "Čo je plnomocenstvo?",
+        "odpovede": [
+            "Oprávnenie konať za niekoho",
+            "Opravnenie Konat Za Niekoho",
+            "OPRAVNENIE KONAT ZA NIEKOHO",
+            "OpRaVnEnIe kOnAt zA NiEkOhO",
+            "oPRAVNENIE KONAT ZA NIEKOHO",
+            "Opravnenie konat za niekoho",
+            "opravnenie konat za niekoho",
+            "OPRÁVNENIE KONAŤ ZA NIEKOHO",
+            "oPRÁVNENIE KONAŤ ZA NIEKOHO",
+            "OpRáVnEnIe kOnAť zA NiEkOhO",
+            "oprávnenie konať za niekoho",
+            "Oprávnenie Konať Za Niekoho"
+        ]
+    },
+    {
+        "otazka": "Čo je priestupok?",
+        "odpovede": [
+            "Menej závažné porušenie predpisov",
+            "Menej Zavazne Porusenie Predpisov",
+            "mENEJ ZAVAZNE PORUSENIE PREDPISOV",
+            "menej zavazne porusenie predpisov",
+            "MENEJ ZAVAZNE PORUSENIE PREDPISOV",
+            "Menej zavazne porusenie predpisov",
+            "MeNeJ ZaVaZnE PoRuSeNiE PrEdPiSoV",
+            "mENEJ ZÁVAŽNÉ PORUŠENIE PREDPISOV",
+            "MENEJ ZÁVAŽNÉ PORUŠENIE PREDPISOV",
+            "menej závažné porušenie predpisov",
+            "Menej Závažné Porušenie Predpisov",
+            "MeNeJ ZáVaŽnÉ PoRuŠeNiE PrEdPiSoV"
+        ]
+    },
+    {
+        "otazka": "Čo je trestný čin?",
+        "odpovede": [
+            "Závažné porušenie trestného zákona",
+            "zavazne porusenie trestneho zakona",
+            "Zavazne porusenie trestneho zakona",
+            "Zavazne Porusenie Trestneho Zakona",
+            "zAVAZNE PORUSENIE TRESTNEHO ZAKONA",
+            "ZAVAZNE PORUSENIE TRESTNEHO ZAKONA",
+            "ZaVaZnE PoRuSeNiE TrEsTnEhO ZaKoNa",
+            "zÁVAŽNÉ PORUŠENIE TRESTNÉHO ZÁKONA",
+            "ZáVaŽnÉ PoRuŠeNiE TrEsTnÉhO ZáKoNa",
+            "ZÁVAŽNÉ PORUŠENIE TRESTNÉHO ZÁKONA",
+            "Závažné Porušenie Trestného Zákona",
+            "závažné porušenie trestného zákona"
+        ]
+    },
+    {
+        "otazka": "Kto je sudca?",
+        "odpovede": [
+            "Osoba rozhodujúca právne spory",
+            "oSOBA ROZHODUJUCA PRAVNE SPORY",
+            "Osoba Rozhodujuca Pravne Spory",
+            "osoba rozhodujuca pravne spory",
+            "OSOBA ROZHODUJUCA PRAVNE SPORY",
+            "OsObA RoZhOdUjUcA PrAvNe sPoRy",
+            "Osoba rozhodujuca pravne spory",
+            "OSOBA ROZHODUJÚCA PRÁVNE SPORY",
+            "oSOBA ROZHODUJÚCA PRÁVNE SPORY",
+            "Osoba Rozhodujúca Právne Spory",
+            "osoba rozhodujúca právne spory",
+            "OsObA RoZhOdUjÚcA PrÁvNe sPoRy"
+        ]
+    },
+    {
+        "otazka": "Čo je odvolanie?",
+        "odpovede": [
+            "Opravný prostriedok proti rozhodnutiu",
+            "Opravny prostriedok proti rozhodnutiu",
+            "opravny prostriedok proti rozhodnutiu",
+            "OpRaVnY PrOsTrIeDoK PrOtI RoZhOdNuTiU",
+            "Opravny Prostriedok Proti Rozhodnutiu",
+            "OPRAVNY PROSTRIEDOK PROTI ROZHODNUTIU",
+            "oPRAVNY PROSTRIEDOK PROTI ROZHODNUTIU",
+            "OpRaVnÝ PrOsTrIeDoK PrOtI RoZhOdNuTiU",
+            "Opravný Prostriedok Proti Rozhodnutiu",
+            "opravný prostriedok proti rozhodnutiu",
+            "OPRAVNÝ PROSTRIEDOK PROTI ROZHODNUTIU",
+            "oPRAVNÝ PROSTRIEDOK PROTI ROZHODNUTIU"
+        ]
+    },
+    {
+        "otazka": "Ktorý právny predpis má najvyššiu silu v štáte?",
+        "odpovede": [
+            "Ústava",
+            "USTAVA",
+            "ustava",
+            "uSTAVA",
+            "UsTaVa",
+            "Ustava",
+            "ústava",
+            "ÚSTAVA",
+            "ÚsTaVa",
+            "úSTAVA"
+        ]
+    },
+    {
+        "otazka": "Čo je právna norma?",
+        "odpovede": [
+            "Pravidlo upravujúce správanie",
+            "PRAVIDLO UPRAVUJUCE SPRAVANIE",
+            "Pravidlo upravujuce spravanie",
+            "pravidlo upravujuce spravanie",
+            "pRAVIDLO UPRAVUJUCE SPRAVANIE",
+            "Pravidlo Upravujuce Spravanie",
+            "PrAvIdLo uPrAvUjUcE SpRaVaNiE",
+            "pravidlo upravujúce správanie",
+            "pRAVIDLO UPRAVUJÚCE SPRÁVANIE",
+            "Pravidlo Upravujúce Správanie",
+            "PRAVIDLO UPRAVUJÚCE SPRÁVANIE",
+            "PrAvIdLo uPrAvUjÚcE SpRáVaNiE"
+        ]
+    },
+    {
+        "otazka": "Čo je zodpovednosť za škodu?",
+        "odpovede": [
+            "Povinnosť nahradiť spôsobenú ujmu",
+            "Povinnost nahradit sposobenu ujmu",
+            "Povinnost Nahradit Sposobenu Ujmu",
+            "povinnost nahradit sposobenu ujmu",
+            "pOVINNOST NAHRADIT SPOSOBENU UJMU",
+            "POVINNOST NAHRADIT SPOSOBENU UJMU",
+            "PoViNnOsT NaHrAdIt sPoSoBeNu uJmU",
+            "PoViNnOsŤ NaHrAdIť sPôSoBeNú uJmU",
+            "Povinnosť Nahradiť Spôsobenú Ujmu",
+            "POVINNOSŤ NAHRADIŤ SPÔSOBENÚ UJMU",
+            "povinnosť nahradiť spôsobenú ujmu",
+            "pOVINNOSŤ NAHRADIŤ SPÔSOBENÚ UJMU"
+        ]
+    }
 ]

@@ -1,22 +1,253 @@
 [
-    "Koľko je 7 krát 8?",
-    "Ktorý uhol má 90 stupňov?",
-    "Ako sa volá súčet uhlov v trojuholníku?",
-    "Čo je zlomok?",
-    "Ako sa volá číslo deliteľné len 1 a sebou samým?",
-    "Koľko strán má štvorec?",
-    "Ako sa volá výsledok delenia?",
-    "Čo je priemer?",
-    "Koľko je druhá mocnina čísla 5?",
-    "Ako sa nazýva vetva matematiky o tvaroch?",
-    "Čo je rovnica?",
-    "Čo je odmocnina?",
-    "Čo je pravouhlý trojuholník?",
-    "Ktoré číslo je najmenšie prvočíslo?",
-    "Čo je percento?",
-    "Ako sa volá postupnosť, v ktorej sa rozdiel nemení?",
-    "Koľko je číslo pí približne?",
-    "Čo je obvod obdĺžnika?",
-    "Čo je diagram?",
-    "Čo je kombinatorika?"
+    {
+        "otazka": "Koľko je 7 krát 8?",
+        "odpovede": [
+            "56"
+        ]
+    },
+    {
+        "otazka": "Ktorý uhol má 90 stupňov?",
+        "odpovede": [
+            "Pravý uhol",
+            "PRAVY UHOL",
+            "pravy uhol",
+            "PrAvY UhOl",
+            "Pravy Uhol",
+            "Pravy uhol",
+            "pRAVY UHOL",
+            "PrAvÝ UhOl",
+            "pRAVÝ UHOL",
+            "Pravý Uhol",
+            "PRAVÝ UHOL",
+            "pravý uhol"
+        ]
+    },
+    {
+        "otazka": "Koľko stupňov má súčet uhlov v trojuholníku?",
+        "odpovede": [
+            "180"
+        ]
+    },
+    {
+        "otazka": "Čo je zlomok?",
+        "odpovede": [
+            "Časť celku",
+            "Cast Celku",
+            "cAST CELKU",
+            "cast celku",
+            "CAST CELKU",
+            "CaSt cElKu",
+            "Cast celku",
+            "Časť Celku",
+            "čASŤ CELKU",
+            "ČASŤ CELKU",
+            "časť celku",
+            "ČaSť cElKu"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá číslo deliteľné len 1 a sebou samým?",
+        "odpovede": [
+            "Prvočíslo",
+            "pRVOCISLO",
+            "PrVoCiSlO",
+            "prvocislo",
+            "PRVOCISLO",
+            "Prvocislo",
+            "pRVOČÍSLO",
+            "prvočíslo",
+            "PRVOČÍSLO",
+            "PrVoČíSlO"
+        ]
+    },
+    {
+        "otazka": "Koľko strán má štvorec?",
+        "odpovede": [
+            "4"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá výsledok delenia?",
+        "odpovede": [
+            "Podiel",
+            "podiel",
+            "PoDiEl",
+            "PODIEL",
+            "pODIEL"
+        ]
+    },
+    {
+        "otazka": "Čo je priemer?",
+        "odpovede": [
+            "Súčet hodnôt delený ich počtom",
+            "sucet hodnot deleny ich poctom",
+            "Sucet hodnot deleny ich poctom",
+            "SUCET HODNOT DELENY ICH POCTOM",
+            "Sucet Hodnot Deleny Ich Poctom",
+            "sUCET HODNOT DELENY ICH POCTOM",
+            "SuCeT HoDnOt dElEnY IcH PoCtOm",
+            "SúČeT HoDnÔt dElEnÝ IcH PoČtOm",
+            "súčet hodnôt delený ich počtom",
+            "SÚČET HODNÔT DELENÝ ICH POČTOM",
+            "Súčet Hodnôt Delený Ich Počtom",
+            "sÚČET HODNÔT DELENÝ ICH POČTOM"
+        ]
+    },
+    {
+        "otazka": "Koľko je druhá mocnina čísla 5?",
+        "odpovede": [
+            "25"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva vetva matematiky o tvaroch?",
+        "odpovede": [
+            "Geometria",
+            "GeOmEtRiA",
+            "gEOMETRIA",
+            "geometria",
+            "GEOMETRIA"
+        ]
+    },
+    {
+        "otazka": "Čo je rovnica?",
+        "odpovede": [
+            "Rovnosť s neznámou",
+            "rovnost s neznamou",
+            "rOVNOST S NEZNAMOU",
+            "ROVNOST S NEZNAMOU",
+            "RoVnOsT S NeZnAmOu",
+            "Rovnost s neznamou",
+            "Rovnost S Neznamou",
+            "ROVNOSŤ S NEZNÁMOU",
+            "RoVnOsŤ S NeZnÁmOu",
+            "Rovnosť S Neznámou",
+            "rOVNOSŤ S NEZNÁMOU",
+            "rovnosť s neznámou"
+        ]
+    },
+    {
+        "otazka": "Čo je odmocnina?",
+        "odpovede": [
+            "Opačná operácia k mocnine",
+            "Opacna operacia k mocnine",
+            "opacna operacia k mocnine",
+            "oPACNA OPERACIA K MOCNINE",
+            "OPACNA OPERACIA K MOCNINE",
+            "Opacna Operacia K Mocnine",
+            "OpAcNa oPeRaCiA K MoCnInE",
+            "oPAČNÁ OPERÁCIA K MOCNINE",
+            "OPAČNÁ OPERÁCIA K MOCNINE",
+            "opačná operácia k mocnine",
+            "OpAčNá oPeRáCiA K MoCnInE",
+            "Opačná Operácia K Mocnine"
+        ]
+    },
+    {
+        "otazka": "Čo je pravouhlý trojuholník?",
+        "odpovede": [
+            "Trojuholník s pravým uhlom",
+            "Trojuholnik S Pravym Uhlom",
+            "trojuholnik s pravym uhlom",
+            "TROJUHOLNIK S PRAVYM UHLOM",
+            "TrOjUhOlNiK S PrAvYm uHlOm",
+            "Trojuholnik s pravym uhlom",
+            "tROJUHOLNIK S PRAVYM UHLOM",
+            "tROJUHOLNÍK S PRAVÝM UHLOM",
+            "TrOjUhOlNíK S PrAvÝm uHlOm",
+            "Trojuholník S Pravým Uhlom",
+            "trojuholník s pravým uhlom",
+            "TROJUHOLNÍK S PRAVÝM UHLOM"
+        ]
+    },
+    {
+        "otazka": "Ktoré číslo je najmenšie prvočíslo?",
+        "odpovede": [
+            "2"
+        ]
+    },
+    {
+        "otazka": "Čo je percento?",
+        "odpovede": [
+            "Stotina",
+            "sTOTINA",
+            "STOTINA",
+            "StOtInA",
+            "stotina"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá postupnosť, v ktorej sa rozdiel nemení?",
+        "odpovede": [
+            "Aritmetická postupnosť",
+            "Aritmeticka postupnost",
+            "ArItMeTiCkA PoStUpNoSt",
+            "aRITMETICKA POSTUPNOST",
+            "ARITMETICKA POSTUPNOST",
+            "aritmeticka postupnost",
+            "Aritmeticka Postupnost",
+            "aritmetická postupnosť",
+            "ArItMeTiCkÁ PoStUpNoSť",
+            "aRITMETICKÁ POSTUPNOSŤ",
+            "Aritmetická Postupnosť",
+            "ARITMETICKÁ POSTUPNOSŤ"
+        ]
+    },
+    {
+        "otazka": "Koľko je číslo pí približne?",
+        "odpovede": [
+            "3,14"
+        ]
+    },
+    {
+        "otazka": "Čo je obvod obdĺžnika?",
+        "odpovede": [
+            "Súčet dĺžok všetkých strán",
+            "sUCET DLZOK VSETKYCH STRAN",
+            "sucet dlzok vsetkych stran",
+            "SUCET DLZOK VSETKYCH STRAN",
+            "SuCeT DlZoK VsEtKyCh sTrAn",
+            "Sucet Dlzok Vsetkych Stran",
+            "Sucet dlzok vsetkych stran",
+            "SÚČET DĹŽOK VŠETKÝCH STRÁN",
+            "SúČeT DĺŽoK VšEtKýCh sTrÁn",
+            "súčet dĺžok všetkých strán",
+            "Súčet Dĺžok Všetkých Strán",
+            "sÚČET DĹŽOK VŠETKÝCH STRÁN"
+        ]
+    },
+    {
+        "otazka": "Čo je diagram?",
+        "odpovede": [
+            "Grafické znázornenie dát",
+            "GrAfIcKe zNaZoRnEnIe dAt",
+            "Graficke znazornenie dat",
+            "Graficke Znazornenie Dat",
+            "graficke znazornenie dat",
+            "GRAFICKE ZNAZORNENIE DAT",
+            "gRAFICKE ZNAZORNENIE DAT",
+            "gRAFICKÉ ZNÁZORNENIE DÁT",
+            "Grafické Znázornenie Dát",
+            "GRAFICKÉ ZNÁZORNENIE DÁT",
+            "GrAfIcKé zNáZoRnEnIe dÁt",
+            "grafické znázornenie dát"
+        ]
+    },
+    {
+        "otazka": "Čo je kombinatorika?",
+        "odpovede": [
+            "Počítanie možností",
+            "Pocitanie Moznosti",
+            "pOCITANIE MOZNOSTI",
+            "pocitanie moznosti",
+            "PoCiTaNiE MoZnOsTi",
+            "Pocitanie moznosti",
+            "POCITANIE MOZNOSTI",
+            "Počítanie Možností",
+            "PoČíTaNiE MoŽnOsTí",
+            "počítanie možností",
+            "pOČÍTANIE MOŽNOSTÍ",
+            "POČÍTANIE MOŽNOSTÍ"
+        ]
+    }
 ]

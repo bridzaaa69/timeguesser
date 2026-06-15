@@ -1,22 +1,241 @@
 [
-    "Kto vynašiel telefón?",
-    "Kto napísal teóriu relativity?",
-    "Kto viedol nenásilný boj v Indii?",
-    "Kto namaľoval Monu Lízu?",
-    "Kto bol prvý človek na Mesiaci?",
-    "Kto založil spoločnosť Apple?",
-    "Kto objavil polónium a rádium?",
-    "Kto napísal Hamlet?",
-    "Kto bol prvý prezident USA?",
-    "Kto vynašiel kníhtlač?",
-    "Kto bol prvý prezident Slovenskej republiky?",
-    "Kto založil Facebook?",
-    "Kto vynašiel žiarovku?",
-    "Kto bol známy ako autor zákonov pohybu?",
-    "Kto napísal Malého princa?",
-    "Kto založil Microsoft?",
-    "Kto bol slovenský ľudový hrdina Jánošík?",
-    "Kto zložil slovenskú hymnu?",
-    "Kto bol známy ako otec psychoanalýzy?",
-    "Kto bol prvý muž vo vesmíre?"
+    {
+        "otazka": "Kto vynašiel telefón?",
+        "odpovede": [
+            "Alexander Graham Bell",
+            "aLEXANDER GRAHAM BELL",
+            "Alexander graham bell",
+            "ALEXANDER GRAHAM BELL",
+            "alexander graham bell",
+            "AlExAnDeR GrAhAm bElL"
+        ]
+    },
+    {
+        "otazka": "Kto napísal teóriu relativity?",
+        "odpovede": [
+            "Albert Einstein",
+            "albert einstein",
+            "AlBeRt eInStEiN",
+            "Albert einstein",
+            "aLBERT EINSTEIN",
+            "ALBERT EINSTEIN"
+        ]
+    },
+    {
+        "otazka": "Kto viedol nenásilný boj v Indii?",
+        "odpovede": [
+            "Mahatma Gandhi",
+            "mAHATMA GANDHI",
+            "MAHATMA GANDHI",
+            "MaHaTmA GaNdHi",
+            "mahatma gandhi",
+            "Mahatma gandhi"
+        ]
+    },
+    {
+        "otazka": "Kto namaľoval Monu Lízu?",
+        "odpovede": [
+            "Leonardo da Vinci",
+            "Leonardo da vinci",
+            "lEONARDO DA VINCI",
+            "LeOnArDo dA ViNcI",
+            "leonardo da vinci",
+            "Leonardo Da Vinci",
+            "LEONARDO DA VINCI"
+        ]
+    },
+    {
+        "otazka": "Kto bol prvý človek na Mesiaci?",
+        "odpovede": [
+            "Neil Armstrong",
+            "Neil armstrong",
+            "neil armstrong",
+            "NeIl aRmStRoNg",
+            "NEIL ARMSTRONG",
+            "nEIL ARMSTRONG"
+        ]
+    },
+    {
+        "otazka": "Kto založil spoločnosť Apple?",
+        "odpovede": [
+            "Steve Jobs",
+            "STEVE JOBS",
+            "Steve jobs",
+            "StEvE JoBs",
+            "steve jobs",
+            "sTEVE JOBS"
+        ]
+    },
+    {
+        "otazka": "Kto objavil polónium a rádium?",
+        "odpovede": [
+            "Marie Curie",
+            "Marie curie",
+            "MaRiE CuRiE",
+            "mARIE CURIE",
+            "marie curie",
+            "MARIE CURIE"
+        ]
+    },
+    {
+        "otazka": "Kto objavil penicilín?",
+        "odpovede": [
+            "Alexander Fleming",
+            "ALEXANDER FLEMING",
+            "alexander fleming",
+            "Alexander fleming",
+            "AlExAnDeR FlEmInG",
+            "aLEXANDER FLEMING"
+        ]
+    },
+    {
+        "otazka": "Kto bol prvý prezident USA?",
+        "odpovede": [
+            "George Washington",
+            "george washington",
+            "gEORGE WASHINGTON",
+            "George washington",
+            "GEORGE WASHINGTON",
+            "GeOrGe wAsHiNgToN"
+        ]
+    },
+    {
+        "otazka": "Kto vynašiel kníhtlač?",
+        "odpovede": [
+            "Johannes Gutenberg",
+            "JoHaNnEs gUtEnBeRg",
+            "JOHANNES GUTENBERG",
+            "jOHANNES GUTENBERG",
+            "Johannes gutenberg",
+            "johannes gutenberg"
+        ]
+    },
+    {
+        "otazka": "Kto bol prvý prezident Slovenskej republiky?",
+        "odpovede": [
+            "Michal Kováč",
+            "MICHAL KOVAC",
+            "Michal kovac",
+            "MiChAl kOvAc",
+            "mICHAL KOVAC",
+            "Michal Kovac",
+            "michal kovac",
+            "MICHAL KOVÁČ",
+            "michal kováč",
+            "Michal kováč",
+            "mICHAL KOVÁČ",
+            "MiChAl kOvÁč"
+        ]
+    },
+    {
+        "otazka": "Kto založil Facebook?",
+        "odpovede": [
+            "Mark Zuckerberg",
+            "MaRk zUcKeRbErG",
+            "Mark zuckerberg",
+            "MARK ZUCKERBERG",
+            "mARK ZUCKERBERG",
+            "mark zuckerberg"
+        ]
+    },
+    {
+        "otazka": "Kto vynašiel žiarovku?",
+        "odpovede": [
+            "Thomas Edison",
+            "THOMAS EDISON",
+            "ThOmAs eDiSoN",
+            "thomas edison",
+            "tHOMAS EDISON",
+            "Thomas edison"
+        ]
+    },
+    {
+        "otazka": "Kto bol známy ako autor zákonov pohybu?",
+        "odpovede": [
+            "Isaac Newton",
+            "ISAAC NEWTON",
+            "iSAAC NEWTON",
+            "IsAaC NeWtOn",
+            "isaac newton",
+            "Isaac newton"
+        ]
+    },
+    {
+        "otazka": "Kto vynašiel telegraf?",
+        "odpovede": [
+            "Samuel Morse",
+            "Samuel morse",
+            "SaMuEl mOrSe",
+            "sAMUEL MORSE",
+            "samuel morse",
+            "SAMUEL MORSE"
+        ]
+    },
+    {
+        "otazka": "Kto založil Microsoft?",
+        "odpovede": [
+            "Bill Gates",
+            "Bill gates",
+            "bill gates",
+            "BiLl gAtEs",
+            "BILL GATES",
+            "bILL GATES"
+        ]
+    },
+    {
+        "otazka": "Ako sa volal slovenský zbojník známy ako Jánošík?",
+        "odpovede": [
+            "Juraj Jánošík",
+            "JuRaJ JaNoSiK",
+            "Juraj Janosik",
+            "JURAJ JANOSIK",
+            "Juraj janosik",
+            "jURAJ JANOSIK",
+            "juraj janosik",
+            "JURAJ JÁNOŠÍK",
+            "JuRaJ JáNoŠíK",
+            "jURAJ JÁNOŠÍK",
+            "Juraj jánošík",
+            "juraj jánošík"
+        ]
+    },
+    {
+        "otazka": "Kto zložil slovenskú hymnu?",
+        "odpovede": [
+            "Janko Matuška",
+            "janko matuska",
+            "jANKO MATUSKA",
+            "JANKO MATUSKA",
+            "Janko matuska",
+            "JaNkO MaTuSkA",
+            "Janko Matuska",
+            "JANKO MATUŠKA",
+            "JaNkO MaTuŠkA",
+            "jANKO MATUŠKA",
+            "janko matuška",
+            "Janko matuška"
+        ]
+    },
+    {
+        "otazka": "Kto bol známy ako otec psychoanalýzy?",
+        "odpovede": [
+            "Sigmund Freud",
+            "SIGMUND FREUD",
+            "sIGMUND FREUD",
+            "SiGmUnD FrEuD",
+            "sigmund freud",
+            "Sigmund freud"
+        ]
+    },
+    {
+        "otazka": "Kto bol prvý muž vo vesmíre?",
+        "odpovede": [
+            "Jurij Gagarin",
+            "jURIJ GAGARIN",
+            "JURIJ GAGARIN",
+            "Jurij gagarin",
+            "jurij gagarin",
+            "JuRiJ GaGaRiN"
+        ]
+    }
 ]

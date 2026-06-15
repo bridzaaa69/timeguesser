@@ -1,22 +1,272 @@
 [
-    "Čo je refrén?",
-    "Ako sa volá skladba bez spevu?",
-    "Ktorý nástroj má klávesy a struny?",
-    "Čo znamená tempo?",
-    "Ako sa volá skupina hudobníkov?",
-    "Ktorý hudobný smer je známy improvizáciou?",
-    "Čo je melódia?",
-    "Ako sa volá text piesne?",
-    "Ktorý nástroj má šesť strún?",
-    "Čo je oktáva?",
-    "Ako sa nazýva znak pre zvýšenie tónu?",
-    "Kto napísal Deviatu symfóniu?",
-    "Ako sa volá hudba z filmu?",
-    "Čo je koncert?",
-    "Ako sa nazýva ženský spev s najvyšším rozsahom?",
-    "Čo je notová osnova?",
-    "Ako sa volá rytmická jednotka skladby?",
-    "Ktorý nástroj má čierne a biele klávesy?",
-    "Čo je synkopa?",
-    "Ktorý žáner je spojený s gitarovými sólami?"
+    {
+        "otazka": "Čo je refrén?",
+        "odpovede": [
+            "Opakujúca sa časť piesne",
+            "OpAkUjUcA Sa cAsT PiEsNe",
+            "Opakujuca sa cast piesne",
+            "oPAKUJUCA SA CAST PIESNE",
+            "OPAKUJUCA SA CAST PIESNE",
+            "Opakujuca Sa Cast Piesne",
+            "opakujuca sa cast piesne",
+            "Opakujúca Sa Časť Piesne",
+            "OPAKUJÚCA SA ČASŤ PIESNE",
+            "oPAKUJÚCA SA ČASŤ PIESNE",
+            "opakujúca sa časť piesne",
+            "OpAkUjÚcA Sa čAsŤ PiEsNe"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá skladba bez spevu?",
+        "odpovede": [
+            "Instrumentálka",
+            "iNSTRUMENTALKA",
+            "INSTRUMENTALKA",
+            "InStRuMeNtAlKa",
+            "instrumentalka",
+            "Instrumentalka",
+            "instrumentálka",
+            "InStRuMeNtÁlKa",
+            "INSTRUMENTÁLKA",
+            "iNSTRUMENTÁLKA"
+        ]
+    },
+    {
+        "otazka": "Ktorý nástroj má klávesy a struny?",
+        "odpovede": [
+            "Klavír",
+            "klavir",
+            "KLAVIR",
+            "Klavir",
+            "kLAVIR",
+            "KlAvIr",
+            "kLAVÍR",
+            "KLAVÍR",
+            "klavír",
+            "KlAvÍr"
+        ]
+    },
+    {
+        "otazka": "Čo znamená tempo?",
+        "odpovede": [
+            "Rýchlosť hudby",
+            "RYCHLOST HUDBY",
+            "Rychlost hudby",
+            "rYCHLOST HUDBY",
+            "rychlost hudby",
+            "RyChLoSt hUdBy",
+            "Rychlost Hudby",
+            "rýchlosť hudby",
+            "RýChLoSť hUdBy",
+            "Rýchlosť Hudby",
+            "rÝCHLOSŤ HUDBY",
+            "RÝCHLOSŤ HUDBY"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá skupina hudobníkov?",
+        "odpovede": [
+            "Kapela",
+            "KAPELA",
+            "KaPeLa",
+            "kAPELA",
+            "kapela"
+        ]
+    },
+    {
+        "otazka": "Ktorý hudobný smer je známy improvizáciou?",
+        "odpovede": [
+            "Jazz",
+            "jazz",
+            "JAZZ",
+            "jAZZ",
+            "JaZz"
+        ]
+    },
+    {
+        "otazka": "Čo je melódia?",
+        "odpovede": [
+            "Hlavná hudobná línia",
+            "hLAVNA HUDOBNA LINIA",
+            "HlAvNa hUdObNa lInIa",
+            "hlavna hudobna linia",
+            "HLAVNA HUDOBNA LINIA",
+            "Hlavna Hudobna Linia",
+            "Hlavna hudobna linia",
+            "Hlavná Hudobná Línia",
+            "hlavná hudobná línia",
+            "HLAVNÁ HUDOBNÁ LÍNIA",
+            "hLAVNÁ HUDOBNÁ LÍNIA",
+            "HlAvNá hUdObNá lÍnIa"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá text piesne?",
+        "odpovede": [
+            "Text",
+            "TeXt",
+            "TEXT",
+            "text",
+            "tEXT"
+        ]
+    },
+    {
+        "otazka": "Ktorý nástroj má šesť strún?",
+        "odpovede": [
+            "Gitara",
+            "gITARA",
+            "gitara",
+            "GiTaRa",
+            "GITARA"
+        ]
+    },
+    {
+        "otazka": "Čo je oktáva?",
+        "odpovede": [
+            "Interval ôsmich tónov",
+            "Interval Osmich Tonov",
+            "InTeRvAl oSmIcH ToNoV",
+            "Interval osmich tonov",
+            "interval osmich tonov",
+            "INTERVAL OSMICH TONOV",
+            "iNTERVAL OSMICH TONOV",
+            "interval ôsmich tónov",
+            "INTERVAL ÔSMICH TÓNOV",
+            "iNTERVAL ÔSMICH TÓNOV",
+            "Interval Ôsmich Tónov",
+            "InTeRvAl ôSmIcH TóNoV"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva znak pre zvýšenie tónu?",
+        "odpovede": [
+            "Križík",
+            "KrIzIk",
+            "kRIZIK",
+            "krizik",
+            "KRIZIK",
+            "Krizik",
+            "križík",
+            "KRIŽÍK",
+            "KrIžÍk",
+            "kRIŽÍK"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Deviatu symfóniu?",
+        "odpovede": [
+            "Beethoven",
+            "BEETHOVEN",
+            "bEETHOVEN",
+            "BeEtHoVeN",
+            "beethoven"
+        ]
+    },
+    {
+        "otazka": "Koľko strún má husle?",
+        "odpovede": [
+            "4"
+        ]
+    },
+    {
+        "otazka": "Čo je koncert?",
+        "odpovede": [
+            "Vystúpenie pred publikom",
+            "VyStUpEnIe pReD PuBlIkOm",
+            "vYSTUPENIE PRED PUBLIKOM",
+            "VYSTUPENIE PRED PUBLIKOM",
+            "Vystupenie pred publikom",
+            "vystupenie pred publikom",
+            "Vystupenie Pred Publikom",
+            "Vystúpenie Pred Publikom",
+            "vystúpenie pred publikom",
+            "VyStÚpEnIe pReD PuBlIkOm",
+            "vYSTÚPENIE PRED PUBLIKOM",
+            "VYSTÚPENIE PRED PUBLIKOM"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva ženský spev s najvyšším rozsahom?",
+        "odpovede": [
+            "Soprán",
+            "Sopran",
+            "SOPRAN",
+            "SoPrAn",
+            "sopran",
+            "sOPRAN",
+            "soprán",
+            "SoPrÁn",
+            "SOPRÁN",
+            "sOPRÁN"
+        ]
+    },
+    {
+        "otazka": "Čo je notová osnova?",
+        "odpovede": [
+            "Päť čiar na zapisovanie nôt",
+            "PAT CIAR NA ZAPISOVANIE NOT",
+            "pat ciar na zapisovanie not",
+            "Pat Ciar Na Zapisovanie Not",
+            "PaT CiAr nA ZaPiSoVaNiE NoT",
+            "pAT CIAR NA ZAPISOVANIE NOT",
+            "Pat ciar na zapisovanie not",
+            "Päť Čiar Na Zapisovanie Nôt",
+            "PÄŤ ČIAR NA ZAPISOVANIE NÔT",
+            "päť čiar na zapisovanie nôt",
+            "pÄŤ ČIAR NA ZAPISOVANIE NÔT",
+            "PäŤ ČiAr nA ZaPiSoVaNiE NôT"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá rytmická jednotka skladby?",
+        "odpovede": [
+            "Takt",
+            "TaKt",
+            "takt",
+            "TAKT",
+            "tAKT"
+        ]
+    },
+    {
+        "otazka": "Ktorý nástroj má čierne a biele klávesy?",
+        "odpovede": [
+            "Klavír",
+            "klavir",
+            "KLAVIR",
+            "Klavir",
+            "kLAVIR",
+            "KlAvIr",
+            "kLAVÍR",
+            "KLAVÍR",
+            "klavír",
+            "KlAvÍr"
+        ]
+    },
+    {
+        "otazka": "Čo je synkopa?",
+        "odpovede": [
+            "Posun dôrazu v rytme",
+            "posun dorazu v rytme",
+            "Posun dorazu v rytme",
+            "Posun Dorazu V Rytme",
+            "pOSUN DORAZU V RYTME",
+            "POSUN DORAZU V RYTME",
+            "PoSuN DoRaZu v rYtMe",
+            "Posun Dôrazu V Rytme",
+            "PoSuN DôRaZu v rYtMe",
+            "posun dôrazu v rytme",
+            "pOSUN DÔRAZU V RYTME",
+            "POSUN DÔRAZU V RYTME"
+        ]
+    },
+    {
+        "otazka": "Ktorý žáner je spojený s gitarovými sólami?",
+        "odpovede": [
+            "Rock",
+            "RoCk",
+            "rOCK",
+            "rock",
+            "ROCK"
+        ]
+    }
 ]

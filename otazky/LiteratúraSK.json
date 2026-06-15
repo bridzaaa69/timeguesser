@@ -1,22 +1,324 @@
 [
-    "Kto napísal Mor ho!?",
-    "Kto napísal Marínu?",
-    "Kto napísal Krvavé sonety?",
-    "Kto napísal Hájnikovu ženu?",
-    "Kto napísal Ťapákovcov?",
-    "Kto napísal Rysavú jalovicu?",
-    "Kto napísal Smrť Jánošíkova?",
-    "Kto napísal Slávy dcéru?",
-    "Kto napísal Dom v stráni?",
-    "Kto napísal Kamenný chodníček?",
-    "Kto napísal Drak sa vracia?",
-    "Kto napísal Deti z Fara?",
-    "Kto napísal Dobrodružstvá kapitána Báthoryho?",
-    "Kto napísal Kým kohút nezaspieva?",
-    "Kto napísal Trinásť krížikov?",
-    "Kto napísal Živý bič?",
-    "Kto napísal Ružové spomienky?",
-    "Kto napísal výber z diel Jána Smreka?",
-    "Kto napísal Baladu o poli?",
-    "Kto napísal Drevenú dedinu?"
+    {
+        "otazka": "Kto napísal Mor ho!?",
+        "odpovede": [
+            "Ján Chalupka",
+            "Jan chalupka",
+            "JaN ChAlUpKa",
+            "jAN CHALUPKA",
+            "JAN CHALUPKA",
+            "Jan Chalupka",
+            "jan chalupka",
+            "jÁN CHALUPKA",
+            "JÁN CHALUPKA",
+            "JáN ChAlUpKa",
+            "Ján chalupka",
+            "ján chalupka"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Marínu?",
+        "odpovede": [
+            "Andrej Sládkovič",
+            "Andrej sladkovic",
+            "aNDREJ SLADKOVIC",
+            "ANDREJ SLADKOVIC",
+            "andrej sladkovic",
+            "AnDrEj sLaDkOvIc",
+            "Andrej Sladkovic",
+            "Andrej sládkovič",
+            "ANDREJ SLÁDKOVIČ",
+            "aNDREJ SLÁDKOVIČ",
+            "AnDrEj sLáDkOvIč",
+            "andrej sládkovič"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Krvavé sonety?",
+        "odpovede": [
+            "Pavol Horov",
+            "PAVOL HOROV",
+            "PaVoL HoRoV",
+            "pavol horov",
+            "Pavol horov",
+            "pAVOL HOROV"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Hájnikovu ženu?",
+        "odpovede": [
+            "Pavol Hviezdoslav",
+            "PAVOL HVIEZDOSLAV",
+            "PaVoL HvIeZdOsLaV",
+            "pAVOL HVIEZDOSLAV",
+            "Pavol hviezdoslav",
+            "pavol hviezdoslav"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Ťapákovcov?",
+        "odpovede": [
+            "Božena Slavíková-Timrava",
+            "Bozena Slavikova-Timrava",
+            "Bozena slavikova-timrava",
+            "bozena slavikova-timrava",
+            "BOZENA SLAVIKOVA-TIMRAVA",
+            "BoZeNa sLaViKoVa-tImRaVa",
+            "bOZENA SLAVIKOVA-TIMRAVA",
+            "BOŽENA SLAVÍKOVÁ-TIMRAVA",
+            "BoŽeNa sLaVíKoVá-tImRaVa",
+            "bOŽENA SLAVÍKOVÁ-TIMRAVA",
+            "Božena slavíková-timrava",
+            "božena slavíková-timrava"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Rysavú jalovicu?",
+        "odpovede": [
+            "Božena Slavíková-Timrava",
+            "Bozena Slavikova-Timrava",
+            "Bozena slavikova-timrava",
+            "bozena slavikova-timrava",
+            "BOZENA SLAVIKOVA-TIMRAVA",
+            "BoZeNa sLaViKoVa-tImRaVa",
+            "bOZENA SLAVIKOVA-TIMRAVA",
+            "BOŽENA SLAVÍKOVÁ-TIMRAVA",
+            "BoŽeNa sLaVíKoVá-tImRaVa",
+            "bOŽENA SLAVÍKOVÁ-TIMRAVA",
+            "Božena slavíková-timrava",
+            "božena slavíková-timrava"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Smrť Jánošíkova?",
+        "odpovede": [
+            "Ján Kalinčiak",
+            "JAN KALINCIAK",
+            "JaN KaLiNcIaK",
+            "jan kalinciak",
+            "Jan Kalinciak",
+            "Jan kalinciak",
+            "jAN KALINCIAK",
+            "ján kalinčiak",
+            "jÁN KALINČIAK",
+            "Ján kalinčiak",
+            "JÁN KALINČIAK",
+            "JáN KaLiNčIaK"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Slávy dcéru?",
+        "odpovede": [
+            "Ján Hollý",
+            "Jan holly",
+            "Jan Holly",
+            "jan holly",
+            "JAN HOLLY",
+            "jAN HOLLY",
+            "JaN HoLlY",
+            "JÁN HOLLÝ",
+            "ján hollý",
+            "JáN HoLlÝ",
+            "jÁN HOLLÝ",
+            "Ján hollý"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Dom v stráni?",
+        "odpovede": [
+            "Martin Kukučín",
+            "martin kukucin",
+            "mARTIN KUKUCIN",
+            "MARTIN KUKUCIN",
+            "Martin Kukucin",
+            "Martin kukucin",
+            "MaRtIn kUkUcIn",
+            "Martin kukučín",
+            "MARTIN KUKUČÍN",
+            "martin kukučín",
+            "MaRtIn kUkUčÍn",
+            "mARTIN KUKUČÍN"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Kamenný chodníček?",
+        "odpovede": [
+            "Martin Kukučín",
+            "martin kukucin",
+            "mARTIN KUKUCIN",
+            "MARTIN KUKUCIN",
+            "Martin Kukucin",
+            "Martin kukucin",
+            "MaRtIn kUkUcIn",
+            "Martin kukučín",
+            "MARTIN KUKUČÍN",
+            "martin kukučín",
+            "MaRtIn kUkUčÍn",
+            "mARTIN KUKUČÍN"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Drak sa vracia?",
+        "odpovede": [
+            "Rudolf Jašík",
+            "Rudolf jasik",
+            "rudolf jasik",
+            "RuDoLf jAsIk",
+            "rUDOLF JASIK",
+            "RUDOLF JASIK",
+            "Rudolf Jasik",
+            "RUDOLF JAŠÍK",
+            "rUDOLF JAŠÍK",
+            "RuDoLf jAšÍk",
+            "Rudolf jašík",
+            "rudolf jašík"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Deti z Fara?",
+        "odpovede": [
+            "Jozef Cíger-Hronský",
+            "jOZEF CIGER-HRONSKY",
+            "Jozef Ciger-Hronsky",
+            "jozef ciger-hronsky",
+            "JOZEF CIGER-HRONSKY",
+            "JoZeF CiGeR-HrOnSkY",
+            "Jozef ciger-hronsky",
+            "Jozef cíger-hronský",
+            "JoZeF CíGeR-HrOnSkÝ",
+            "jOZEF CÍGER-HRONSKÝ",
+            "jozef cíger-hronský",
+            "JOZEF CÍGER-HRONSKÝ"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Dobrodružstvá kapitána Báthoryho?",
+        "odpovede": [
+            "Jozef Cíger-Hronský",
+            "jOZEF CIGER-HRONSKY",
+            "Jozef Ciger-Hronsky",
+            "jozef ciger-hronsky",
+            "JOZEF CIGER-HRONSKY",
+            "JoZeF CiGeR-HrOnSkY",
+            "Jozef ciger-hronsky",
+            "Jozef cíger-hronský",
+            "JoZeF CíGeR-HrOnSkÝ",
+            "jOZEF CÍGER-HRONSKÝ",
+            "jozef cíger-hronský",
+            "JOZEF CÍGER-HRONSKÝ"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Kým kohút nezaspieva?",
+        "odpovede": [
+            "Jozef Cíger-Hronský",
+            "jOZEF CIGER-HRONSKY",
+            "Jozef Ciger-Hronsky",
+            "jozef ciger-hronsky",
+            "JOZEF CIGER-HRONSKY",
+            "JoZeF CiGeR-HrOnSkY",
+            "Jozef ciger-hronsky",
+            "Jozef cíger-hronský",
+            "JoZeF CíGeR-HrOnSkÝ",
+            "jOZEF CÍGER-HRONSKÝ",
+            "jozef cíger-hronský",
+            "JOZEF CÍGER-HRONSKÝ"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Trinásť krížikov?",
+        "odpovede": [
+            "Božena Slavíková-Timrava",
+            "Bozena Slavikova-Timrava",
+            "Bozena slavikova-timrava",
+            "bozena slavikova-timrava",
+            "BOZENA SLAVIKOVA-TIMRAVA",
+            "BoZeNa sLaViKoVa-tImRaVa",
+            "bOZENA SLAVIKOVA-TIMRAVA",
+            "BOŽENA SLAVÍKOVÁ-TIMRAVA",
+            "BoŽeNa sLaVíKoVá-tImRaVa",
+            "bOŽENA SLAVÍKOVÁ-TIMRAVA",
+            "Božena slavíková-timrava",
+            "božena slavíková-timrava"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Živý bič?",
+        "odpovede": [
+            "Pavol Hviezdoslav",
+            "PAVOL HVIEZDOSLAV",
+            "PaVoL HvIeZdOsLaV",
+            "pAVOL HVIEZDOSLAV",
+            "Pavol hviezdoslav",
+            "pavol hviezdoslav"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Ružové spomienky?",
+        "odpovede": [
+            "Ján Smrek",
+            "JaN SmReK",
+            "Jan smrek",
+            "jan smrek",
+            "JAN SMREK",
+            "jAN SMREK",
+            "Jan Smrek",
+            "jÁN SMREK",
+            "ján smrek",
+            "JáN SmReK",
+            "JÁN SMREK",
+            "Ján smrek"
+        ]
+    },
+    {
+        "otazka": "Kto je autor zbierky Ružové spomienky?",
+        "odpovede": [
+            "Ján Smrek",
+            "jan smrek",
+            "Jan smrek",
+            "JaN SmReK",
+            "JAN SMREK",
+            "Jan Smrek",
+            "jAN SMREK",
+            "JÁN SMREK",
+            "jÁN SMREK",
+            "Ján smrek",
+            "ján smrek",
+            "JáN SmReK"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Baladu o poli?",
+        "odpovede": [
+            "Miroslav Válek",
+            "Miroslav Valek",
+            "mIROSLAV VALEK",
+            "Miroslav valek",
+            "MiRoSlAv vAlEk",
+            "miroslav valek",
+            "MIROSLAV VALEK",
+            "mIROSLAV VÁLEK",
+            "MiRoSlAv vÁlEk",
+            "Miroslav válek",
+            "MIROSLAV VÁLEK",
+            "miroslav válek"
+        ]
+    },
+    {
+        "otazka": "Kto napísal Drevenú dedinu?",
+        "odpovede": [
+            "Viliam Pačaj",
+            "Viliam Pacaj",
+            "viliam pacaj",
+            "Viliam pacaj",
+            "vILIAM PACAJ",
+            "ViLiAm pAcAj",
+            "VILIAM PACAJ",
+            "ViLiAm pAčAj",
+            "Viliam pačaj",
+            "VILIAM PAČAJ",
+            "vILIAM PAČAJ",
+            "viliam pačaj"
+        ]
+    }
 ]

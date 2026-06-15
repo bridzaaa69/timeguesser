@@ -1,22 +1,279 @@
 [
-    "Aký je symbol pre vodík?",
-    "Ako sa nazýva stupnica kyslosti?",
-    "Ktorý prvok má značku O?",
-    "Ktorý plyn je potrebný na horenie?",
-    "Ako sa volá proces, keď sa látka mení na plyn?",
-    "Čo je to chemická väzba?",
-    "Ako sa nazýva látka s pH menším ako 7?",
-    "Ktorý prvok je najľahší?",
-    "Ako sa volá zmes, v ktorej sa zložky nerozpustia?",
-    "Čo je katalyzátor?",
-    "Ako sa nazýva vzorec vody?",
-    "Ktorý prvok má značku Na?",
-    "Ako sa volá tabuľka prvkov?",
-    "Čo je ión?",
-    "Ktorý plyn vzniká pri fotosyntéze?",
-    "Ako sa nazýva roztok soli vo vode?",
-    "Čo je oxidácia?",
-    "Ako sa volá spojenie kyseliny a zásady?",
-    "Ktorý kov je tekutý pri izbovej teplote?",
-    "Ako sa nazýva proces vytvárania kryštálov z roztoku?"
+    {
+        "otazka": "Aký je symbol pre vodík?",
+        "odpovede": [
+            "H",
+            "h"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva stupnica kyslosti?",
+        "odpovede": [
+            "pH",
+            "ph",
+            "Ph",
+            "PH"
+        ]
+    },
+    {
+        "otazka": "Ktorý prvok má značku O?",
+        "odpovede": [
+            "Kyslík",
+            "Kyslik",
+            "KySlIk",
+            "kyslik",
+            "kYSLIK",
+            "KYSLIK",
+            "kYSLÍK",
+            "KYSLÍK",
+            "kyslík",
+            "KySlÍk"
+        ]
+    },
+    {
+        "otazka": "Ktorý plyn je potrebný na horenie?",
+        "odpovede": [
+            "Kyslík",
+            "Kyslik",
+            "KySlIk",
+            "kyslik",
+            "kYSLIK",
+            "KYSLIK",
+            "kYSLÍK",
+            "KYSLÍK",
+            "kyslík",
+            "KySlÍk"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá proces, keď sa látka mení na plyn?",
+        "odpovede": [
+            "Vyparovanie",
+            "vyparovanie",
+            "VYPAROVANIE",
+            "vYPAROVANIE",
+            "VyPaRoVaNiE"
+        ]
+    },
+    {
+        "otazka": "Čo je to chemická väzba?",
+        "odpovede": [
+            "Spojenie atómov",
+            "Spojenie atomov",
+            "sPOJENIE ATOMOV",
+            "spojenie atomov",
+            "Spojenie Atomov",
+            "SPOJENIE ATOMOV",
+            "SpOjEnIe aToMoV",
+            "Spojenie Atómov",
+            "SpOjEnIe aTóMoV",
+            "spojenie atómov",
+            "SPOJENIE ATÓMOV",
+            "sPOJENIE ATÓMOV"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva látka s pH menším ako 7?",
+        "odpovede": [
+            "Kyselina",
+            "KySeLiNa",
+            "kYSELINA",
+            "KYSELINA",
+            "kyselina"
+        ]
+    },
+    {
+        "otazka": "Ktorý prvok je najľahší?",
+        "odpovede": [
+            "Vodík",
+            "vodik",
+            "Vodik",
+            "VODIK",
+            "VoDiK",
+            "vODIK",
+            "vodík",
+            "vODÍK",
+            "VoDíK",
+            "VODÍK"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá zmes, v ktorej sa zložky nerozpustia?",
+        "odpovede": [
+            "Suspenzia",
+            "SuSpEnZiA",
+            "SUSPENZIA",
+            "sUSPENZIA",
+            "suspenzia"
+        ]
+    },
+    {
+        "otazka": "Čo je katalyzátor?",
+        "odpovede": [
+            "Látka urýchľujúca reakciu",
+            "LaTkA UrYcHlUjUcA ReAkCiU",
+            "lATKA URYCHLUJUCA REAKCIU",
+            "LATKA URYCHLUJUCA REAKCIU",
+            "Latka urychlujuca reakciu",
+            "Latka Urychlujuca Reakciu",
+            "latka urychlujuca reakciu",
+            "lÁTKA URÝCHĽUJÚCA REAKCIU",
+            "Látka Urýchľujúca Reakciu",
+            "látka urýchľujúca reakciu",
+            "LÁTKA URÝCHĽUJÚCA REAKCIU",
+            "LáTkA UrÝcHľUjÚcA ReAkCiU"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva vzorec vody?",
+        "odpovede": [
+            "H2O",
+            "h2O",
+            "h2o",
+            "H2o"
+        ]
+    },
+    {
+        "otazka": "Ktorý prvok má značku Na?",
+        "odpovede": [
+            "Sodík",
+            "SODIK",
+            "sodik",
+            "sODIK",
+            "SoDiK",
+            "Sodik",
+            "SODÍK",
+            "sODÍK",
+            "sodík",
+            "SoDíK"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá tabuľka prvkov?",
+        "odpovede": [
+            "Periodická tabuľka",
+            "pERIODICKA TABULKA",
+            "Periodicka Tabulka",
+            "periodicka tabulka",
+            "PERIODICKA TABULKA",
+            "PeRiOdIcKa tAbUlKa",
+            "Periodicka tabulka",
+            "pERIODICKÁ TABUĽKA",
+            "PeRiOdIcKá tAbUľKa",
+            "PERIODICKÁ TABUĽKA",
+            "Periodická Tabuľka",
+            "periodická tabuľka"
+        ]
+    },
+    {
+        "otazka": "Čo je ión?",
+        "odpovede": [
+            "Nabitý atóm alebo skupina atómov",
+            "NABITY ATOM ALEBO SKUPINA ATOMOV",
+            "nabity atom alebo skupina atomov",
+            "nABITY ATOM ALEBO SKUPINA ATOMOV",
+            "NaBiTy aToM AlEbO SkUpInA AtOmOv",
+            "Nabity atom alebo skupina atomov",
+            "Nabity Atom Alebo Skupina Atomov",
+            "NABITÝ ATÓM ALEBO SKUPINA ATÓMOV",
+            "nABITÝ ATÓM ALEBO SKUPINA ATÓMOV",
+            "Nabitý Atóm Alebo Skupina Atómov",
+            "NaBiTý aTóM AlEbO SkUpInA AtÓmOv",
+            "nabitý atóm alebo skupina atómov"
+        ]
+    },
+    {
+        "otazka": "Ktorý plyn vzniká pri fotosyntéze?",
+        "odpovede": [
+            "Kyslík",
+            "Kyslik",
+            "KySlIk",
+            "kyslik",
+            "kYSLIK",
+            "KYSLIK",
+            "kYSLÍK",
+            "KYSLÍK",
+            "kyslík",
+            "KySlÍk"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva roztok soli vo vode?",
+        "odpovede": [
+            "Soľný roztok",
+            "solny roztok",
+            "Solny roztok",
+            "SoLnY RoZtOk",
+            "SOLNY ROZTOK",
+            "sOLNY ROZTOK",
+            "Solny Roztok",
+            "sOĽNÝ ROZTOK",
+            "SoĽnÝ RoZtOk",
+            "Soľný Roztok",
+            "SOĽNÝ ROZTOK",
+            "soľný roztok"
+        ]
+    },
+    {
+        "otazka": "Čo je oxidácia?",
+        "odpovede": [
+            "Odovzdanie elektrónov",
+            "Odovzdanie Elektronov",
+            "Odovzdanie elektronov",
+            "odovzdanie elektronov",
+            "OdOvZdAnIe eLeKtRoNoV",
+            "ODOVZDANIE ELEKTRONOV",
+            "oDOVZDANIE ELEKTRONOV",
+            "oDOVZDANIE ELEKTRÓNOV",
+            "Odovzdanie Elektrónov",
+            "ODOVZDANIE ELEKTRÓNOV",
+            "OdOvZdAnIe eLeKtRóNoV",
+            "odovzdanie elektrónov"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá spojenie kyseliny a zásady?",
+        "odpovede": [
+            "Neutralizácia",
+            "neutralizacia",
+            "nEUTRALIZACIA",
+            "NeUtRaLiZaCiA",
+            "Neutralizacia",
+            "NEUTRALIZACIA",
+            "NEUTRALIZÁCIA",
+            "NeUtRaLiZáCiA",
+            "neutralizácia",
+            "nEUTRALIZÁCIA"
+        ]
+    },
+    {
+        "otazka": "Ktorý kov je tekutý pri izbovej teplote?",
+        "odpovede": [
+            "Rtuť",
+            "rtut",
+            "rTUT",
+            "Rtut",
+            "RtUt",
+            "RTUT",
+            "RtUť",
+            "rTUŤ",
+            "RTUŤ",
+            "rtuť"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva proces vytvárania kryštálov z roztoku?",
+        "odpovede": [
+            "Kryštalizácia",
+            "krystalizacia",
+            "KRYSTALIZACIA",
+            "Krystalizacia",
+            "KrYsTaLiZaCiA",
+            "kRYSTALIZACIA",
+            "KrYšTaLiZáCiA",
+            "KRYŠTALIZÁCIA",
+            "kRYŠTALIZÁCIA",
+            "kryštalizácia"
+        ]
+    }
 ]

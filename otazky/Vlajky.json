@@ -1,22 +1,259 @@
 [
-    "Ktorá krajina má na vlajke javorový list?",
-    "Ktorá krajina má na vlajke červený kruh na bielom pozadí?",
-    "Ktorá krajina má na vlajke tri zvislé pruhy modrá, biela a červená?",
-    "Ktorá krajina má na vlajke biely kríž na červenom podklade?",
-    "Ktorá krajina má na vlajke žltý kríž na modrom podklade?",
-    "Ktorá krajina má na vlajke slnko s lúčmi?",
-    "Ktorá krajina má na vlajke hviezdy a pruhy?",
-    "Ktorá krajina má na vlajke zelenú, bielu a červenú s erbom?",
-    "Ktorá krajina má na vlajke modrý šikmý kríž?",
-    "Ktorá krajina má na vlajke biely kríž na červenom podklade?",
-    "Ktorá krajina má na vlajke červené a biele vodorovné pruhy?",
-    "Ktorá krajina má na vlajke žltú hviezdu na červenom poli?",
-    "Ktorá krajina má na vlajke čiernu, červenú a zlatú farbu?",
-    "Ktorá krajina má na vlajke zelený list na bielom poli?",
-    "Ktorá krajina má na vlajke oranžovú, bielu a zelenú?",
-    "Ktorá krajina má na vlajke britský Union Jack v rohu?",
-    "Ktorá krajina má na vlajke modré pole a biely kríž?",
-    "Ktorá krajina má na vlajke červené pole s bielym polmesiacom?",
-    "Ktorá krajina má na vlajke tri horizontálne pruhy červená, biela, zelená?",
-    "Ktorá krajina má na vlajke modré pole s bielymi hviezdami v kruhu?"
+    {
+        "otazka": "Ktorá krajina má na vlajke javorový list?",
+        "odpovede": [
+            "Kanada",
+            "KANADA",
+            "kanada",
+            "KaNaDa",
+            "kANADA"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke červený kruh na bielom pozadí?",
+        "odpovede": [
+            "Japonsko",
+            "JaPoNsKo",
+            "japonsko",
+            "JAPONSKO",
+            "jAPONSKO"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke tri zvislé pruhy modrá, biela a červená?",
+        "odpovede": [
+            "Francúzsko",
+            "Francuzsko",
+            "FrAnCuZsKo",
+            "fRANCUZSKO",
+            "francuzsko",
+            "FRANCUZSKO",
+            "francúzsko",
+            "FrAnCúZsKo",
+            "fRANCÚZSKO",
+            "FRANCÚZSKO"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke biely kríž na červenom podklade?",
+        "odpovede": [
+            "Švajčiarsko",
+            "SVAJCIARSKO",
+            "SvAjCiArSkO",
+            "svajciarsko",
+            "Svajciarsko",
+            "sVAJCIARSKO",
+            "šVAJČIARSKO",
+            "švajčiarsko",
+            "ŠVAJČIARSKO",
+            "ŠvAjČiArSkO"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke žltý kríž na modrom podklade?",
+        "odpovede": [
+            "Švédsko",
+            "SvEdSkO",
+            "SVEDSKO",
+            "sVEDSKO",
+            "svedsko",
+            "Svedsko",
+            "švédsko",
+            "ŠvÉdSkO",
+            "ŠVÉDSKO",
+            "šVÉDSKO"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke slnko s lúčmi?",
+        "odpovede": [
+            "Uruguaj",
+            "uruguaj",
+            "URUGUAJ",
+            "uRUGUAJ",
+            "UrUgUaJ"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke hviezdy a pruhy?",
+        "odpovede": [
+            "USA",
+            "usa",
+            "uSA",
+            "Usa",
+            "UsA"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke zelenú, bielu a červenú s erbom?",
+        "odpovede": [
+            "Slovensko",
+            "SlOvEnSkO",
+            "SLOVENSKO",
+            "sLOVENSKO",
+            "slovensko"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke modrý šikmý kríž?",
+        "odpovede": [
+            "Fínsko",
+            "fINSKO",
+            "finsko",
+            "FINSKO",
+            "Finsko",
+            "FiNsKo",
+            "fÍNSKO",
+            "FíNsKo",
+            "FÍNSKO",
+            "fínsko"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke biely kríž na červenom podklade?",
+        "odpovede": [
+            "Dánsko",
+            "DaNsKo",
+            "Dansko",
+            "dansko",
+            "DANSKO",
+            "dANSKO",
+            "DáNsKo",
+            "DÁNSKO",
+            "dÁNSKO",
+            "dánsko"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke červené a biele vodorovné pruhy?",
+        "odpovede": [
+            "Rakúsko",
+            "RAKUSKO",
+            "rakusko",
+            "Rakusko",
+            "RaKuSkO",
+            "rAKUSKO",
+            "RAKÚSKO",
+            "rAKÚSKO",
+            "RaKúSkO",
+            "rakúsko"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke žltú hviezdu na červenom poli?",
+        "odpovede": [
+            "Vietnam",
+            "vIETNAM",
+            "VIETNAM",
+            "vietnam",
+            "ViEtNaM"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke čiernu, červenú a zlatú farbu?",
+        "odpovede": [
+            "Nemecko",
+            "nEMECKO",
+            "NeMeCkO",
+            "NEMECKO",
+            "nemecko"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke zelený list na bielom poli?",
+        "odpovede": [
+            "Libanon",
+            "LIBANON",
+            "lIBANON",
+            "libanon",
+            "LiBaNoN"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke oranžovú, bielu a zelenú?",
+        "odpovede": [
+            "Írsko",
+            "Irsko",
+            "IrSkO",
+            "iRSKO",
+            "IRSKO",
+            "irsko",
+            "íRSKO",
+            "ÍrSkO",
+            "ÍRSKO",
+            "írsko"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke britský Union Jack v rohu?",
+        "odpovede": [
+            "Austrália",
+            "AUSTRALIA",
+            "Australia",
+            "australia",
+            "aUSTRALIA",
+            "AuStRaLiA",
+            "AUSTRÁLIA",
+            "austrália",
+            "aUSTRÁLIA",
+            "AuStRáLiA"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke modré pole a biely kríž?",
+        "odpovede": [
+            "Grécko",
+            "GRECKO",
+            "gRECKO",
+            "GrEcKo",
+            "grecko",
+            "Grecko",
+            "grécko",
+            "GrÉcKo",
+            "gRÉCKO",
+            "GRÉCKO"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke červené pole s bielym polmesiacom?",
+        "odpovede": [
+            "Turecko",
+            "tURECKO",
+            "TURECKO",
+            "turecko",
+            "TuReCkO"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke tri horizontálne pruhy červená, biela, zelená?",
+        "odpovede": [
+            "Maďarsko",
+            "mADARSKO",
+            "MADARSKO",
+            "madarsko",
+            "Madarsko",
+            "MaDaRsKo",
+            "maďarsko",
+            "MAĎARSKO",
+            "mAĎARSKO",
+            "MaĎaRsKo"
+        ]
+    },
+    {
+        "otazka": "Ktorá krajina má na vlajke modré pole s bielymi hviezdami v kruhu?",
+        "odpovede": [
+            "Európska únia",
+            "EUROPSKA UNIA",
+            "Europska Unia",
+            "europska unia",
+            "eUROPSKA UNIA",
+            "Europska unia",
+            "EuRoPsKa uNiA",
+            "eURÓPSKA ÚNIA",
+            "EuRóPsKa úNiA",
+            "EURÓPSKA ÚNIA",
+            "Európska Únia",
+            "európska únia"
+        ]
+    }
 ]

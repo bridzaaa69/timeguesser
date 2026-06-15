@@ -1,22 +1,284 @@
 [
-    "Čo je bunka?",
-    "Ktorý orgán pumpuje krv?",
-    "Ako sa volá dedičná informácia?",
-    "Ktorý plyn vdychujeme na dýchanie?",
-    "Ako sa nazýva proces, pri ktorom rastliny vyrábajú cukor zo svetla?",
-    "Ktorá organela obsahuje DNA?",
-    "Ktorá sústava zabezpečuje pohyb?",
-    "Ktorý orgán filtruje krv?",
-    "Ktorá krvná zložka prenáša kyslík?",
-    "Ako sa volá zelené farbivo v rastlinách?",
-    "Ktorá sústava riadi telo pomocou mozgu a nervov?",
-    "Ako sa volá štúdium dedičnosti?",
-    "Ktoré zviera dýcha pľúcami aj kožou?",
-    "Ako sa nazýva súbor všetkých génov?",
-    "Ktorá časť rastliny prijíma vodu z pôdy?",
-    "Ako sa volá proces delenia bunky?",
-    "Ktorý orgán umožňuje zrak?",
-    "Ktorá časť listu zabezpečuje výmenu plynov?",
-    "Ako sa nazýva ekosystém s prevahou stromov?",
-    "Čo je to evolúcia?"
+    {
+        "otazka": "Čo je bunka?",
+        "odpovede": [
+            "Základná stavebná jednotka života",
+            "ZAKLADNA STAVEBNA JEDNOTKA ZIVOTA",
+            "Zakladna Stavebna Jednotka Zivota",
+            "ZaKlAdNa sTaVeBnA JeDnOtKa zIvOtA",
+            "Zakladna stavebna jednotka zivota",
+            "zakladna stavebna jednotka zivota",
+            "zAKLADNA STAVEBNA JEDNOTKA ZIVOTA",
+            "základná stavebná jednotka života",
+            "Základná Stavebná Jednotka Života",
+            "ZáKlAdNá sTaVeBnÁ JeDnOtKa žIvOtA",
+            "zÁKLADNÁ STAVEBNÁ JEDNOTKA ŽIVOTA",
+            "ZÁKLADNÁ STAVEBNÁ JEDNOTKA ŽIVOTA"
+        ]
+    },
+    {
+        "otazka": "Ktorý orgán pumpuje krv?",
+        "odpovede": [
+            "Srdce",
+            "SRDCE",
+            "sRDCE",
+            "SrDcE",
+            "srdce"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá dedičná informácia?",
+        "odpovede": [
+            "DNA",
+            "Dna",
+            "dNA",
+            "DnA",
+            "dna"
+        ]
+    },
+    {
+        "otazka": "Ktorý plyn vdychujeme na dýchanie?",
+        "odpovede": [
+            "Kyslík",
+            "Kyslik",
+            "KySlIk",
+            "kyslik",
+            "kYSLIK",
+            "KYSLIK",
+            "kYSLÍK",
+            "KYSLÍK",
+            "kyslík",
+            "KySlÍk"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva proces, pri ktorom rastliny vyrábajú cukor zo svetla?",
+        "odpovede": [
+            "Fotosyntéza",
+            "FOTOSYNTEZA",
+            "fOTOSYNTEZA",
+            "fotosynteza",
+            "FoToSyNtEzA",
+            "Fotosynteza",
+            "FOTOSYNTÉZA",
+            "FoToSyNtÉzA",
+            "fotosyntéza",
+            "fOTOSYNTÉZA"
+        ]
+    },
+    {
+        "otazka": "Ktorá organela obsahuje DNA?",
+        "odpovede": [
+            "Bunkové jadro",
+            "Bunkove Jadro",
+            "BuNkOvE JaDrO",
+            "BUNKOVE JADRO",
+            "bunkove jadro",
+            "Bunkove jadro",
+            "bUNKOVE JADRO",
+            "BUNKOVÉ JADRO",
+            "bunkové jadro",
+            "BuNkOvÉ JaDrO",
+            "bUNKOVÉ JADRO",
+            "Bunkové Jadro"
+        ]
+    },
+    {
+        "otazka": "Ktorá sústava zabezpečuje pohyb?",
+        "odpovede": [
+            "Pohybová sústava",
+            "pohybova sustava",
+            "POHYBOVA SUSTAVA",
+            "pOHYBOVA SUSTAVA",
+            "PoHyBoVa sUsTaVa",
+            "Pohybova sustava",
+            "Pohybova Sustava",
+            "PoHyBoVá sÚsTaVa",
+            "pOHYBOVÁ SÚSTAVA",
+            "POHYBOVÁ SÚSTAVA",
+            "Pohybová Sústava",
+            "pohybová sústava"
+        ]
+    },
+    {
+        "otazka": "Ktorý orgán filtruje krv?",
+        "odpovede": [
+            "Oblička",
+            "Oblicka",
+            "ObLiCkA",
+            "OBLICKA",
+            "oBLICKA",
+            "oblicka",
+            "ObLiČkA",
+            "oblička",
+            "oBLIČKA",
+            "OBLIČKA"
+        ]
+    },
+    {
+        "otazka": "Ktorá krvná zložka prenáša kyslík?",
+        "odpovede": [
+            "Červené krvinky",
+            "Cervene Krvinky",
+            "cervene krvinky",
+            "CeRvEnE KrViNkY",
+            "cERVENE KRVINKY",
+            "CERVENE KRVINKY",
+            "Cervene krvinky",
+            "červené krvinky",
+            "ČERVENÉ KRVINKY",
+            "Červené Krvinky",
+            "ČeRvEnÉ KrViNkY",
+            "čERVENÉ KRVINKY"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá zelené farbivo v rastlinách?",
+        "odpovede": [
+            "Chlorofyl",
+            "ChLoRoFyL",
+            "CHLOROFYL",
+            "chlorofyl",
+            "cHLOROFYL"
+        ]
+    },
+    {
+        "otazka": "Ktorá sústava riadi telo pomocou mozgu a nervov?",
+        "odpovede": [
+            "Nervová sústava",
+            "Nervova sustava",
+            "Nervova Sustava",
+            "NERVOVA SUSTAVA",
+            "nERVOVA SUSTAVA",
+            "NeRvOvA SuStAvA",
+            "nervova sustava",
+            "nERVOVÁ SÚSTAVA",
+            "NERVOVÁ SÚSTAVA",
+            "nervová sústava",
+            "Nervová Sústava",
+            "NeRvOvÁ SúStAvA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá štúdium dedičnosti?",
+        "odpovede": [
+            "Genetika",
+            "GENETIKA",
+            "GeNeTiKa",
+            "gENETIKA",
+            "genetika"
+        ]
+    },
+    {
+        "otazka": "Ktoré zviera dýcha pľúcami aj kožou?",
+        "odpovede": [
+            "Žaba",
+            "zABA",
+            "zaba",
+            "ZaBa",
+            "ZABA",
+            "Zaba",
+            "žaba",
+            "ŽABA",
+            "žABA",
+            "ŽaBa"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva súbor všetkých génov?",
+        "odpovede": [
+            "Genóm",
+            "Genom",
+            "genom",
+            "GENOM",
+            "gENOM",
+            "GeNoM",
+            "genóm",
+            "gENÓM",
+            "GENÓM",
+            "GeNóM"
+        ]
+    },
+    {
+        "otazka": "Ktorá časť rastliny prijíma vodu z pôdy?",
+        "odpovede": [
+            "Koreň",
+            "KoReN",
+            "Koren",
+            "KOREN",
+            "koren",
+            "kOREN",
+            "KoReŇ",
+            "koreň",
+            "KOREŇ",
+            "kOREŇ"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá proces delenia bunky?",
+        "odpovede": [
+            "Mitóza",
+            "MiToZa",
+            "Mitoza",
+            "MITOZA",
+            "mITOZA",
+            "mitoza",
+            "MITÓZA",
+            "mitóza",
+            "MiTóZa",
+            "mITÓZA"
+        ]
+    },
+    {
+        "otazka": "Ktorý orgán umožňuje zrak?",
+        "odpovede": [
+            "Oko",
+            "oKO",
+            "OKO",
+            "oko",
+            "OkO"
+        ]
+    },
+    {
+        "otazka": "Ktorá časť listu zabezpečuje výmenu plynov?",
+        "odpovede": [
+            "Štomata",
+            "STOMATA",
+            "StOmAtA",
+            "sTOMATA",
+            "Stomata",
+            "stomata",
+            "ŠTOMATA",
+            "šTOMATA",
+            "ŠtOmAtA",
+            "štomata"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva ekosystém s prevahou stromov?",
+        "odpovede": [
+            "Les",
+            "LES",
+            "lES",
+            "LeS",
+            "les"
+        ]
+    },
+    {
+        "otazka": "Čo je to evolúcia?",
+        "odpovede": [
+            "Vývoj druhov v čase",
+            "VYVOJ DRUHOV V CASE",
+            "vyvoj druhov v case",
+            "Vyvoj Druhov V Case",
+            "vYVOJ DRUHOV V CASE",
+            "Vyvoj druhov v case",
+            "VyVoJ DrUhOv v cAsE",
+            "VÝVOJ DRUHOV V ČASE",
+            "Vývoj Druhov V Čase",
+            "vÝVOJ DRUHOV V ČASE",
+            "vývoj druhov v čase",
+            "VýVoJ DrUhOv v čAsE"
+        ]
+    }
 ]

@@ -1,22 +1,292 @@
 [
-    "Čo je algoritmus?",
-    "Čo znamená CPU?",
-    "Čo je RAM?",
-    "Ako sa volá pamäť, ktorá sa po vypnutí vymaže?",
-    "Čo je operačný systém?",
-    "Ako sa nazýva sieť spájajúca zariadenia na veľkú vzdialenosť?",
-    "Ktorý jazyk sa používa na webové stránky spolu s HTML a CSS?",
-    "Čo je databáza?",
-    "Ako sa nazýva proces hľadania chýb v programe?",
-    "Čo je kódovanie?",
-    "Ako sa volá verzovací systém?",
-    "Čo je cloud?",
-    "Ktoré zariadenie slúži na vstup textu?",
-    "Ktoré zariadenie zobrazuje výstup?",
-    "Čo je umelá inteligencia?",
-    "Ako sa volá tabuľkový procesor?",
-    "Čo znamená skratka URL?",
-    "Ako sa nazýva kompresia dát?",
-    "Čo je phishing?",
-    "Ktorá súčasť počítača vykonáva grafiku?"
+    {
+        "otazka": "Čo je algoritmus?",
+        "odpovede": [
+            "Postup riešenia úlohy",
+            "Postup riesenia ulohy",
+            "postup riesenia ulohy",
+            "pOSTUP RIESENIA ULOHY",
+            "PoStUp rIeSeNiA UlOhY",
+            "Postup Riesenia Ulohy",
+            "POSTUP RIESENIA ULOHY",
+            "PoStUp rIeŠeNiA ÚlOhY",
+            "POSTUP RIEŠENIA ÚLOHY",
+            "pOSTUP RIEŠENIA ÚLOHY",
+            "postup riešenia úlohy",
+            "Postup Riešenia Úlohy"
+        ]
+    },
+    {
+        "otazka": "Čo znamená CPU?",
+        "odpovede": [
+            "Centrálna procesorová jednotka",
+            "Centralna procesorova jednotka",
+            "Centralna Procesorova Jednotka",
+            "CENTRALNA PROCESOROVA JEDNOTKA",
+            "CeNtRaLnA PrOcEsOrOvA JeDnOtKa",
+            "centralna procesorova jednotka",
+            "cENTRALNA PROCESOROVA JEDNOTKA",
+            "centrálna procesorová jednotka",
+            "Centrálna Procesorová Jednotka",
+            "CENTRÁLNA PROCESOROVÁ JEDNOTKA",
+            "CeNtRáLnA PrOcEsOrOvÁ JeDnOtKa",
+            "cENTRÁLNA PROCESOROVÁ JEDNOTKA"
+        ]
+    },
+    {
+        "otazka": "Čo je RAM?",
+        "odpovede": [
+            "Operačná pamäť",
+            "OPERACNA PAMAT",
+            "oPERACNA PAMAT",
+            "operacna pamat",
+            "OpErAcNa pAmAt",
+            "Operacna pamat",
+            "Operacna Pamat",
+            "Operačná Pamäť",
+            "OPERAČNÁ PAMÄŤ",
+            "oPERAČNÁ PAMÄŤ",
+            "OpErAčNá pAmÄť",
+            "operačná pamäť"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá pamäť, ktorá sa po vypnutí vymaže?",
+        "odpovede": [
+            "RAM",
+            "rAM",
+            "ram",
+            "Ram",
+            "RaM"
+        ]
+    },
+    {
+        "otazka": "Čo je operačný systém?",
+        "odpovede": [
+            "Softvér riadiaci počítač",
+            "Softver Riadiaci Pocitac",
+            "Softver riadiaci pocitac",
+            "sOFTVER RIADIACI POCITAC",
+            "SOFTVER RIADIACI POCITAC",
+            "SoFtVeR RiAdIaCi pOcItAc",
+            "softver riadiaci pocitac",
+            "SoFtVéR RiAdIaCi pOčÍtAč",
+            "sOFTVÉR RIADIACI POČÍTAČ",
+            "SOFTVÉR RIADIACI POČÍTAČ",
+            "softvér riadiaci počítač",
+            "Softvér Riadiaci Počítač"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva sieť spájajúca zariadenia na veľkú vzdialenosť?",
+        "odpovede": [
+            "WAN",
+            "wan",
+            "WaN",
+            "wAN",
+            "Wan"
+        ]
+    },
+    {
+        "otazka": "Ktorý jazyk sa používa na webové stránky spolu s HTML a CSS?",
+        "odpovede": [
+            "JavaScript",
+            "jAVASCRIPT",
+            "JAVASCRIPT",
+            "javascript",
+            "JaVaScRiPt",
+            "Javascript"
+        ]
+    },
+    {
+        "otazka": "Čo je databáza?",
+        "odpovede": [
+            "Organizované úložisko dát",
+            "ORGANIZOVANE ULOZISKO DAT",
+            "OrGaNiZoVaNe uLoZiSkO DaT",
+            "Organizovane Ulozisko Dat",
+            "oRGANIZOVANE ULOZISKO DAT",
+            "Organizovane ulozisko dat",
+            "organizovane ulozisko dat",
+            "organizované úložisko dát",
+            "oRGANIZOVANÉ ÚLOŽISKO DÁT",
+            "OrGaNiZoVaNé úLoŽiSkO DáT",
+            "ORGANIZOVANÉ ÚLOŽISKO DÁT",
+            "Organizované Úložisko Dát"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva proces hľadania chýb v programe?",
+        "odpovede": [
+            "Debugovanie",
+            "DeBuGoVaNiE",
+            "debugovanie",
+            "dEBUGOVANIE",
+            "DEBUGOVANIE"
+        ]
+    },
+    {
+        "otazka": "Čo je kódovanie?",
+        "odpovede": [
+            "Zápis inštrukcií pre počítač",
+            "Zapis Instrukcii Pre Pocitac",
+            "Zapis instrukcii pre pocitac",
+            "zapis instrukcii pre pocitac",
+            "zAPIS INSTRUKCII PRE POCITAC",
+            "ZAPIS INSTRUKCII PRE POCITAC",
+            "ZaPiS InStRuKcIi pRe pOcItAc",
+            "ZáPiS InŠtRuKcIí pRe pOčÍtAč",
+            "ZÁPIS INŠTRUKCIÍ PRE POČÍTAČ",
+            "Zápis Inštrukcií Pre Počítač",
+            "zÁPIS INŠTRUKCIÍ PRE POČÍTAČ",
+            "zápis inštrukcií pre počítač"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá verzovací systém?",
+        "odpovede": [
+            "Git",
+            "GIT",
+            "GiT",
+            "gIT",
+            "git"
+        ]
+    },
+    {
+        "otazka": "Čo je cloud?",
+        "odpovede": [
+            "Vzdialené úložisko a služby cez internet",
+            "vzdialene ulozisko a sluzby cez internet",
+            "VzDiAlEnE UlOzIsKo a sLuZbY CeZ InTeRnEt",
+            "Vzdialene ulozisko a sluzby cez internet",
+            "VZDIALENE ULOZISKO A SLUZBY CEZ INTERNET",
+            "Vzdialene Ulozisko A Sluzby Cez Internet",
+            "vZDIALENE ULOZISKO A SLUZBY CEZ INTERNET",
+            "VzDiAlEnÉ ÚlOžIsKo a sLuŽbY CeZ InTeRnEt",
+            "Vzdialené Úložisko A Služby Cez Internet",
+            "vzdialené úložisko a služby cez internet",
+            "VZDIALENÉ ÚLOŽISKO A SLUŽBY CEZ INTERNET",
+            "vZDIALENÉ ÚLOŽISKO A SLUŽBY CEZ INTERNET"
+        ]
+    },
+    {
+        "otazka": "Ktoré zariadenie slúži na vstup textu?",
+        "odpovede": [
+            "Klávesnica",
+            "KLAVESNICA",
+            "klavesnica",
+            "kLAVESNICA",
+            "Klavesnica",
+            "KlAvEsNiCa",
+            "KLÁVESNICA",
+            "kLÁVESNICA",
+            "KlÁvEsNiCa",
+            "klávesnica"
+        ]
+    },
+    {
+        "otazka": "Ktoré zariadenie zobrazuje výstup?",
+        "odpovede": [
+            "Monitor",
+            "MoNiToR",
+            "mONITOR",
+            "MONITOR",
+            "monitor"
+        ]
+    },
+    {
+        "otazka": "Čo je umelá inteligencia?",
+        "odpovede": [
+            "Simulácia ľudského uvažovania",
+            "SiMuLaCiA LuDsKeHo uVaZoVaNiA",
+            "simulacia ludskeho uvazovania",
+            "sIMULACIA LUDSKEHO UVAZOVANIA",
+            "Simulacia Ludskeho Uvazovania",
+            "Simulacia ludskeho uvazovania",
+            "SIMULACIA LUDSKEHO UVAZOVANIA",
+            "simulácia ľudského uvažovania",
+            "Simulácia Ľudského Uvažovania",
+            "SiMuLáCiA ĽuDsKéHo uVaŽoVaNiA",
+            "SIMULÁCIA ĽUDSKÉHO UVAŽOVANIA",
+            "sIMULÁCIA ĽUDSKÉHO UVAŽOVANIA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá tabuľkový procesor?",
+        "odpovede": [
+            "Excel",
+            "eXCEL",
+            "EXCEL",
+            "excel",
+            "ExCeL"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka URL?",
+        "odpovede": [
+            "Adresa webovej stránky",
+            "Adresa webovej stranky",
+            "adresa webovej stranky",
+            "aDRESA WEBOVEJ STRANKY",
+            "AdReSa wEbOvEj sTrAnKy",
+            "ADRESA WEBOVEJ STRANKY",
+            "Adresa Webovej Stranky",
+            "ADRESA WEBOVEJ STRÁNKY",
+            "Adresa Webovej Stránky",
+            "aDRESA WEBOVEJ STRÁNKY",
+            "adresa webovej stránky",
+            "AdReSa wEbOvEj sTrÁnKy"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva kompresia dát?",
+        "odpovede": [
+            "Zmenšenie veľkosti súboru",
+            "ZMENSENIE VELKOSTI SUBORU",
+            "zmensenie velkosti suboru",
+            "ZmEnSeNiE VeLkOsTi sUbOrU",
+            "Zmensenie velkosti suboru",
+            "zMENSENIE VELKOSTI SUBORU",
+            "Zmensenie Velkosti Suboru",
+            "ZMENŠENIE VEĽKOSTI SÚBORU",
+            "zmenšenie veľkosti súboru",
+            "ZmEnŠeNiE VeĽkOsTi sÚbOrU",
+            "Zmenšenie Veľkosti Súboru",
+            "zMENŠENIE VEĽKOSTI SÚBORU"
+        ]
+    },
+    {
+        "otazka": "Čo je phishing?",
+        "odpovede": [
+            "Podvodné získavanie údajov",
+            "pODVODNE ZISKAVANIE UDAJOV",
+            "podvodne ziskavanie udajov",
+            "PoDvOdNe zIsKaVaNiE UdAjOv",
+            "PODVODNE ZISKAVANIE UDAJOV",
+            "Podvodne Ziskavanie Udajov",
+            "Podvodne ziskavanie udajov",
+            "PoDvOdNé zÍsKaVaNiE ÚdAjOv",
+            "PODVODNÉ ZÍSKAVANIE ÚDAJOV",
+            "podvodné získavanie údajov",
+            "pODVODNÉ ZÍSKAVANIE ÚDAJOV",
+            "Podvodné Získavanie Údajov"
+        ]
+    },
+    {
+        "otazka": "Ktorá súčasť počítača vykonáva grafiku?",
+        "odpovede": [
+            "Grafická karta",
+            "GrAfIcKa kArTa",
+            "GRAFICKA KARTA",
+            "graficka karta",
+            "Graficka karta",
+            "Graficka Karta",
+            "gRAFICKA KARTA",
+            "gRAFICKÁ KARTA",
+            "GrAfIcKá kArTa",
+            "Grafická Karta",
+            "grafická karta",
+            "GRAFICKÁ KARTA"
+        ]
+    }
 ]

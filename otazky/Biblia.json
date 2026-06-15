@@ -1,22 +1,269 @@
 [
-    "Ktorá je prvá kniha Biblie?",
-    "Kto postavil archu?",
-    "Ako sa volal prvý človek?",
-    "Kto viedol Izraelitov z Egypta?",
-    "Kto porazil Goliáša?",
-    "Ako sa volal Ježišov adoptívny otec?",
-    "V ktorom meste sa narodil Ježiš?",
-    "Kto pochyboval o vzkriesení?",
-    "Ako sa volal učeník, ktorý zradil Ježiša?",
-    "Ako sa nazýva posledná kniha Biblie?",
-    "Kto napísal mnohé žalmy?",
-    "Čo znamená Nový zákon?",
-    "Ktorý apoštol bol rybár?",
-    "Ktoré zviera prehovorilo k Eve?",
-    "Ako sa volala matka Ježiša?",
-    "Kto bol premenený na soľný stĺp?",
-    "Ako sa volá miesto, kde Ježiš kázal blahoslavenstvá?",
-    "Ktorý kráľ bol známy múdrosťou?",
-    "Kto bol vrhnutý do jamy levov?",
-    "Ktorý zázrak urobil Ježiš na svadbe v Káne?"
+    {
+        "otazka": "Ktorá je prvá kniha Biblie?",
+        "odpovede": [
+            "Genesis",
+            "GeNeSiS",
+            "gENESIS",
+            "genesis",
+            "GENESIS"
+        ]
+    },
+    {
+        "otazka": "Kto postavil archu?",
+        "odpovede": [
+            "Noe",
+            "nOE",
+            "NOE",
+            "noe",
+            "NoE"
+        ]
+    },
+    {
+        "otazka": "Ako sa volal prvý človek?",
+        "odpovede": [
+            "Adam",
+            "adam",
+            "AdAm",
+            "ADAM",
+            "aDAM"
+        ]
+    },
+    {
+        "otazka": "Kto viedol Izraelitov z Egypta?",
+        "odpovede": [
+            "Mojžiš",
+            "mOJZIS",
+            "MoJzIs",
+            "mojzis",
+            "MOJZIS",
+            "Mojzis",
+            "MoJžIš",
+            "mojžiš",
+            "MOJŽIŠ",
+            "mOJŽIŠ"
+        ]
+    },
+    {
+        "otazka": "Kto porazil Goliáša?",
+        "odpovede": [
+            "Dávid",
+            "DaViD",
+            "David",
+            "DAVID",
+            "dAVID",
+            "david",
+            "dÁVID",
+            "DáViD",
+            "dávid",
+            "DÁVID"
+        ]
+    },
+    {
+        "otazka": "Ako sa volal Ježišov adoptívny otec?",
+        "odpovede": [
+            "Jozef",
+            "jozef",
+            "JoZeF",
+            "JOZEF",
+            "jOZEF"
+        ]
+    },
+    {
+        "otazka": "V ktorom meste sa narodil Ježiš?",
+        "odpovede": [
+            "Betlehem",
+            "BeTlEhEm",
+            "BETLEHEM",
+            "bETLEHEM",
+            "betlehem"
+        ]
+    },
+    {
+        "otazka": "Kto pochyboval o vzkriesení?",
+        "odpovede": [
+            "Tomáš",
+            "ToMaS",
+            "Tomas",
+            "TOMAS",
+            "tOMAS",
+            "tomas",
+            "ToMáŠ",
+            "tomáš",
+            "TOMÁŠ",
+            "tOMÁŠ"
+        ]
+    },
+    {
+        "otazka": "Ako sa volal učeník, ktorý zradil Ježiša?",
+        "odpovede": [
+            "Judáš Iscariotský",
+            "Judas iscariotsky",
+            "JuDaS IsCaRiOtSkY",
+            "Judas Iscariotsky",
+            "jUDAS ISCARIOTSKY",
+            "JUDAS ISCARIOTSKY",
+            "judas iscariotsky",
+            "JuDáŠ IsCaRiOtSkÝ",
+            "Judáš iscariotský",
+            "jUDÁŠ ISCARIOTSKÝ",
+            "JUDÁŠ ISCARIOTSKÝ",
+            "judáš iscariotský"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva posledná kniha Biblie?",
+        "odpovede": [
+            "Zjavenie",
+            "ZjAvEnIe",
+            "ZJAVENIE",
+            "zjavenie",
+            "zJAVENIE"
+        ]
+    },
+    {
+        "otazka": "Kto napísal mnohé žalmy?",
+        "odpovede": [
+            "Dávid",
+            "DaViD",
+            "David",
+            "DAVID",
+            "dAVID",
+            "david",
+            "dÁVID",
+            "DáViD",
+            "dávid",
+            "DÁVID"
+        ]
+    },
+    {
+        "otazka": "Čo znamená Nový zákon?",
+        "odpovede": [
+            "Druhá časť Biblie o Ježišovi a cirkvi",
+            "Druha Cast Biblie O Jezisovi A Cirkvi",
+            "Druha cast biblie o jezisovi a cirkvi",
+            "dRUHA CAST BIBLIE O JEZISOVI A CIRKVI",
+            "Druha cast Biblie o Jezisovi a cirkvi",
+            "DRUHA CAST BIBLIE O JEZISOVI A CIRKVI",
+            "DrUhA CaSt bIbLiE O JeZiSoVi a cIrKvI",
+            "druha cast biblie o jezisovi a cirkvi",
+            "dRUHÁ ČASŤ BIBLIE O JEŽIŠOVI A CIRKVI",
+            "DRUHÁ ČASŤ BIBLIE O JEŽIŠOVI A CIRKVI",
+            "Druhá Časť Biblie O Ježišovi A Cirkvi",
+            "druhá časť biblie o ježišovi a cirkvi",
+            "Druhá časť biblie o ježišovi a cirkvi",
+            "DrUhÁ ČaSť bIbLiE O JeŽiŠoVi a cIrKvI"
+        ]
+    },
+    {
+        "otazka": "Ktorý apoštol bol rybár?",
+        "odpovede": [
+            "Peter",
+            "PETER",
+            "peter",
+            "pETER",
+            "PeTeR"
+        ]
+    },
+    {
+        "otazka": "Ktoré zviera prehovorilo k Eve?",
+        "odpovede": [
+            "Had",
+            "HaD",
+            "had",
+            "HAD",
+            "hAD"
+        ]
+    },
+    {
+        "otazka": "Ako sa volala matka Ježiša?",
+        "odpovede": [
+            "Mária",
+            "mARIA",
+            "MaRiA",
+            "MARIA",
+            "Maria",
+            "maria",
+            "mária",
+            "MáRiA",
+            "mÁRIA",
+            "MÁRIA"
+        ]
+    },
+    {
+        "otazka": "Kto bol premenený na soľný stĺp?",
+        "odpovede": [
+            "Lotova manželka",
+            "LoToVa mAnZeLkA",
+            "Lotova manzelka",
+            "lOTOVA MANZELKA",
+            "lotova manzelka",
+            "LOTOVA MANZELKA",
+            "Lotova Manzelka",
+            "lotova manželka",
+            "LoToVa mAnŽeLkA",
+            "lOTOVA MANŽELKA",
+            "Lotova Manželka",
+            "LOTOVA MANŽELKA"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá miesto, kde Ježiš kázal blahoslavenstvá?",
+        "odpovede": [
+            "Hora blahorečení",
+            "Hora Blahoreceni",
+            "hORA BLAHORECENI",
+            "HoRa bLaHoReCeNi",
+            "Hora blahoreceni",
+            "HORA BLAHORECENI",
+            "hora blahoreceni",
+            "HORA BLAHOREČENÍ",
+            "hORA BLAHOREČENÍ",
+            "HoRa bLaHoReČeNí",
+            "hora blahorečení",
+            "Hora Blahorečení"
+        ]
+    },
+    {
+        "otazka": "Ktorý kráľ bol známy múdrosťou?",
+        "odpovede": [
+            "Šalamún",
+            "SALAMUN",
+            "Salamun",
+            "sALAMUN",
+            "salamun",
+            "SaLaMuN",
+            "šalamún",
+            "šALAMÚN",
+            "ŠALAMÚN",
+            "ŠaLaMúN"
+        ]
+    },
+    {
+        "otazka": "Kto bol vrhnutý do jamy levov?",
+        "odpovede": [
+            "Daniel",
+            "DaNiEl",
+            "DANIEL",
+            "daniel",
+            "dANIEL"
+        ]
+    },
+    {
+        "otazka": "Ktorý zázrak urobil Ježiš na svadbe v Káne?",
+        "odpovede": [
+            "Premenil vodu na víno",
+            "PrEmEnIl vOdU Na vInO",
+            "Premenil Vodu Na Vino",
+            "Premenil vodu na vino",
+            "PREMENIL VODU NA VINO",
+            "pREMENIL VODU NA VINO",
+            "premenil vodu na vino",
+            "Premenil Vodu Na Víno",
+            "pREMENIL VODU NA VÍNO",
+            "premenil vodu na víno",
+            "PREMENIL VODU NA VÍNO",
+            "PrEmEnIl vOdU Na vÍnO"
+        ]
+    }
 ]
