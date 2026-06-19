@@ -1,0 +1,858 @@
+[
+    {
+        "otazka": "Synonymum k slovu „veľký“?",
+        "odpovede": [
+            "OBROVSKÝ",
+            "Obrovský",
+            "obrovský"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „malý“?",
+        "odpovede": [
+            "DROBNÝ",
+            "Drobný",
+            "drobný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „rýchly“?",
+        "odpovede": [
+            "SVIŽNÝ",
+            "Svižný",
+            "svižný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „pomalý“?",
+        "odpovede": [
+            "LÍNÝ",
+            "Líný",
+            "líný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „krajší“?",
+        "odpovede": [
+            "PEKNÝ",
+            "Pekný",
+            "pekný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „silný“?",
+        "odpovede": [
+            "MOCNÝ",
+            "Mocný",
+            "mocný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „slabý“?",
+        "odpovede": [
+            "CHATRNÝ",
+            "Chatrný",
+            "chatrný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „tichý“?",
+        "odpovede": [
+            "POKOJNÝ",
+            "Pokojný",
+            "pokojný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „hlasný“?",
+        "odpovede": [
+            "HLUČNÝ",
+            "Hlučný",
+            "hlučný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „teplý“?",
+        "odpovede": [
+            "HORÚCI",
+            "Horúci",
+            "horúci"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „studený“?",
+        "odpovede": [
+            "MRAZIVÝ",
+            "Mrazivý",
+            "mrazivý"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „nový“?",
+        "odpovede": [
+            "ČERSTVÝ",
+            "Čerstvý",
+            "čerstvý"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „starý“?",
+        "odpovede": [
+            "STAROBYLÝ",
+            "Starobylý",
+            "starobylý"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „ľahký“?",
+        "odpovede": [
+            "JEDNODUCHÝ",
+            "Jednoduchý",
+            "jednoduchý"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „ťažký“?",
+        "odpovede": [
+            "NAMÁHAVÝ",
+            "Namáhavý",
+            "namáhavý"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „smutný“?",
+        "odpovede": [
+            "ZARMÚTENÝ",
+            "Zarmútený",
+            "zarmútený"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „veselý“?",
+        "odpovede": [
+            "RADOSTNÝ",
+            "Radostný",
+            "radostný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „bohatý“?",
+        "odpovede": [
+            "ZÁMOŽNÝ",
+            "Zámožný",
+            "zámožný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „chudobný“?",
+        "odpovede": [
+            "NEMAJETNÝ",
+            "Nemajetný",
+            "nemajetný"
+        ]
+    },
+    {
+        "otazka": "Synonymum k slovu „čistý“?",
+        "odpovede": [
+            "ČISTUČKÝ",
+            "Čistučký",
+            "čistučký"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „pes“ po anglicky?",
+        "odpovede": [
+            "DOG",
+            "Dog",
+            "dog"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „mačka“ po anglicky?",
+        "odpovede": [
+            "CAT",
+            "Cat",
+            "cat"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „dom“ po anglicky?",
+        "odpovede": [
+            "HOUSE",
+            "House",
+            "house"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „auto“ po anglicky?",
+        "odpovede": [
+            "CAR",
+            "Car",
+            "car"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „voda“ po anglicky?",
+        "odpovede": [
+            "WATER",
+            "Water",
+            "water"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „škola“ po anglicky?",
+        "odpovede": [
+            "SCHOOL",
+            "School",
+            "school"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „kniha“ po anglicky?",
+        "odpovede": [
+            "BOOK",
+            "Book",
+            "book"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „stôl“ po anglicky?",
+        "odpovede": [
+            "TABLE",
+            "Table",
+            "table"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „stolička“ po anglicky?",
+        "odpovede": [
+            "CHAIR",
+            "Chair",
+            "chair"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „matka“ po anglicky?",
+        "odpovede": [
+            "MOTHER",
+            "Mother",
+            "mother"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „otec“ po anglicky?",
+        "odpovede": [
+            "FATHER",
+            "Father",
+            "father"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „brat“ po anglicky?",
+        "odpovede": [
+            "BROTHER",
+            "Brother",
+            "brother"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „sestra“ po anglicky?",
+        "odpovede": [
+            "SISTER",
+            "Sister",
+            "sister"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „modrá“ po anglicky?",
+        "odpovede": [
+            "BLUE",
+            "Blue",
+            "blue"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „červená“ po anglicky?",
+        "odpovede": [
+            "RED",
+            "Red",
+            "red"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „zelená“ po anglicky?",
+        "odpovede": [
+            "GREEN",
+            "Green",
+            "green"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „žltá“ po anglicky?",
+        "odpovede": [
+            "YELLOW",
+            "Yellow",
+            "yellow"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „čierna“ po anglicky?",
+        "odpovede": [
+            "BLACK",
+            "Black",
+            "black"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „biela“ po anglicky?",
+        "odpovede": [
+            "WHITE",
+            "White",
+            "white"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „jeden“ po anglicky?",
+        "odpovede": [
+            "ONE",
+            "One",
+            "one"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „dva“ po anglicky?",
+        "odpovede": [
+            "TWO",
+            "Two",
+            "two"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „tri“ po anglicky?",
+        "odpovede": [
+            "THREE",
+            "Three",
+            "three"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „štyri“ po anglicky?",
+        "odpovede": [
+            "FOUR",
+            "Four",
+            "four"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „päť“ po anglicky?",
+        "odpovede": [
+            "FIVE",
+            "Five",
+            "five"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „ďakujem“ po anglicky?",
+        "odpovede": [
+            "THANK YOU",
+            "Thank you",
+            "thank you"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „prosím“ po anglicky?",
+        "odpovede": [
+            "PLEASE",
+            "Please",
+            "please"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „ahoj“ po anglicky?",
+        "odpovede": [
+            "HELLO",
+            "Hello",
+            "hello"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „dovidenia“ po anglicky?",
+        "odpovede": [
+            "GOODBYE",
+            "Goodbye",
+            "goodbye"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „áno“ po anglicky?",
+        "odpovede": [
+            "YES",
+            "Yes",
+            "yes"
+        ]
+    },
+    {
+        "otazka": "Ako sa povie „nie“ po anglicky?",
+        "odpovede": [
+            "NO",
+            "No",
+            "no"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „carpe diem“?",
+        "odpovede": [
+            "CHYTAJ DEŇ",
+            "Chytaj deň",
+            "chytaj deň"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „status quo“?",
+        "odpovede": [
+            "SÚČASNÝ STAV",
+            "Súčasný stav",
+            "súčasný stav"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „ad hoc“?",
+        "odpovede": [
+            "PRE TENTO ÚČEL",
+            "Pre tento účel",
+            "pre tento účel"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „per se“?",
+        "odpovede": [
+            "SAM O SEBE",
+            "Sam o sebe",
+            "sam o sebe"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „vice versa“?",
+        "odpovede": [
+            "NAOPAK",
+            "Naopak",
+            "naopak"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „modus operandi“?",
+        "odpovede": [
+            "SPÔSOB KONANIA",
+            "Spôsob konania",
+            "spôsob konania"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „de facto“?",
+        "odpovede": [
+            "V SKUTOČNOSTI",
+            "V skutočnosti",
+            "v skutočnosti"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „de jure“?",
+        "odpovede": [
+            "PODĽA ZÁKONA",
+            "Podľa zákona",
+            "podľa zákona"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „persona non grata“?",
+        "odpovede": [
+            "NEŽIADUCA OSOBA",
+            "Nežiaduca osoba",
+            "nežiaduca osoba"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „in memoriam“?",
+        "odpovede": [
+            "NA PAMIATKU",
+            "Na pamiatku",
+            "na pamiatku"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „in situ“?",
+        "odpovede": [
+            "NA MIESTE",
+            "Na mieste",
+            "na mieste"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „in vitro“?",
+        "odpovede": [
+            "V SKLE",
+            "V skle",
+            "v skle"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „in vivo“?",
+        "odpovede": [
+            "V ŽIVOM TELE",
+            "V živom tele",
+            "v živom tele"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „pro bono“?",
+        "odpovede": [
+            "ZADARMO",
+            "Zadarmo",
+            "zadarmo"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „quid pro quo“?",
+        "odpovede": [
+            "NIEČO ZA NIEČO",
+            "Niečo za niečo",
+            "niečo za niečo"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „tabula rasa“?",
+        "odpovede": [
+            "ČISTÁ TABUĽA",
+            "Čistá tabuľa",
+            "čistá tabuľa"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „vox populi“?",
+        "odpovede": [
+            "HLAS ĽUDU",
+            "Hlas ľudu",
+            "hlas ľudu"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „alma mater“?",
+        "odpovede": [
+            "RODNÁ ŠKOLA",
+            "Rodná škola",
+            "rodná škola"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „bona fide“?",
+        "odpovede": [
+            "V DOBREJ VIERE",
+            "V dobrej viere",
+            "v dobrej viere"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „mala fide“?",
+        "odpovede": [
+            "V ZLEJ VIERE",
+            "V zlej viere",
+            "v zlej viere"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „post mortem“?",
+        "odpovede": [
+            "PO SMRTI",
+            "Po smrti",
+            "po smrti"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „ante meridiem“?",
+        "odpovede": [
+            "PREDPOLUDNIE",
+            "Predpoludnie",
+            "predpoludnie"
+        ]
+    },
+    {
+        "otazka": "Čo znamená latinské „post meridiem“?",
+        "odpovede": [
+            "POPOLUDNIE",
+            "Popoludnie",
+            "popoludnie"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „etc.“?",
+        "odpovede": [
+            "A TAK ĎALEJ",
+            "A tak ďalej",
+            "a tak ďalej"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „napr.“?",
+        "odpovede": [
+            "NAPRÍKLAD",
+            "Napríklad",
+            "napríklad"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „tzv.“?",
+        "odpovede": [
+            "TAKZVANÝ",
+            "Takzvaný",
+            "takzvaný"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „resp.“?",
+        "odpovede": [
+            "RESPEKTÍVE",
+            "Respektíve",
+            "respektíve"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „tzn.“?",
+        "odpovede": [
+            "TO ZNAMENÁ",
+            "To znamená",
+            "to znamená"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „max.“?",
+        "odpovede": [
+            "MAXIMÁLNE",
+            "Maximálne",
+            "maximálne"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „min.“?",
+        "odpovede": [
+            "MINIMÁLNE",
+            "Minimálne",
+            "minimálne"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „cca“?",
+        "odpovede": [
+            "PRIBLIŽNE",
+            "Približne",
+            "približne"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „vs.“?",
+        "odpovede": [
+            "PROTI",
+            "Proti",
+            "proti"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „R.I.P.“?",
+        "odpovede": [
+            "POČÍVAJ V POKOJI",
+            "Počívaj v pokoji",
+            "počívaj v pokoji"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „VIP“?",
+        "odpovede": [
+            "VEĽMI DÔLEŽITÁ OSOBA",
+            "Veľmi dôležitá osoba",
+            "veľmi dôležitá osoba"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „FAQ“?",
+        "odpovede": [
+            "ČASTO KLADENÉ OTÁZKY",
+            "Často kladené otázky",
+            "často kladené otázky"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „DIY“?",
+        "odpovede": [
+            "UROB SI SÁM",
+            "Urob si sám",
+            "urob si sám"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „ASAP“?",
+        "odpovede": [
+            "ČO NAJSKÔR",
+            "Čo najskôr",
+            "čo najskôr"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „FYI“?",
+        "odpovede": [
+            "PRE TVOJU INFORMÁCIU",
+            "Pre tvoju informáciu",
+            "pre tvoju informáciu"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „BTW“?",
+        "odpovede": [
+            "MIMOCHODOM",
+            "Mimochodom",
+            "mimochodom"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „OMG“?",
+        "odpovede": [
+            "BOŽE MÔJ",
+            "Bože môj",
+            "bože môj"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „LOL“?",
+        "odpovede": [
+            "SMIECH",
+            "Smiech",
+            "smiech"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „BRB“?",
+        "odpovede": [
+            "HNEĎ SOM SPÄŤ",
+            "Hneď som späť",
+            "hneď som späť"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „IDK“?",
+        "odpovede": [
+            "NEVIEM",
+            "Neviem",
+            "neviem"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „TBH“?",
+        "odpovede": [
+            "ÚPRIMNE",
+            "Úprimne",
+            "úprimne"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „N/A“?",
+        "odpovede": [
+            "NEUPLATŇUJE SA",
+            "Neuplatňuje sa",
+            "neuplatňuje sa"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „ETA“?",
+        "odpovede": [
+            "PREDPOKLADANÝ ČAS PRÍCHODU",
+            "Predpokladaný čas príchodu",
+            "predpokladaný čas príchodu"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „RSVP“?",
+        "odpovede": [
+            "PROSÍM ODPOVEDZTE",
+            "Prosím odpovedzte",
+            "prosím odpovedzte"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „PDF“?",
+        "odpovede": [
+            "PRENOSNÝ FORMÁT DOKUMENTU",
+            "Prenosný formát dokumentu",
+            "prenosný formát dokumentu"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „URL“?",
+        "odpovede": [
+            "ADRESA WEBOVEJ STRÁNKY",
+            "Adresa webovej stránky",
+            "adresa webovej stránky"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „WiFi“?",
+        "odpovede": [
+            "BEZDRÔTOVÁ SIEŤ",
+            "Bezdrôtová sieť",
+            "bezdrôtová sieť"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „USB“?",
+        "odpovede": [
+            "UNIVERZÁLNA ZBERNICA",
+            "Univerzálna zbernica",
+            "univerzálna zbernica"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „GPS“?",
+        "odpovede": [
+            "GLOBÁLNY POLOHOVÝ SYSTÉM",
+            "Globálny polohový systém",
+            "globálny polohový systém"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „SMS“?",
+        "odpovede": [
+            "KRÁTKA SPRÁVA",
+            "Krátka správa",
+            "krátka správa"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „PIN“?",
+        "odpovede": [
+            "OSOBNÝ IDENTIFIKAČNÝ KÓD",
+            "Osobný identifikačný kód",
+            "osobný identifikačný kód"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „ATM“?",
+        "odpovede": [
+            "BANKOMAT",
+            "Bankomat",
+            "bankomat"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „CEO“?",
+        "odpovede": [
+            "GENERÁLNY RIADITEĽ",
+            "Generálny riaditeľ",
+            "generálny riaditeľ"
+        ]
+    },
+    {
+        "otazka": "Čo znamená skratka „PhD“?",
+        "odpovede": [
+            "DOKTOR FILOZOFIE",
+            "Doktor filozofie",
+            "doktor filozofie"
+        ]
+    }
+]

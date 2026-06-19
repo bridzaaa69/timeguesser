@@ -2,9 +2,9 @@
 TCP Klient s grafickým rozhraním pre reláciu DUEL.
 Pripojí sa na server cez TCP, komunikuje JSON správami ukončenými \\n.
 
-Kolo 1 – rýchlovka: server pošle 10 otázok naraz, hráč odpovedá na všetky
-  do 60 sekúnd a odošle jednu dávku odpovedí.
-Kolo 2/3: jednotlivé otázky, výber témy vpravo, vklad.
+Kolo 1 – strelné otázky: striedavý výber otázky pre seba.
+Kolo 2 – vlastný výber témy a vkladu pre seba.
+Kolo 3 – výber témy a vkladu pre súpera.
 """
 
 from __future__ import annotations
@@ -55,8 +55,6 @@ class DuelKlient:
         self.aktualne_kolo = 0
         self.casovac_id: str | None = None
         self.zostavajuci_cas = 0
-        self.rychlovka_aktivna = False
-        self.rychlovka_entries: list[tk.Entry] = []
 
         self._vytvor_pripojenie()
         self._vytvor_hlavny_obsah()
@@ -148,38 +146,6 @@ class DuelKlient:
         )
         self.btn_odpoved.pack(side=tk.LEFT, padx=(8, 0))
 
-        # ── Kolo 1: 10 otázok naraz ──
-        self.rychlovka_frame = tk.Frame(lavy, bg=PANEL)
-
-        tk.Label(
-            self.rychlovka_frame, text="Rýchlovka – odpovedzte na všetkých 10 otázok:",
-            bg=PANEL, fg=TEXT, font=("Segoe UI", 12, "bold"),
-        ).pack(anchor=tk.W, pady=(0, 6))
-
-        scroll_outer = tk.Frame(self.rychlovka_frame, bg=PANEL)
-        scroll_outer.pack(fill=tk.BOTH, expand=True)
-
-        canvas = tk.Canvas(scroll_outer, bg=PANEL, highlightthickness=0)
-        scroll = tk.Scrollbar(scroll_outer, command=canvas.yview)
-        self.rychlovka_inner = tk.Frame(canvas, bg=PANEL)
-
-        self.rychlovka_inner.bind(
-            "<Configure>",
-            lambda e: canvas.configure(scrollregion=canvas.bbox("all")),
-        )
-        canvas.create_window((0, 0), window=self.rychlovka_inner, anchor=tk.NW)
-        canvas.configure(yscrollcommand=scroll.set)
-        canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        scroll.pack(side=tk.RIGHT, fill=tk.Y)
-
-        self.btn_rychlovka = tk.Button(
-            self.rychlovka_frame, text="Odoslať všetky odpovede",
-            command=self.odosli_rychlovku,
-            bg=ACCENT, fg="#1a0a2e", font=("Segoe UI", 11, "bold"),
-            relief=tk.FLAT, state=tk.DISABLED,
-        )
-        self.btn_rychlovka.pack(fill=tk.X, pady=(10, 0))
-
         self.feedback_label = tk.Label(
             lavy, text="", bg=PANEL, fg=TEXT,
             font=("Segoe UI", 11), wraplength=440, justify=tk.LEFT,
@@ -196,7 +162,7 @@ class DuelKlient:
         ).pack(anchor=tk.W, pady=(0, 8))
 
         self.temy_info = tk.Label(
-            pravy, text="Kolo 1 – rýchlovka\n(bez výberu témy)",
+            pravy, text="Výber témy alebo otázky",
             bg=PANEL, fg=TEXT, font=("Segoe UI", 9, "italic"),
             wraplength=220, justify=tk.LEFT,
         )
@@ -219,7 +185,7 @@ class DuelKlient:
         scroll_t.config(command=self.temy_listbox.yview)
 
         self.btn_tema = tk.Button(
-            pravy, text="Potvrdiť tému", command=self.odosli_temu,
+            pravy, text="Potvrdiť výber", command=self.odosli_vyber_zoznamu,
             bg=ACCENT, fg="#1a0a2e", font=("Segoe UI", 10, "bold"),
             relief=tk.FLAT, state=tk.DISABLED,
         )
@@ -320,7 +286,6 @@ class DuelKlient:
         self._nastav_odpoved(False)
         self._nastav_temy(False)
         self._nastav_vklad(False)
-        self._skry_rychlovku()
         if dovod:
             self.status_label.configure(text=dovod)
 
@@ -362,23 +327,32 @@ class DuelKlient:
                 text=f"Kolo {self.aktualne_kolo}: {msg.get('popis', '')}"
             )
             if self.aktualne_kolo == 1:
-                self._nastav_panel_tem(False, "Kolo 1 – rýchlovka\n(bez výberu témy)")
+                # Kolo 1: automatické otázky bez výberu
+                self._nastav_panel_tem(False, "")
+                self.feedback_label.configure(text="Pripravte sa na otázky…", fg=TEXT)
             else:
                 temy = msg.get("temy", [])
                 if temy:
                     self._napln_temy(temy)
-                self._nastav_panel_tem(True, "Vyberte tému z ponuky vpravo.")
+                popis = (
+                    "Vyberte tému pre seba."
+                    if self.aktualne_kolo == 2
+                    else "Vyberte tému pre súpera."
+                )
+                self._nastav_panel_tem(True, popis)
             return
 
-        if typ == "rychlovka":
-            self._zobraz_rychlovku(msg)
+        if typ == "caka_sa":
+            self._nastav_odpoved(False)
+            self.feedback_label.configure(text=msg.get("text", "Čaká sa…"), fg=TEXT)
             return
 
         if typ == "vyber_temy":
             if msg.get("hrac") == self.moje_cislo:
+                self.btn_tema.configure(text="Potvrdiť tému")
                 self._napln_temy(msg.get("temy", []))
                 kto = (
-                    "Vyberte tému"
+                    "Vyberte tému pre seba"
                     if msg.get("kto_vybera") == "vlastny"
                     else "Vyberte tému pre súpera"
                 )
@@ -406,20 +380,20 @@ class DuelKlient:
             return
 
         if typ == "info_kola":
-            self.feedback_label.configure(
-                text=(
-                    f"Téma: {msg.get('tema')} | Vklad: {msg.get('vklad')} bodov"
-                    f" | Vyberal: Hráč {msg.get('vyberal')}"
-                ),
-                fg=TEXT,
-            )
+            pre = msg.get("pre_hraca", msg.get("vyberal"))
+            parts = [f"Kolo {msg.get('cislo', '?')}"]
+            if msg.get("tema"):
+                parts.append(f"Téma: {msg.get('tema')}")
+            if msg.get("vklad"):
+                parts.append(f"Vklad: {msg.get('vklad')} bodov")
+            parts.append(f"Vyberal: Hráč {msg.get('vyberal')} | Pre: Hráč {pre}")
+            self.feedback_label.configure(text=" | ".join(parts), fg=TEXT)
             self._nastav_temy(False)
             self._nastav_vklad(False)
             return
 
         if typ == "otazka":
             if msg.get("hrac") == self.moje_cislo:
-                self._skry_rychlovku()
                 self.otazka_label.configure(text=msg.get("text", ""))
                 self.feedback_label.configure(text="", fg=TEXT)
                 self.odpoved_entry.configure(state=tk.NORMAL)
@@ -436,7 +410,7 @@ class DuelKlient:
                 self._nastav_odpoved(False)
                 self.odpoved_entry.configure(state=tk.DISABLED)
                 if msg.get("spravne"):
-                    body_txt = 30 if self.aktualne_kolo == 1 else msg.get("vklad", 0)
+                    body_txt = msg.get("vklad", 0)
                     self.feedback_label.configure(
                         text=f"✓ Správne! (+{body_txt} bodov)", fg=SUCCESS,
                     )
@@ -461,7 +435,6 @@ class DuelKlient:
 
         if typ == "koniec_kola":
             self._zastav_timer()
-            self._skry_rychlovku()
             body = msg.get("body", {})
             self.moje_body = body.get(str(self.moje_cislo), body.get(self.moje_cislo, self.moje_body))
             self.body_label.configure(text=f"Body: {self.moje_body}")
@@ -494,75 +467,21 @@ class DuelKlient:
         if typ == "chyba":
             messagebox.showerror("Chyba", msg.get("sprava", "Neznáma chyba"))
 
-    # ── rýchlovka (kolo 1) ─────────────────────────────────────
-
-    def _zobraz_rychlovku(self, msg: dict) -> None:
-        self.rychlovka_aktivna = True
-        self.single_frame.pack_forget()
-        self.rychlovka_frame.pack(fill=tk.BOTH, expand=True, before=self.feedback_label)
-
-        for widget in self.rychlovka_inner.winfo_children():
-            widget.destroy()
-        self.rychlovka_entries.clear()
-
-        for ot in msg.get("otazky", []):
-            row = tk.Frame(self.rychlovka_inner, bg=PANEL, pady=4)
-            row.pack(fill=tk.X)
-
-            tk.Label(
-                row, text=f"{ot.get('cislo', '?')}. {ot.get('text', '')}",
-                bg=PANEL, fg=TEXT, font=("Segoe UI", 11),
-                wraplength=420, justify=tk.LEFT, anchor=tk.W,
-            ).pack(fill=tk.X)
-
-            entry = tk.Entry(row, font=("Segoe UI", 12))
-            entry.pack(fill=tk.X, ipady=4, pady=(2, 0))
-            entry.bind("<Return>", lambda e: self._fokus_dalsia(entry))
-            self.rychlovka_entries.append(entry)
-
-        if self.rychlovka_entries:
-            self.rychlovka_entries[0].focus_set()
-
-        self.btn_rychlovka.configure(state=tk.NORMAL)
-        self.feedback_label.configure(
-            text="Odpovedzte na všetkých 10 otázok a odošlite naraz.", fg=TEXT,
-        )
-        self._spusti_timer(msg.get("cas_sekund", 60))
-
-    def _fokus_dalsia(self, entry: tk.Entry) -> None:
-        try:
-            idx = self.rychlovka_entries.index(entry)
-            if idx + 1 < len(self.rychlovka_entries):
-                self.rychlovka_entries[idx + 1].focus_set()
-        except ValueError:
-            pass
-
-    def _skry_rychlovku(self) -> None:
-        if not self.rychlovka_aktivna:
+    def odosli_vyber_zoznamu(self) -> None:
+        sel = self.temy_listbox.curselection()
+        if not sel:
+            messagebox.showwarning("Výber", "Vyberte položku zo zoznamu.")
             return
-        self.rychlovka_aktivna = False
-        self.rychlovka_frame.pack_forget()
-        self.single_frame.pack(fill=tk.BOTH, expand=True)
-        self.btn_rychlovka.configure(state=tk.DISABLED)
-        self._zastav_timer()
+        self._posli({"typ": "tema", "tema": self.temy_listbox.get(sel[0])})
+        self._nastav_temy(False)
 
-    def odosli_rychlovku(self) -> None:
-        if not self.spojenie or not self.rychlovka_aktivna:
-            return
-        odpovede = [e.get().strip() for e in self.rychlovka_entries]
-        self._zastav_timer()
-        self._posli({"typ": "odpovede_r1", "odpovede": odpovede})
-        self.btn_rychlovka.configure(state=tk.DISABLED)
-        for e in self.rychlovka_entries:
-            e.configure(state=tk.DISABLED)
-        self.feedback_label.configure(text="Odpovede odoslané, čakám na vyhodnotenie…", fg=TEXT)
-
-    # ── ovládanie ────────────────────────────────────────────────
+    def odosli_temu(self) -> None:
+        self.odosli_vyber_zoznamu()
 
     def _nastav_odpoved(self, aktivne: bool) -> None:
         st = tk.NORMAL if aktivne else tk.DISABLED
         self.btn_odpoved.configure(state=st)
-        if not aktivne and not self.rychlovka_aktivna:
+        if not aktivne:
             self.odpoved_entry.configure(state=tk.DISABLED)
 
     def _nastav_temy(self, aktivne: bool) -> None:
@@ -579,7 +498,7 @@ class DuelKlient:
         if zobraz:
             self.temy_info.configure(text=info)
         else:
-            self.temy_info.configure(text="Kolo 1 – rýchlovka\n(bez výberu témy)")
+            self.temy_info.configure(text=info)
             self.temy_listbox.delete(0, tk.END)
             self._nastav_temy(False)
 
@@ -598,14 +517,6 @@ class DuelKlient:
         self._nastav_odpoved(False)
         self.odpoved_entry.configure(state=tk.DISABLED)
 
-    def odosli_temu(self) -> None:
-        sel = self.temy_listbox.curselection()
-        if not sel:
-            messagebox.showwarning("Téma", "Vyberte tému zo zoznamu.")
-            return
-        self._posli({"typ": "tema", "tema": self.temy_listbox.get(sel[0])})
-        self._nastav_temy(False)
-
     def odosli_vklad(self) -> None:
         try:
             hodnota = int(self.vklad_spin.get())
@@ -623,10 +534,7 @@ class DuelKlient:
     def _tik_timer(self) -> None:
         self.timer_label.configure(text=f"⏱ {self.zostavajuci_cas} s")
         if self.zostavajuci_cas <= 0:
-            if self.rychlovka_aktivna:
-                self.odosli_rychlovku()
-            else:
-                self.odosli_odpoved()
+            self.odosli_odpoved()
             return
         self.zostavajuci_cas -= 1
         self.casovac_id = self.root.after(1000, self._tik_timer)

@@ -1,24 +1,21 @@
 """
 TCP Server – vedomostná relácia DUEL pre dvoch hráčov
 ======================================================
-Formát relácie (3 kolá, spolu 50 otázok):
+Formát relácie (3 kolá, spolu 30 otázok):
 
-  Kolo 1 – Rýchlovka:
-    10 otázok za 60 sekúnd, 30 bodov za správnu odpoveď.
-    Ak sú všetky správne, bonus 100 bodov (ekvivalent hotovosti v relácii).
+  Kolo 1 – Strelne otázky:
+    Hráči sa striedajú, každý si vyberá otázku pre seba zo strelneotazky.json.
+    30 bodov za správnu odpoveď.
 
-  Kolo 2 – Vlastný výber témy a vkladu:
-    10 tematických okruhov, vklad 20–100 bodov.
-    Hráči sa striedajú vo výbere témy a vkladu.
-    Každá otázka sa pýta obom súťažiacim (2×).
+  Kolo 2 – Vlastný výber pre seba:
+    10 tematických okruhov (každý 2× v ponuke), vklad 20–100 bodov.
+    Hráč si vyberá tému a vklad pre seba, odpovedá len on.
 
-  Kolo 3 – Výber súpera:
-    Súper vyberá tému a vklad (20–350 bodov).
-    Otázky si súťažiaci vyberajú navzájom, každá otázka sa pýta obom (2×).
+  Kolo 3 – Výber pre súpera:
+    10 tematických okruhov (každý 1×), vklad 20–350 bodov.
+    Hráč vyberá tému a vklad pre súpera, odpovedá len súper.
 
 Komunikácia: JSON riadky ukončené \\n
-  Server → klient: {"typ": "...", ...}
-  Klient → server: {"typ": "...", ...}
 """
 
 from __future__ import annotations
@@ -27,36 +24,44 @@ import json
 import random
 import socket
 import threading
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
-
-from odpovede_utils import je_spravna
 
 HOST = "0.0.0.0"
 PORT = 65432
 MAX_HRACOV = 2
 
 OTAZKY_DIR = Path(__file__).parent / "otazky"
-VYNECHANE_TEMY = {"SPŠE"}
+STRELNE_PATH = OTAZKY_DIR / "strelneotazky.json"
+VYNECHANE_TEMY = {"SPŠE", "strelneotazky"}
 
-# Herné konštanty
 BODY_ZA_SPRAVNU_R1 = 30
-BONUS_VSETKY_SPRAVNE_R1 = 100
-CAS_R1_SEKUND = 60
 POCET_OTAZOK_R1 = 10
 
 POCET_TEM_R2 = 10
 VKLAD_R2_MIN = 20
 VKLAD_R2_MAX = 100
-POCET_KOL_R2 = 20  # každá otázka sa pýta obom (2×)
+POCET_KOL_R2 = 10
 
+POCET_TEM_R3 = 10
 VKLAD_R3_MIN = 20
 VKLAD_R3_MAX = 350
-POCET_KOL_R3 = 20
+POCET_KOL_R3 = 10
 
-CELKOM_OTAZOK = POCET_OTAZOK_R1 + POCET_KOL_R2 + POCET_KOL_R3  # 50 otázok
+
+def normalizuj(text: str) -> str:
+    text = text.strip().lower()
+    nfkd = unicodedata.normalize("NFKD", text)
+    return "".join(c for c in nfkd if not unicodedata.combining(c))
+
+
+def je_spravna(odpoved: str, prijatelne: list[str]) -> bool:
+    if not prijatelne:
+        return False
+    norm = normalizuj(odpoved)
+    return any(normalizuj(p) == norm for p in prijatelne if p)
 
 
 @dataclass
@@ -70,14 +75,42 @@ class Otazka:
         return self.odpovede[0] if self.odpovede else ""
 
 
+def nacitaj_strelne() -> dict[str, list[Otazka]]:
+    """Načítaj strelne otázky a rozdelí ich do kategórií (po 2-3 otázky v každej)."""
+    if not STRELNE_PATH.exists():
+        return {}
+    raw = json.loads(STRELNE_PATH.read_text(encoding="utf-8"))
+    if not raw:
+        return {}
+    
+    otazky = [
+        Otazka(p["otazka"], p.get("odpovede", [p.get("odpoved", "")]), "strelneotazky")
+        for p in raw
+    ]
+    
+    # Rozdelenie otázok do kategórií (Strelne 1, Strelne 2, ...)
+    pocet_kategorii = max(2, len(otazky) // 3)  # ~3 otázky na kategóriu
+    banka: dict[str, list[Otazka]] = {}
+    
+    for i, otazka in enumerate(otazky):
+        kategorija = f"Strelne {(i % pocet_kategorii) + 1}"
+        if kategorija not in banka:
+            banka[kategorija] = []
+        banka[kategorija].append(otazka)
+    
+    return banka
+
+
 def nacitaj_otazky() -> dict[str, list[Otazka]]:
-    """Načíta otázky z JSON súborov vo formáte {otazka, odpovede}."""
     banka: dict[str, list[Otazka]] = {}
     for path in sorted(OTAZKY_DIR.glob("*.json")):
         tema = path.stem
         if tema in VYNECHANE_TEMY:
             continue
-        raw = json.loads(path.read_text(encoding="utf-8"))
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
         if not raw:
             continue
         otazky: list[Otazka] = []
@@ -111,7 +144,6 @@ class Hrac:
     spojenie: socket.socket
     cislo: int
     body: int = 0
-    spravne_r1: int = 0
     buffer: str = ""
 
 
@@ -129,11 +161,24 @@ def prijmi_od_hraca(hrac: Hrac) -> dict[str, Any] | None:
 class DuelHra:
     hraci: list[Hrac]
     banka: dict[str, list[Otazka]]
+    strelne: dict[str, list[Otazka]]
+    temy_r1: list[str] = field(default_factory=list)
     temy_r2: list[str] = field(default_factory=list)
+    temy_r3: list[str] = field(default_factory=list)
     pouzite_otazky: set[str] = field(default_factory=set)
 
     def __post_init__(self) -> None:
-        self.temy_r2 = random.sample(list(self.banka.keys()), min(POCET_TEM_R2, len(self.banka)))
+        # Kategórie pre Kolo 1 (strelne)
+        self.temy_r1 = list(self.strelne.keys())
+        
+        # Kategórie pre Kolo 2
+        dostupne = list(self.banka.keys())
+        self.temy_r2 = random.sample(dostupne, min(POCET_TEM_R2, len(dostupne)))
+        
+        # Kategórie pre Kolo 3
+        zvysok = [t for t in dostupne if t not in self.temy_r2]
+        pool = zvysok if len(zvysok) >= POCET_TEM_R3 else dostupne
+        self.temy_r3 = random.sample(pool, min(POCET_TEM_R3, len(pool)))
 
     def odosli_vsetkym(self, sprava: dict[str, Any]) -> None:
         for hrac in self.hraci:
@@ -151,15 +196,6 @@ class DuelHra:
                 return msg
             if msg.get("typ") == ocakavany_typ:
                 return msg
-
-    def cakaj_odpovede_r1(self, hrac: Hrac, pocet: int) -> list[str] | None:
-        msg = self.cakaj_odpoved(hrac, "odpovede_r1")
-        if msg is None or msg.get("typ") == "quit":
-            return None
-        odpovede = list(msg.get("odpovede", []))
-        while len(odpovede) < pocet:
-            odpovede.append("")
-        return odpovede[:pocet]
 
     def cakaj_vklad(self, hrac: Hrac, min_vklad: int, max_vklad: int) -> int | None:
         self.odosli_hracovi(hrac, {
@@ -187,115 +223,110 @@ class DuelHra:
         tema = msg["tema"]
         return tema if tema in temy else temy[0]
 
-    def pytaj_oboch(self, otazka: Otazka, vklad: int, kolo: int) -> bool:
-        """Položí otázku obom hráčom (2×) a pripočíta/odpočíta body podľa vkladu."""
-        vysledky: dict[int, bool] = {}
+    def cakaj_vyber_otazky(self, hrac: Hrac, otazky: list[Otazka]) -> Otazka | None:
+        self.odosli_hracovi(hrac, {
+            "typ": "vyber_otazky",
+            "hrac": hrac.cislo,
+            "otazky": [{"id": i, "text": o.otazka} for i, o in enumerate(otazky)],
+        })
+        msg = self.cakaj_odpoved(hrac, "vyber_otazku")
+        if msg is None or msg.get("typ") == "quit":
+            return None
+        idx = int(msg.get("id", 0))
+        if 0 <= idx < len(otazky):
+            return otazky[idx]
+        return otazky[0]
 
-        for hrac in self.hraci:
-            self.odosli_hracovi(hrac, {
-                "typ": "otazka",
-                "kolo": kolo,
-                "tema": otazka.tema,
-                "text": otazka.otazka,
-                "vklad": vklad,
-                "hrac": hrac.cislo,
-            })
-            msg = self.cakaj_odpoved(hrac, "odpoved")
-            if msg is None or msg.get("typ") == "quit":
-                return False
+    def pytaj_hraca(
+        self, hrac: Hrac, otazka: Otazka, vklad: int, kolo: int, cislo_kola: int,
+    ) -> bool:
+        self.odosli_hracovi(hrac, {
+            "typ": "otazka",
+            "kolo": kolo,
+            "cislo": cislo_kola,
+            "tema": otazka.tema,
+            "text": otazka.otazka,
+            "vklad": vklad,
+            "hrac": hrac.cislo,
+        })
+        for ostatny in self.hraci:
+            if ostatny.cislo != hrac.cislo:
+                self.odosli_hracovi(ostatny, {
+                    "typ": "caka_sa",
+                    "kolo": kolo,
+                    "hrac": hrac.cislo,
+                    "text": f"Hráč {hrac.cislo} odpovedá…",
+                })
 
-            spravne = je_spravna(msg.get("odpoved", ""), otazka.odpovede)
-            vysledky[hrac.cislo] = spravne
+        msg = self.cakaj_odpoved(hrac, "odpoved")
+        if msg is None or msg.get("typ") == "quit":
+            return False
+
+        spravne = je_spravna(msg.get("odpoved", ""), otazka.odpovede)
+        if kolo == 1:
             if spravne:
-                hrac.body += vklad
-            else:
-                hrac.body -= vklad
+                hrac.body += BODY_ZA_SPRAVNU_R1
+        elif spravne:
+            hrac.body += vklad
+        else:
+            hrac.body -= vklad
 
-            self.odosli_vsetkym({
-                "typ": "vysledok_otazky",
-                "kolo": kolo,
-                "hrac": hrac.cislo,
-                "spravne": spravne,
-                "spravna_odpoved": otazka.hlavna_odpoved,
-                "body": hrac.body,
-            })
-
+        self.odosli_vsetkym({
+            "typ": "vysledok_otazky",
+            "kolo": kolo,
+            "cislo": cislo_kola,
+            "hrac": hrac.cislo,
+            "spravne": spravne,
+            "spravna_odpoved": otazka.hlavna_odpoved,
+            "vklad": vklad if kolo != 1 else BODY_ZA_SPRAVNU_R1,
+            "body": hrac.body,
+        })
         return True
 
-    def kolo_1_rychlovka(self) -> bool:
-        """10 otázok naraz obom hráčom, 60 s spoločne, 30 bodov za správnu."""
-        self.odosli_vsetkym({
-            "typ": "zaciatok_kola",
-            "kolo": 1,
-            "popis": "Rýchlovka – 10 otázok naraz za 60 sekúnd",
-            "cas_sekund": CAS_R1_SEKUND,
-            "pocet_otazok": POCET_OTAZOK_R1,
-        })
-
-        vsetky_temy = list(self.banka.keys())
-        otazky_r1: list[Otazka] = []
-        for _ in range(POCET_OTAZOK_R1):
-            tema = random.choice(vsetky_temy)
-            otazka = vyber_otazku(self.banka, tema, self.pouzite_otazky)
-            if otazka:
-                otazky_r1.append(otazka)
-
-        if not otazky_r1:
+    def kolo_1_strelne(self) -> bool:
+        """Kolo 1: Automatické strelne otázky - server si vybiera, hráči len odpovedajú."""
+        # Zbierame všetky strelne otázky do jedného zoznamu
+        vsetky_strelne: list[Otazka] = []
+        for otazky_list in self.strelne.values():
+            vsetky_strelne.extend(otazky_list)
+        
+        dostupne = [o for o in vsetky_strelne if o.otazka not in self.pouzite_otazky]
+        if len(dostupne) < POCET_OTAZOK_R1:
+            self.odosli_vsetkym({
+                "typ": "chyba",
+                "sprava": f"Nedostatok strelných otázok (potrebných {POCET_OTAZOK_R1}).",
+            })
             return False
 
         self.odosli_vsetkym({
-            "typ": "rychlovka",
+            "typ": "zaciatok_kola",
             "kolo": 1,
-            "cas_sekund": CAS_R1_SEKUND,
-            "otazky": [
-                {"cislo": i + 1, "text": o.otazka}
-                for i, o in enumerate(otazky_r1)
-            ],
+            "popis": "Strelne otázky – automatické kolo bez výberu",
+            "pocet_otazok": POCET_OTAZOK_R1,
         })
 
-        odpovede_map: dict[int, list[str] | None] = {}
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            futures = {
-                pool.submit(self.cakaj_odpovede_r1, hrac, len(otazky_r1)): hrac
-                for hrac in self.hraci
-            }
-            for future in as_completed(futures):
-                hrac = futures[future]
-                odpovede_map[hrac.cislo] = future.result()
+        for k in range(POCET_OTAZOK_R1):
+            vyberajuci = self.hraci[k % 2]
+            dostupne = [o for o in vsetky_strelne if o.otazka not in self.pouzite_otazky]
+            
+            if not dostupne:
+                break
 
-        for hrac in self.hraci:
-            if odpovede_map.get(hrac.cislo) is None:
+            # Server si automaticky vyberie náhodnu otázku
+            otazka = random.choice(dostupne)
+            self.pouzite_otazky.add(otazka.otazka)
+
+            self.odosli_vsetkym({
+                "typ": "info_kola",
+                "kolo": 1,
+                "cislo": k + 1,
+                "vyberal": vyberajuci.cislo,
+                "pre_hraca": vyberajuci.cislo,
+                "tema": "Strelne",
+            })
+
+            if not self.pytaj_hraca(vyberajuci, otazka, BODY_ZA_SPRAVNU_R1, kolo=1, cislo_kola=k + 1):
                 return False
-
-        for i, otazka in enumerate(otazky_r1):
-            for hrac in self.hraci:
-                odp = odpovede_map[hrac.cislo][i]
-                spravne = je_spravna(odp, otazka.odpovede)
-                if spravne:
-                    hrac.body += BODY_ZA_SPRAVNU_R1
-                    hrac.spravne_r1 += 1
-
-                self.odosli_vsetkym({
-                    "typ": "vysledok_otazky",
-                    "kolo": 1,
-                    "cislo": i + 1,
-                    "hrac": hrac.cislo,
-                    "spravne": spravne,
-                    "spravna_odpoved": otazka.hlavna_odpoved,
-                    "body": hrac.body,
-                })
-
-        for hrac in self.hraci:
-            if hrac.spravne_r1 == len(otazky_r1):
-                hrac.body += BONUS_VSETKY_SPRAVNE_R1
-                self.odosli_vsetkym({
-                    "typ": "bonus",
-                    "kolo": 1,
-                    "hrac": hrac.cislo,
-                    "body_bonus": BONUS_VSETKY_SPRAVNE_R1,
-                    "body": hrac.body,
-                    "sprava": "Všetky odpovede správne – bonus 100 bodov!",
-                })
 
         self.odosli_vsetkym({
             "typ": "koniec_kola",
@@ -305,13 +336,12 @@ class DuelHra:
         return True
 
     def kolo_2_vlastny_vyber(self) -> bool:
-        """Hráči striedavo vyberajú tému a vklad (20–100), otázka sa pýta obom."""
-        volne_temy = list(self.temy_r2)
+        volne_temy = self.temy_r2 * 2
 
         self.odosli_vsetkym({
             "typ": "zaciatok_kola",
             "kolo": 2,
-            "popis": "Vlastný výber témy a vkladu (20–100 bodov), každá otázka sa pýta obom",
+            "popis": "Vlastný výber témy a vkladu (20–100 bodov) pre seba",
             "temy": volne_temy,
             "pocet_kol": POCET_KOL_R2,
             "vklad_min": VKLAD_R2_MIN,
@@ -321,7 +351,7 @@ class DuelHra:
         for k in range(POCET_KOL_R2):
             hrac = self.hraci[k % 2]
             if not volne_temy:
-                volne_temy = list(self.temy_r2)
+                volne_temy = self.temy_r2 * 2
 
             tema = self.cakaj_temu(hrac, volne_temy, "vlastny")
             if tema is None:
@@ -342,11 +372,12 @@ class DuelHra:
                 "kolo": 2,
                 "cislo": k + 1,
                 "vyberal": hrac.cislo,
+                "pre_hraca": hrac.cislo,
                 "tema": tema,
                 "vklad": vklad,
             })
 
-            if not self.pytaj_oboch(otazka, vklad, kolo=2):
+            if not self.pytaj_hraca(hrac, otazka, vklad, kolo=2, cislo_kola=k + 1):
                 return False
 
         self.odosli_vsetkym({
@@ -357,13 +388,13 @@ class DuelHra:
         return True
 
     def kolo_3_vyber_supera(self) -> bool:
-        """Súper vyberá tému a vklad (20–350), otázka sa pýta obom."""
-        vsetky_temy = list(self.banka.keys())
+        volne_temy = list(self.temy_r3)
 
         self.odosli_vsetkym({
             "typ": "zaciatok_kola",
             "kolo": 3,
-            "popis": "Súper vyberá tému a vklad (20–350 bodov), každá otázka sa pýta obom",
+            "popis": "Výber témy a vkladu (20–350 bodov) pre súpera",
+            "temy": volne_temy,
             "pocet_kol": POCET_KOL_R3,
             "vklad_min": VKLAD_R3_MIN,
             "vklad_max": VKLAD_R3_MAX,
@@ -372,10 +403,14 @@ class DuelHra:
         for k in range(POCET_KOL_R3):
             vyberajuci = self.hraci[k % 2]
             super = self.hraci[1 - (k % 2)]
+            if not volne_temy:
+                break
 
-            tema = self.cakaj_temu(vyberajuci, vsetky_temy, "super")
+            tema = self.cakaj_temu(vyberajuci, volne_temy, "super")
             if tema is None:
                 return False
+            if tema in volne_temy:
+                volne_temy.remove(tema)
 
             vklad = self.cakaj_vklad(vyberajuci, VKLAD_R3_MIN, VKLAD_R3_MAX)
             if vklad is None:
@@ -395,7 +430,7 @@ class DuelHra:
                 "vklad": vklad,
             })
 
-            if not self.pytaj_oboch(otazka, vklad, kolo=3):
+            if not self.pytaj_hraca(super, otazka, vklad, kolo=3, cislo_kola=k + 1):
                 return False
 
         self.odosli_vsetkym({
@@ -418,23 +453,22 @@ class DuelHra:
             "typ": "koniec_hry",
             "body": body,
             "vitaz": vitaz,
-            "sprava": (
-                f"Víťaz: Hráč {vitaz}!" if vitaz else "Remíza!"
-            ),
+            "sprava": f"Víťaz: Hráč {vitaz}!" if vitaz else "Remíza!",
         })
 
     def spusti(self) -> None:
         self.odosli_vsetkym({
             "typ": "start",
             "pravidla": {
-                "kolo1": f"{POCET_OTAZOK_R1} otázok, {BODY_ZA_SPRAVNU_R1} bodov/odpoveď, bonus {BONUS_VSETKY_SPRAVNE_R1}",
-                "kolo2": f"Vklad {VKLAD_R2_MIN}–{VKLAD_R2_MAX}, {POCET_KOL_R2} otázok (každá 2×)",
-                "kolo3": f"Vklad {VKLAD_R3_MIN}–{VKLAD_R3_MAX}, súper vyberá tému",
+                "kolo1": f"{POCET_OTAZOK_R1} otázok, výber pre seba, {BODY_ZA_SPRAVNU_R1} bodov/odpoveď",
+                "kolo2": f"Vklad {VKLAD_R2_MIN}–{VKLAD_R2_MAX}, {POCET_KOL_R2} otázok pre seba",
+                "kolo3": f"Vklad {VKLAD_R3_MIN}–{VKLAD_R3_MAX}, {POCET_KOL_R3} otázok pre súpera",
             },
             "temy_kola2": self.temy_r2,
+            "temy_kola3": self.temy_r3,
         })
 
-        if not self.kolo_1_rychlovka():
+        if not self.kolo_1_strelne():
             return
         if not self.kolo_2_vlastny_vyber():
             return
@@ -447,9 +481,14 @@ def herna_slucka(spojenia: list[socket.socket], adresy: list) -> None:
     print(f"[SERVER] Obaja hráči pripojení: {adresy[0]} a {adresy[1]}")
 
     banka = nacitaj_otazky()
+    strelne = nacitaj_strelne()
     if not banka:
         for s in spojenia:
             posli(s, {"typ": "chyba", "sprava": "Nenačítané žiadne otázky."})
+        return
+    if not strelne:
+        for s in spojenia:
+            posli(s, {"typ": "chyba", "sprava": "Chýba súbor otazky/strelneotazky.json."})
         return
 
     hraci = [Hrac(spojenia[i], i + 1) for i in range(2)]
@@ -461,7 +500,7 @@ def herna_slucka(spojenia: list[socket.socket], adresy: list) -> None:
             "sutaziaci": "Hráči stoja oproti sebe – pripravte sa na DUEL!",
         })
 
-    hra = DuelHra(hraci=hraci, banka=banka)
+    hra = DuelHra(hraci=hraci, banka=banka, strelne=strelne)
     hra.spusti()
 
     for s in spojenia:
