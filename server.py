@@ -412,7 +412,7 @@ class DuelHra:
             if tema in volne_temy:
                 volne_temy.remove(tema)
 
-            vklad = self.cakaj_vklad(vyberajuci, VKLAD_R3_MIN, VKLAD_R3_MAX)
+            vklad = self.cakaj_vklad(super, VKLAD_R3_MIN, VKLAD_R3_MAX)
             if vklad is None:
                 return False
 
@@ -512,11 +512,21 @@ def herna_slucka(spojenia: list[socket.socket], adresy: list) -> None:
 
 
 def main() -> None:
+    # Zisti lokálnu IP adresu
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        lokalna_ip = s.getsockname()[0]
+        s.close()
+    except Exception:
+        lokalna_ip = "127.0.0.1"
+    
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_socket.bind((HOST, PORT))
     server_socket.listen(MAX_HRACOV)
     print(f"[SERVER] DUEL – počúvam na {HOST}:{PORT}, čakám na {MAX_HRACOV} hráčov...")
+    print(f"[SERVER] Klienti sa môžu pripojiť na: {lokalna_ip}:{PORT}")
 
     spojenia: list[socket.socket] = []
     adresy: list = []

@@ -1,11 +1,4 @@
-"""
-TCP Klient s grafickým rozhraním pre reláciu DUEL.
-Pripojí sa na server cez TCP, komunikuje JSON správami ukončenými \\n.
 
-Kolo 1 – strelné otázky: striedavý výber otázky pre seba.
-Kolo 2 – vlastný výber témy a vkladu pre seba.
-Kolo 3 – výber témy a vkladu pre súpera.
-"""
 
 from __future__ import annotations
 
@@ -119,7 +112,6 @@ class DuelKlient:
         )
         self.timer_label.pack(anchor=tk.W, pady=(0, 4))
 
-        # ── Kolo 2/3: jedna otázka ──
         self.single_frame = tk.Frame(lavy, bg=PANEL)
         self.single_frame.pack(fill=tk.BOTH, expand=True)
 

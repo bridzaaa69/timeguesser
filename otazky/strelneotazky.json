@@ -853,6 +853,223 @@
             "DOKTOR FILOZOFIE",
             "Doktor filozofie",
             "doktor filozofie"
+        ]    },
+    {
+        "otazka": "Aká je hlavné mesto Francúzska?",
+        "odpovede": [
+            "PARÍŽ",
+            "Paríž",
+            "paris"
+        ]
+    },
+    {
+        "otazka": "Aká je hlavné mesto Talianska?",
+        "odpovede": [
+            "RÍM",
+            "Rím",
+            "rim"
+        ]
+    },
+    {
+        "otazka": "Aká je hlavné mesto Španielska?",
+        "odpovede": [
+            "MADRID",
+            "Madrid",
+            "madrid"
+        ]
+    },
+    {
+        "otazka": "Aká je hlavné mesto Nemecka?",
+        "odpovede": [
+            "BERLÍN",
+            "Berlín",
+            "berlin"
+        ]
+    },
+    {
+        "otazka": "Aká je hlavné mesto Japonska?",
+        "odpovede": [
+            "TOKIO",
+            "Tokio",
+            "tokio"
+        ]
+    },
+    {
+        "otazka": "V ktorom roku začala druhá svetová vojna?",
+        "odpovede": [
+            "1939",
+            "R. 1939"
+        ]
+    },
+    {
+        "otazka": "V ktorom roku skončila druhá svetová vojna?",
+        "odpovede": [
+            "1945",
+            "R. 1945"
+        ]
+    },
+    {
+        "otazka": "Kto bol prvý prezident Spojených štátov?",
+        "odpovede": [
+            "GEORGE WASHINGTON",
+            "George Washington",
+            "george washington"
+        ]
+    },
+    {
+        "otazka": "Kto skladal symfónie a bol hluchý?",
+        "odpovede": [
+            "LUDWIG VAN BEETHOVEN",
+            "Ludwig van Beethoven",
+            "ludwig van beethoven"
+        ]
+    },
+    {
+        "otazka": "Ktorá je najväčšia v našej slnečnej sústave?",
+        "odpovede": [
+            "JUPITER",
+            "Jupiter",
+            "jupiter"
+        ]
+    },
+    {
+        "otazka": "Koľko strán má kocka?",
+        "odpovede": [
+            "6",
+            "ŠESŤ",
+            "šesť"
+        ]
+    },
+    {
+        "otazka": "Aký je chemický vzorec vody?",
+        "odpovede": [
+            "H2O",
+            "H 2 O"
+        ]
+    },
+    {
+        "otazka": "Koľko kontinentov existuje?",
+        "odpovede": [
+            "7",
+            "SEDEM",
+            "sedem"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá najväčší oceán?",
+        "odpovede": [
+            "TICHÝ OCEÁN",
+            "Tichý oceán",
+            "tichý oceán"
+        ]
+    },
+    {
+        "otazka": "Ktorý živočích je najrýchlejší na pevnine?",
+        "odpovede": [
+            "GEPARD",
+            "Gepard",
+            "gepard"
+        ]
+    },
+    {
+        "otazka": "Koľko nôh má pavúk?",
+        "odpovede": [
+            "8",
+            "OSEM",
+            "osem"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazýva ľuďmi vybudovaná najväčšia pyramída?",
+        "odpovede": [
+            "CHEOPSOVA PYRAMÍDA",
+            "Cheopsova pyramída",
+            "Veľká pyramída"
+        ]
+    },
+    {
+        "otazka": "V ktorej krajine vznikol moderný futbal?",
+        "odpovede": [
+            "ANGLICKO",
+            "Anglicko",
+            "anglicko"
+        ]
+    },
+    {
+        "otazka": "Ako sa nazývajú slová, ktoré sa čítajú rovnako v oboch smeroch?",
+        "odpovede": [
+            "PALINDRÓMY",
+            "Palindrómy",
+            "palindromy"
+        ]
+    },
+    {
+        "otazka": "Koľko rokov má jedno desaťročie?",
+        "odpovede": [
+            "10",
+            "DESAŤ",
+            "desať"
+        ]
+    },
+    {
+        "otazka": "Ktoré z týchto múzeí je medzi najslávnejšími?",
+        "odpovede": [
+            "LOUVRE",
+            "Louvre",
+            "louvre"
+        ]
+    },
+    {
+        "otazka": "Ako sa volá rozpad atómového jadra?",
+        "odpovede": [
+            "RÁDIOAKTÍVNY ROZPAD",
+            "Rádioaktívny rozpad",
+            "radioaktivny rozpad"
+        ]
+    },
+    {
+        "otazka": "Aké je najväčšie zviera na Zemi?",
+        "odpovede": [
+            "MODRÁ VEĽRYBA",
+            "Modrá veľryba",
+            "modra velryba"
+        ]
+    },
+    {
+        "otazka": "Koľko hrán má hracia kocka?",
+        "odpovede": [
+            "12",
+            "DVANÁSŤ",
+            "dvanásť"
+        ]
+    },
+    {
+        "otazka": "Ktorá farba je farebná v dúhe prvá?",
+        "odpovede": [
+            "ČERVENÁ",
+            "Červená",
+            "cervena"
+        ]
+    },
+    {
+        "otazka": "V ktorom roku muž prvýkrát postavil nohu na Mesiac?",
+        "odpovede": [
+            "1969",
+            "R. 1969"
+        ]
+    },
+    {
+        "otazka": "Koľko sú v ľudskom tele kostí?",
+        "odpovede": [
+            "206",
+            "Približne 206"
+        ]
+    },
+    {
+        "otazka": "Aký je symbol pre zlato v chémii?",
+        "odpovede": [
+            "AU",
+            "Au"
         ]
     }
 ]
