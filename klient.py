@@ -17,8 +17,7 @@ except ImportError:
 
 HOST = "127.0.0.1"
 PORT = 65432
-ASSETS_DIR = Path(__file__).parent / "assets"
-BACKGROUND = ASSETS_DIR / "background.jpg"
+BACKGROUND = "assets/background.jpg"
 
 BG = "#1a0a2e"
 PANEL = "#2d1b4e"
@@ -201,7 +200,7 @@ class DuelKlient:
         self.btn_vklad.pack(side=tk.LEFT, padx=4, pady=8)
 
     def _nacitaj_pozadie(self) -> None:
-        if HAS_PIL and BACKGROUND.exists():
+        if HAS_PIL and Path(BACKGROUND).exists():
             img = Image.open(BACKGROUND)
             img = img.resize((520, 160), Image.LANCZOS)
             self._bg_photo = ImageTk.PhotoImage(img)
