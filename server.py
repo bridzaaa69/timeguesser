@@ -1,23 +1,3 @@
-"""
-TCP Server – vedomostná relácia DUEL pre dvoch hráčov
-======================================================
-Formát relácie (3 kolá, spolu 30 otázok):
-
-  Kolo 1 – Strelne otázky:
-    Hráči sa striedajú, každý si vyberá otázku pre seba zo strelneotazky.json.
-    30 bodov za správnu odpoveď.
-
-  Kolo 2 – Vlastný výber pre seba:
-    10 tematických okruhov (každý 2× v ponuke), vklad 20–100 bodov.
-    Hráč si vyberá tému a vklad pre seba, odpovedá len on.
-
-  Kolo 3 – Výber pre súpera:
-    10 tematických okruhov (každý 1×), vklad 20–350 bodov.
-    Hráč vyberá tému a vklad pre súpera, odpovedá len súper.
-
-Komunikácia: JSON riadky ukončené \\n
-"""
-
 from __future__ import annotations
 
 import json
@@ -38,7 +18,7 @@ STRELNE_PATH = OTAZKY_DIR / "strelneotazky.json"
 VYNECHANE_TEMY = {"SPŠE", "strelneotazky"}
 
 BODY_ZA_SPRAVNU_R1 = 30
-POCET_OTAZOK_R1 = 10
+POCET_OTAZOK_R1 = 20
 
 POCET_TEM_R2 = 10
 VKLAD_R2_MIN = 20
@@ -301,12 +281,13 @@ class DuelHra:
         self.odosli_vsetkym({
             "typ": "zaciatok_kola",
             "kolo": 1,
-            "popis": "Strelne otázky – automatické kolo bez výberu",
+            "popis": "Hráč 1 odpovie na 10 otázok, následne hráč 2 odpovie na 10 otázok",
             "pocet_otazok": POCET_OTAZOK_R1,
         })
 
-        for k in range(POCET_OTAZOK_R1):
-            vyberajuci = self.hraci[k % 2]
+        poradie = [self.hraci[0]] * 10 + [self.hraci[1]] * 10
+
+        for k, vyberajuci in enumerate(poradie):
             dostupne = [o for o in vsetky_strelne if o.otazka not in self.pouzite_otazky]
             
             if not dostupne:
