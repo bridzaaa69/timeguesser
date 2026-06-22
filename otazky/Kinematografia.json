@@ -2,35 +2,17 @@
     {
         "otazka": "Čo robí režisér?",
         "odpovede": [
-            "Riadi natáčanie filmu",
-            "rIADI NATACANIE FILMU",
-            "Riadi Natacanie Filmu",
-            "RiAdI NaTaCaNiE FiLmU",
-            "riadi natacanie filmu",
-            "RIADI NATACANIE FILMU",
-            "Riadi natacanie filmu",
-            "rIADI NATÁČANIE FILMU",
-            "Riadi Natáčanie Filmu",
-            "RIADI NATÁČANIE FILMU",
-            "RiAdI NaTáČaNiE FiLmU",
-            "riadi natáčanie filmu"
+            "Nakrúca filmy",
+            "NAKRUCA FILMY",
+            "nakruca filmy"
         ]
     },
     {
-        "otazka": "Čo je scenár?",
+        "otazka": "Ako sa nazýva textový plán filmu?",
         "odpovede": [
-            "Textový plán filmu",
-            "tEXTOVY PLAN FILMU",
-            "textovy plan filmu",
-            "Textovy Plan Filmu",
-            "Textovy plan filmu",
-            "TEXTOVY PLAN FILMU",
-            "TeXtOvY PlAn fIlMu",
-            "tEXTOVÝ PLÁN FILMU",
-            "textový plán filmu",
-            "TeXtOvÝ PlÁn fIlMu",
-            "Textový Plán Filmu",
-            "TEXTOVÝ PLÁN FILMU"
+            "Scenár",
+            "scenár",
+            "SCENÁR"
         ]
     },
     {
@@ -81,20 +63,11 @@
         ]
     },
     {
-        "otazka": "Čo je animovaný film?",
+        "otazka": "Ako sa volá film z kresieb?",
         "odpovede": [
-            "Film z kreslených alebo digitálnych obrázkov",
-            "FiLm z kReSlEnYcH AlEbO DiGiTaLnYcH ObRaZkOv",
-            "film z kreslenych alebo digitalnych obrazkov",
-            "FILM Z KRESLENYCH ALEBO DIGITALNYCH OBRAZKOV",
-            "Film z kreslenych alebo digitalnych obrazkov",
-            "Film Z Kreslenych Alebo Digitalnych Obrazkov",
-            "fILM Z KRESLENYCH ALEBO DIGITALNYCH OBRAZKOV",
-            "film z kreslených alebo digitálnych obrázkov",
-            "FILM Z KRESLENÝCH ALEBO DIGITÁLNYCH OBRÁZKOV",
-            "FiLm z kReSlEnÝcH AlEbO DiGiTáLnYcH ObRáZkOv",
-            "fILM Z KRESLENÝCH ALEBO DIGITÁLNYCH OBRÁZKOV",
-            "Film Z Kreslených Alebo Digitálnych Obrázkov"
+            "Animácia",
+            "animácia",
+            "ANIMÁCIA"
         ]
     },
     {
@@ -108,20 +81,11 @@
         ]
     },
     {
-        "otazka": "Čo je kamera?",
+        "otazka": "Ako sa volá zariadenie na snímanie?",
         "odpovede": [
-            "Zariadenie na snímanie obrazu",
-            "ZARIADENIE NA SNIMANIE OBRAZU",
-            "zariadenie na snimanie obrazu",
-            "zARIADENIE NA SNIMANIE OBRAZU",
-            "ZaRiAdEnIe nA SnImAnIe oBrAzU",
-            "Zariadenie Na Snimanie Obrazu",
-            "Zariadenie na snimanie obrazu",
-            "ZaRiAdEnIe nA SnÍmAnIe oBrAzU",
-            "Zariadenie Na Snímanie Obrazu",
-            "zARIADENIE NA SNÍMANIE OBRAZU",
-            "zariadenie na snímanie obrazu",
-            "ZARIADENIE NA SNÍMANIE OBRAZU"
+            "Kamera",
+            "kamera",
+            "KAMERA"
         ]
     },
     {
@@ -199,35 +163,17 @@
     {
         "otazka": "Čo robí producent?",
         "odpovede": [
-            "Zabezpečuje financovanie a organizáciu filmu",
-            "zabezpecuje financovanie a organizaciu filmu",
-            "zABEZPECUJE FINANCOVANIE A ORGANIZACIU FILMU",
-            "ZABEZPECUJE FINANCOVANIE A ORGANIZACIU FILMU",
-            "ZaBeZpEcUjE FiNaNcOvAnIe a oRgAnIzAcIu fIlMu",
-            "Zabezpecuje financovanie a organizaciu filmu",
-            "Zabezpecuje Financovanie A Organizaciu Filmu",
-            "zABEZPEČUJE FINANCOVANIE A ORGANIZÁCIU FILMU",
-            "zabezpečuje financovanie a organizáciu filmu",
-            "ZaBeZpEčUjE FiNaNcOvAnIe a oRgAnIzÁcIu fIlMu",
-            "ZABEZPEČUJE FINANCOVANIE A ORGANIZÁCIU FILMU",
-            "Zabezpečuje Financovanie A Organizáciu Filmu"
+            "Financuje filmy",
+            "FINANCUJE FILMY",
+            "financuje filmy"
         ]
     },
     {
-        "otazka": "Čo je dokumentárny film?",
+        "otazka": "Ako sa volá film o skutočnosti?",
         "odpovede": [
-            "Film o skutočných udalostiach",
-            "film o skutocnych udalostiach",
-            "Film O Skutocnych Udalostiach",
-            "FILM O SKUTOCNYCH UDALOSTIACH",
-            "FiLm o sKuToCnYcH UdAlOsTiAcH",
-            "fILM O SKUTOCNYCH UDALOSTIACH",
-            "Film o skutocnych udalostiach",
-            "film o skutočných udalostiach",
-            "fILM O SKUTOČNÝCH UDALOSTIACH",
-            "FILM O SKUTOČNÝCH UDALOSTIACH",
-            "FiLm o sKuToČnÝcH UdAlOsTiAcH",
-            "Film O Skutočných Udalostiach"
+            "Dokumentárny film",
+            "DOKUMENTARNY FILM",
+            "dokumentarny film"
         ]
     },
     {
@@ -241,20 +187,11 @@
         ]
     },
     {
-        "otazka": "Čo je trailer?",
+        "otazka": "Ako sa volá krátka ukážka?",
         "odpovede": [
-            "Krátka ukážka filmu",
-            "Kratka Ukazka Filmu",
-            "kRATKA UKAZKA FILMU",
-            "Kratka ukazka filmu",
-            "KrAtKa uKaZkA FiLmU",
-            "kratka ukazka filmu",
-            "KRATKA UKAZKA FILMU",
-            "KRÁTKA UKÁŽKA FILMU",
-            "kRÁTKA UKÁŽKA FILMU",
-            "krátka ukážka filmu",
-            "KrÁtKa uKáŽkA FiLmU",
-            "Krátka Ukážka Filmu"
+            "Trailer",
+            "trailer",
+            "TRAILER"
         ]
     },
     {
@@ -268,20 +205,11 @@
         ]
     },
     {
-        "otazka": "Čo je dabing?",
+        "otazka": "Ako sa nazýva nahradenie hlasu?",
         "odpovede": [
-            "Nahradenie pôvodného hlasu iným",
-            "NaHrAdEnIe pOvOdNeHo hLaSu iNyM",
-            "nahradenie povodneho hlasu inym",
-            "NAHRADENIE POVODNEHO HLASU INYM",
-            "Nahradenie Povodneho Hlasu Inym",
-            "Nahradenie povodneho hlasu inym",
-            "nAHRADENIE POVODNEHO HLASU INYM",
-            "NAHRADENIE PÔVODNÉHO HLASU INÝM",
-            "nahradenie pôvodného hlasu iným",
-            "Nahradenie Pôvodného Hlasu Iným",
-            "NaHrAdEnIe pÔvOdNéHo hLaSu iNýM",
-            "nAHRADENIE PÔVODNÉHO HLASU INÝM"
+            "Dabing",
+            "dabing",
+            "DABING"
         ]
     }
 ]

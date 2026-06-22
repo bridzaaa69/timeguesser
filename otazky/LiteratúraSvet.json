@@ -11,14 +11,11 @@
         ]
     },
     {
-        "otazka": "Kto vytvoril Sherlocka Holmesa?",
+        "otazka": "Kto vytvoril Sherlocka?",
         "odpovede": [
-            "Arthur Conan Doyle",
-            "Arthur conan doyle",
-            "aRTHUR CONAN DOYLE",
-            "ArThUr cOnAn dOyLe",
-            "arthur conan doyle",
-            "ARTHUR CONAN DOYLE"
+            "Conan Doyle",
+            "CONAN DOYLE",
+            "conan doyle"
         ]
     },
     {
@@ -35,20 +32,9 @@
     {
         "otazka": "Kto napísal Malého princa?",
         "odpovede": [
-            "Antoine de Saint-Exupéry",
-            "aNTOINE DE SAINT-EXUPERY",
-            "Antoine de Saint-Exupery",
-            "ANTOINE DE SAINT-EXUPERY",
-            "Antoine de saint-exupery",
-            "Antoine De Saint-Exupery",
-            "AnToInE De sAiNt-eXuPeRy",
-            "antoine de saint-exupery",
-            "Antoine de saint-exupéry",
-            "ANTOINE DE SAINT-EXUPÉRY",
-            "Antoine De Saint-Exupéry",
-            "AnToInE De sAiNt-eXuPéRy",
-            "antoine de saint-exupéry",
-            "aNTOINE DE SAINT-EXUPÉRY"
+            "Saint-Exupéry",
+            "SAINT-EXUPERY",
+            "saint-exupery"
         ]
     },
     {
@@ -63,20 +49,11 @@
         ]
     },
     {
-        "otazka": "Ktorá autorka napísala Harryho Pottera?",
+        "otazka": "Ktorá autorka napísala Pottera?",
         "odpovede": [
-            "J. K. Rowlingová",
-            "j. K. ROWLINGOVA",
-            "J. K. Rowlingova",
-            "j. k. rowlingova",
-            "J. K. ROWLINGOVA",
-            "J. k. rowlingova",
-            "J. k. RoWlInGoVa",
-            "j. k. rowlingová",
-            "J. K. ROWLINGOVÁ",
-            "J. k. rowlingová",
-            "j. K. ROWLINGOVÁ",
-            "J. k. RoWlInGoVá"
+            "Rowlingová",
+            "ROWLINGOVA",
+            "rowlingova"
         ]
     },
     {
@@ -115,12 +92,9 @@
     {
         "otazka": "Kto napísal Pána prsteňov?",
         "odpovede": [
-            "J. R. R. Tolkien",
-            "J. r. r. tolkien",
-            "J. R. R. TOLKIEN",
-            "j. r. r. tolkien",
-            "J. r. R. tOlKiEn",
-            "j. R. R. TOLKIEN"
+            "Tolkien",
+            "tolkien",
+            "TOLKIEN"
         ]
     },
     {
@@ -137,13 +111,9 @@
     {
         "otazka": "Kto napísal Fausta?",
         "odpovede": [
-            "Johann Wolfgang von Goethe",
-            "JoHaNn wOlFgAnG VoN GoEtHe",
-            "JOHANN WOLFGANG VON GOETHE",
-            "Johann Wolfgang Von Goethe",
-            "jOHANN WOLFGANG VON GOETHE",
-            "johann wolfgang von goethe",
-            "Johann wolfgang von goethe"
+            "Goethe",
+            "goethe",
+            "GOETHE"
         ]
     },
     {

@@ -6,14 +6,11 @@
         ]
     },
     {
-        "otazka": "Čo je ofsajd?",
+        "otazka": "Ako sa nazýva postavenie mimo hry?",
         "odpovede": [
-            "Postavenie mimo hry",
-            "POSTAVENIE MIMO HRY",
-            "pOSTAVENIE MIMO HRY",
-            "Postavenie Mimo Hry",
-            "postavenie mimo hry",
-            "PoStAvEnIe mImO HrY"
+            "Ofsajd",
+            "ofsajd",
+            "OFSAJD"
         ]
     },
     {
@@ -33,20 +30,11 @@
         ]
     },
     {
-        "otazka": "Čo je pokutový kop?",
+        "otazka": "Ako sa volá kop z pokutového úseku?",
         "odpovede": [
-            "Kop z pokutového úseku",
-            "KoP Z PoKuToVeHo uSeKu",
-            "Kop z pokutoveho useku",
-            "kop z pokutoveho useku",
-            "Kop Z Pokutoveho Useku",
-            "kOP Z POKUTOVEHO USEKU",
-            "KOP Z POKUTOVEHO USEKU",
-            "KoP Z PoKuToVéHo úSeKu",
-            "kOP Z POKUTOVÉHO ÚSEKU",
-            "Kop Z Pokutového Úseku",
-            "kop z pokutového úseku",
-            "KOP Z POKUTOVÉHO ÚSEKU"
+            "Pokutový kop",
+            "POKUTOVY KOP",
+            "pokutovy kop"
         ]
     },
     {
@@ -75,20 +63,11 @@
         ]
     },
     {
-        "otazka": "Čo je vlastný gól?",
+        "otazka": "Ako sa volá gól do vlastnej brány?",
         "odpovede": [
-            "Gól do vlastnej brány",
-            "Gol Do Vlastnej Brany",
-            "GOL DO VLASTNEJ BRANY",
-            "gOL DO VLASTNEJ BRANY",
-            "GoL Do vLaStNeJ BrAnY",
-            "gol do vlastnej brany",
-            "Gol do vlastnej brany",
-            "gÓL DO VLASTNEJ BRÁNY",
-            "gól do vlastnej brány",
-            "Gól Do Vlastnej Brány",
-            "GÓL DO VLASTNEJ BRÁNY",
-            "GóL Do vLaStNeJ BrÁnY"
+            "Vlastný gól",
+            "VLASTNY GOL",
+            "vlastny gol"
         ]
     },
     {
@@ -167,14 +146,11 @@
         ]
     },
     {
-        "otazka": "Čo je aut?",
+        "otazka": "Ako sa volá vhadzovanie lopty z boku?",
         "odpovede": [
-            "Vhadzovanie lopty z boku",
-            "Vhadzovanie Lopty Z Boku",
-            "vHADZOVANIE LOPTY Z BOKU",
-            "vhadzovanie lopty z boku",
-            "VHADZOVANIE LOPTY Z BOKU",
-            "VhAdZoVaNiE LoPtY Z BoKu"
+            "Aut",
+            "aut",
+            "AUT"
         ]
     },
     {
@@ -193,14 +169,11 @@
         ]
     },
     {
-        "otazka": "Čo je rohový kop?",
+        "otazka": "Ako sa volá kop z rohu ihriska?",
         "odpovede": [
-            "Kop z rohu ihriska",
-            "kOP Z ROHU IHRISKA",
-            "kop z rohu ihriska",
-            "KOP Z ROHU IHRISKA",
-            "KoP Z RoHu iHrIsKa",
-            "Kop Z Rohu Ihriska"
+            "Rohový kop",
+            "ROHOVY KOP",
+            "rohovy kop"
         ]
     },
     {
@@ -219,20 +192,11 @@
         ]
     },
     {
-        "otazka": "Čo je priamy voľný kop?",
+        "otazka": "Ako sa volá kop bez prekážky?",
         "odpovede": [
-            "Priamy voľný kop",
-            "pRIAMY VOLNY KOP",
-            "Priamy Volny Kop",
-            "Priamy volny kop",
-            "PrIaMy vOlNy kOp",
-            "priamy volny kop",
-            "PRIAMY VOLNY KOP",
-            "priamy voľný kop",
-            "PrIaMy vOľNý kOp",
-            "pRIAMY VOĽNÝ KOP",
-            "PRIAMY VOĽNÝ KOP",
-            "Priamy Voľný Kop"
+            "Voľný kop",
+            "VOLNY KOP",
+            "volny kop"
         ]
     },
     {

@@ -1,19 +1,10 @@
 [
     {
-        "otazka": "Čo je podstatné meno?",
+        "otazka": "Ako sa volá slovo označujúce osobu?",
         "odpovede": [
-            "Slovo označujúce osobu, vec alebo jav",
-            "Slovo oznacujuce osobu, vec alebo jav",
-            "SlOvO OzNaCuJuCe oSoBu, VeC AlEbO JaV",
-            "Slovo Oznacujuce Osobu, Vec Alebo Jav",
-            "slovo oznacujuce osobu, vec alebo jav",
-            "sLOVO OZNACUJUCE OSOBU, VEC ALEBO JAV",
-            "SLOVO OZNACUJUCE OSOBU, VEC ALEBO JAV",
-            "slovo označujúce osobu, vec alebo jav",
-            "sLOVO OZNAČUJÚCE OSOBU, VEC ALEBO JAV",
-            "SlOvO OzNaČuJúCe oSoBu, VeC AlEbO JaV",
-            "Slovo Označujúce Osobu, Vec Alebo Jav",
-            "SLOVO OZNAČUJÚCE OSOBU, VEC ALEBO JAV"
+            "Podstatné meno",
+            "PODSTATNE MENO",
+            "podstatne meno"
         ]
     },
     {
@@ -47,20 +38,11 @@
         ]
     },
     {
-        "otazka": "Čo je synonymum?",
+        "otazka": "Ako sa volá slovo s podobným významom?",
         "odpovede": [
-            "Slovo s podobným významom",
-            "Slovo s podobnym vyznamom",
-            "SLOVO S PODOBNYM VYZNAMOM",
-            "sLOVO S PODOBNYM VYZNAMOM",
-            "slovo s podobnym vyznamom",
-            "Slovo S Podobnym Vyznamom",
-            "SlOvO S PoDoBnYm vYzNaMoM",
-            "sLOVO S PODOBNÝM VÝZNAMOM",
-            "slovo s podobným významom",
-            "SlOvO S PoDoBnÝm vÝzNaMoM",
-            "Slovo S Podobným Významom",
-            "SLOVO S PODOBNÝM VÝZNAMOM"
+            "Synonymum",
+            "synonymum",
+            "SYNONYMUM"
         ]
     },
     {
@@ -89,20 +71,11 @@
         ]
     },
     {
-        "otazka": "Čo je preklad?",
+        "otazka": "Ako sa volá prenos do iného jazyka?",
         "odpovede": [
-            "Prenos významu do iného jazyka",
-            "Prenos Vyznamu Do Ineho Jazyka",
-            "prenos vyznamu do ineho jazyka",
-            "pRENOS VYZNAMU DO INEHO JAZYKA",
-            "PRENOS VYZNAMU DO INEHO JAZYKA",
-            "Prenos vyznamu do ineho jazyka",
-            "PrEnOs vYzNaMu dO InEhO JaZyKa",
-            "PrEnOs vÝzNaMu dO InÉhO JaZyKa",
-            "pRENOS VÝZNAMU DO INÉHO JAZYKA",
-            "Prenos Významu Do Iného Jazyka",
-            "PRENOS VÝZNAMU DO INÉHO JAZYKA",
-            "prenos významu do iného jazyka"
+            "Preklad",
+            "preklad",
+            "PREKLAD"
         ]
     },
     {
@@ -155,20 +128,11 @@
         ]
     },
     {
-        "otazka": "Čo je antonymum?",
+        "otazka": "Ako sa volá slovo s opačným významom?",
         "odpovede": [
-            "Slovo s opačným významom",
-            "Slovo S Opacnym Vyznamom",
-            "SlOvO S OpAcNyM VyZnAmOm",
-            "Slovo s opacnym vyznamom",
-            "sLOVO S OPACNYM VYZNAMOM",
-            "SLOVO S OPACNYM VYZNAMOM",
-            "slovo s opacnym vyznamom",
-            "Slovo S Opačným Významom",
-            "sLOVO S OPAČNÝM VÝZNAMOM",
-            "SlOvO S OpAčNýM VýZnAmOm",
-            "SLOVO S OPAČNÝM VÝZNAMOM",
-            "slovo s opačným významom"
+            "Antonymum",
+            "antonymum",
+            "ANTONYMUM"
         ]
     },
     {
@@ -189,20 +153,11 @@
         ]
     },
     {
-        "otazka": "Čo je skloňovanie?",
+        "otazka": "Ako sa nazýva menenie tvaru slova?",
         "odpovede": [
-            "Menenie tvaru podstatných mien",
-            "Menenie Tvaru Podstatnych Mien",
-            "mENENIE TVARU PODSTATNYCH MIEN",
-            "menenie tvaru podstatnych mien",
-            "MeNeNiE TvArU PoDsTaTnYcH MiEn",
-            "MENENIE TVARU PODSTATNYCH MIEN",
-            "Menenie tvaru podstatnych mien",
-            "mENENIE TVARU PODSTATNÝCH MIEN",
-            "Menenie Tvaru Podstatných Mien",
-            "MENENIE TVARU PODSTATNÝCH MIEN",
-            "MeNeNiE TvArU PoDsTaTnÝcH MiEn",
-            "menenie tvaru podstatných mien"
+            "Skloňovanie",
+            "skloňovanie",
+            "SKLOŇOVANIE"
         ]
     },
     {
@@ -231,20 +186,11 @@
         ]
     },
     {
-        "otazka": "Čo je hláska?",
+        "otazka": "Ako sa nazýva zvuková jednotka reči?",
         "odpovede": [
-            "Zvuková jednotka reči",
-            "zvukova jednotka reci",
-            "Zvukova jednotka reci",
-            "ZvUkOvA JeDnOtKa rEcI",
-            "zVUKOVA JEDNOTKA RECI",
-            "Zvukova Jednotka Reci",
-            "ZVUKOVA JEDNOTKA RECI",
-            "zvuková jednotka reči",
-            "zVUKOVÁ JEDNOTKA REČI",
-            "ZvUkOvÁ JeDnOtKa rEčI",
-            "ZVUKOVÁ JEDNOTKA REČI",
-            "Zvuková Jednotka Reči"
+            "Hláska",
+            "hláska",
+            "HLÁSKA"
         ]
     },
     {
@@ -274,20 +220,11 @@
         ]
     },
     {
-        "otazka": "Čo je príslovka?",
+        "otazka": "Ako sa volá slovo určujúce okolnosti?",
         "odpovede": [
-            "Slovo určujúce okolnosti deja",
-            "sLOVO URCUJUCE OKOLNOSTI DEJA",
-            "Slovo Urcujuce Okolnosti Deja",
-            "SLOVO URCUJUCE OKOLNOSTI DEJA",
-            "SlOvO UrCuJuCe oKoLnOsTi dEjA",
-            "Slovo urcujuce okolnosti deja",
-            "slovo urcujuce okolnosti deja",
-            "SLOVO URČUJÚCE OKOLNOSTI DEJA",
-            "sLOVO URČUJÚCE OKOLNOSTI DEJA",
-            "Slovo Určujúce Okolnosti Deja",
-            "SlOvO UrČuJúCe oKoLnOsTi dEjA",
-            "slovo určujúce okolnosti deja"
+            "Príslovka",
+            "príslovka",
+            "PRÍSLOVKA"
         ]
     },
     {

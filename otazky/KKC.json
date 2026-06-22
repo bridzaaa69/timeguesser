@@ -54,20 +54,11 @@
         ]
     },
     {
-        "otazka": "Čo je Biblia?",
+        "otazka": "Ako sa volá posvätná kniha?",
         "odpovede": [
-            "Posvätná kniha kresťanov",
-            "Posvatna kniha krestanov",
-            "pOSVATNA KNIHA KRESTANOV",
-            "POSVATNA KNIHA KRESTANOV",
-            "posvatna kniha krestanov",
-            "PoSvAtNa kNiHa kReStAnOv",
-            "Posvatna Kniha Krestanov",
-            "Posvätná Kniha Kresťanov",
-            "POSVÄTNÁ KNIHA KRESŤANOV",
-            "pOSVÄTNÁ KNIHA KRESŤANOV",
-            "posvätná kniha kresťanov",
-            "PoSvÄtNá kNiHa kReSťAnOv"
+            "Biblia",
+            "biblia",
+            "BIBLIA"
         ]
     },
     {
@@ -190,20 +181,11 @@
         ]
     },
     {
-        "otazka": "Čo je pôst?",
+        "otazka": "Ako sa volá zdržanie sa jedla?",
         "odpovede": [
-            "Obdobie zdržania sa jedla",
-            "OBDOBIE ZDRZANIA SA JEDLA",
-            "Obdobie Zdrzania Sa Jedla",
-            "Obdobie zdrzania sa jedla",
-            "oBDOBIE ZDRZANIA SA JEDLA",
-            "ObDoBiE ZdRzAnIa sA JeDlA",
-            "obdobie zdrzania sa jedla",
-            "OBDOBIE ZDRŽANIA SA JEDLA",
-            "ObDoBiE ZdRžAnIa sA JeDlA",
-            "Obdobie Zdržania Sa Jedla",
-            "oBDOBIE ZDRŽANIA SA JEDLA",
-            "obdobie zdržania sa jedla"
+            "Pôst",
+            "pôst",
+            "PÔST"
         ]
     },
     {
@@ -227,15 +209,11 @@
         ]
     },
     {
-        "otazka": "Čo je advent?",
+        "otazka": "Ako sa volá obdobie pred Vianocami?",
         "odpovede": [
-            "Obdobie pred Vianocami",
-            "Obdobie pred vianocami",
-            "ObDoBiE PrEd vIaNoCaMi",
-            "OBDOBIE PRED VIANOCAMI",
-            "obdobie pred vianocami",
-            "oBDOBIE PRED VIANOCAMI",
-            "Obdobie Pred Vianocami"
+            "Advent",
+            "advent",
+            "ADVENT"
         ]
     },
     {
@@ -249,20 +227,11 @@
         ]
     },
     {
-        "otazka": "Ako sa nazýva sviatok všetkých svätých?",
+        "otazka": "Ako sa volá sviatok všetkých svätých?",
         "odpovede": [
-            "Sviatok všetkých svätých",
-            "sviatok vsetkych svatych",
-            "SvIaToK VsEtKyCh sVaTyCh",
-            "SVIATOK VSETKYCH SVATYCH",
-            "Sviatok Vsetkych Svatych",
-            "sVIATOK VSETKYCH SVATYCH",
-            "Sviatok vsetkych svatych",
-            "sviatok všetkých svätých",
-            "SvIaToK VšEtKýCh sVäTýCh",
-            "SVIATOK VŠETKÝCH SVÄTÝCH",
-            "Sviatok Všetkých Svätých",
-            "sVIATOK VŠETKÝCH SVÄTÝCH"
+            "Všechsvätí",
+            "VSICHSVATI",
+            "vsichsvati"
         ]
     },
     {

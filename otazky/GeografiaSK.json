@@ -80,20 +80,11 @@
         ]
     },
     {
-        "otazka": "Ktorá jaskyňa je známa ľadovou výzdobou?",
+        "otazka": "Ktorá jaskyňa je známa ľadom?",
         "odpovede": [
-            "Dobšinská ľadová jaskyňa",
-            "DOBSINSKA LADOVA JASKYNA",
-            "Dobsinska ladova jaskyna",
-            "Dobsinska Ladova Jaskyna",
-            "dOBSINSKA LADOVA JASKYNA",
-            "dobsinska ladova jaskyna",
-            "DoBsInSkA LaDoVa jAsKyNa",
-            "DOBŠINSKÁ ĽADOVÁ JASKYŇA",
-            "dobšinská ľadová jaskyňa",
-            "DoBšInSkÁ ĽaDoVá jAsKyŇa",
-            "Dobšinská Ľadová Jaskyňa",
-            "dOBŠINSKÁ ĽADOVÁ JASKYŇA"
+            "Dobšinská jaskyňa",
+            "DOBSINSKA JASKYNA",
+            "dobsinska jaskyna"
         ]
     },
     {

@@ -1,36 +1,18 @@
 [
     {
-        "otazka": "Čo je algoritmus?",
+        "otazka": "Ako sa volá postup riešenia úlohy?",
         "odpovede": [
-            "Postup riešenia úlohy",
-            "Postup riesenia ulohy",
-            "postup riesenia ulohy",
-            "pOSTUP RIESENIA ULOHY",
-            "PoStUp rIeSeNiA UlOhY",
-            "Postup Riesenia Ulohy",
-            "POSTUP RIESENIA ULOHY",
-            "PoStUp rIeŠeNiA ÚlOhY",
-            "POSTUP RIEŠENIA ÚLOHY",
-            "pOSTUP RIEŠENIA ÚLOHY",
-            "postup riešenia úlohy",
-            "Postup Riešenia Úlohy"
+            "Algoritmus",
+            "algoritmus",
+            "ALGORITMUS"
         ]
     },
     {
-        "otazka": "Čo znamená CPU?",
+        "otazka": "Čo znamená skratka CPU?",
         "odpovede": [
-            "Centrálna procesorová jednotka",
-            "Centralna procesorova jednotka",
-            "Centralna Procesorova Jednotka",
-            "CENTRALNA PROCESOROVA JEDNOTKA",
-            "CeNtRaLnA PrOcEsOrOvA JeDnOtKa",
-            "centralna procesorova jednotka",
-            "cENTRALNA PROCESOROVA JEDNOTKA",
-            "centrálna procesorová jednotka",
-            "Centrálna Procesorová Jednotka",
-            "CENTRÁLNA PROCESOROVÁ JEDNOTKA",
-            "CeNtRáLnA PrOcEsOrOvÁ JeDnOtKa",
-            "cENTRÁLNA PROCESOROVÁ JEDNOTKA"
+            "Procesor",
+            "procesor",
+            "PROCESOR"
         ]
     },
     {
@@ -61,20 +43,11 @@
         ]
     },
     {
-        "otazka": "Čo je operačný systém?",
+        "otazka": "Ako sa nazýva softvér riadiaci počítač?",
         "odpovede": [
-            "Softvér riadiaci počítač",
-            "Softver Riadiaci Pocitac",
-            "Softver riadiaci pocitac",
-            "sOFTVER RIADIACI POCITAC",
-            "SOFTVER RIADIACI POCITAC",
-            "SoFtVeR RiAdIaCi pOcItAc",
-            "softver riadiaci pocitac",
-            "SoFtVéR RiAdIaCi pOčÍtAč",
-            "sOFTVÉR RIADIACI POČÍTAČ",
-            "SOFTVÉR RIADIACI POČÍTAČ",
-            "softvér riadiaci počítač",
-            "Softvér Riadiaci Počítač"
+            "Operačný systém",
+            "OPERACNY SYSTEM",
+            "operacny system"
         ]
     },
     {
@@ -99,20 +72,11 @@
         ]
     },
     {
-        "otazka": "Čo je databáza?",
+        "otazka": "Ako sa volá organizované úložisko dát?",
         "odpovede": [
-            "Organizované úložisko dát",
-            "ORGANIZOVANE ULOZISKO DAT",
-            "OrGaNiZoVaNe uLoZiSkO DaT",
-            "Organizovane Ulozisko Dat",
-            "oRGANIZOVANE ULOZISKO DAT",
-            "Organizovane ulozisko dat",
-            "organizovane ulozisko dat",
-            "organizované úložisko dát",
-            "oRGANIZOVANÉ ÚLOŽISKO DÁT",
-            "OrGaNiZoVaNé úLoŽiSkO DáT",
-            "ORGANIZOVANÉ ÚLOŽISKO DÁT",
-            "Organizované Úložisko Dát"
+            "Databáza",
+            "databáza",
+            "DATABÁZA"
         ]
     },
     {
@@ -126,20 +90,11 @@
         ]
     },
     {
-        "otazka": "Čo je kódovanie?",
+        "otazka": "Ako sa nazýva zápis inštrukcií?",
         "odpovede": [
-            "Zápis inštrukcií pre počítač",
-            "Zapis Instrukcii Pre Pocitac",
-            "Zapis instrukcii pre pocitac",
-            "zapis instrukcii pre pocitac",
-            "zAPIS INSTRUKCII PRE POCITAC",
-            "ZAPIS INSTRUKCII PRE POCITAC",
-            "ZaPiS InStRuKcIi pRe pOcItAc",
-            "ZáPiS InŠtRuKcIí pRe pOčÍtAč",
-            "ZÁPIS INŠTRUKCIÍ PRE POČÍTAČ",
-            "Zápis Inštrukcií Pre Počítač",
-            "zÁPIS INŠTRUKCIÍ PRE POČÍTAČ",
-            "zápis inštrukcií pre počítač"
+            "Kódovanie",
+            "kódovanie",
+            "KÓDOVANIE"
         ]
     },
     {
@@ -153,20 +108,11 @@
         ]
     },
     {
-        "otazka": "Čo je cloud?",
+        "otazka": "Ako sa nazýva vzdialené úložisko?",
         "odpovede": [
-            "Vzdialené úložisko a služby cez internet",
-            "vzdialene ulozisko a sluzby cez internet",
-            "VzDiAlEnE UlOzIsKo a sLuZbY CeZ InTeRnEt",
-            "Vzdialene ulozisko a sluzby cez internet",
-            "VZDIALENE ULOZISKO A SLUZBY CEZ INTERNET",
-            "Vzdialene Ulozisko A Sluzby Cez Internet",
-            "vZDIALENE ULOZISKO A SLUZBY CEZ INTERNET",
-            "VzDiAlEnÉ ÚlOžIsKo a sLuŽbY CeZ InTeRnEt",
-            "Vzdialené Úložisko A Služby Cez Internet",
-            "vzdialené úložisko a služby cez internet",
-            "VZDIALENÉ ÚLOŽISKO A SLUŽBY CEZ INTERNET",
-            "vZDIALENÉ ÚLOŽISKO A SLUŽBY CEZ INTERNET"
+            "Cloud",
+            "cloud",
+            "CLOUD"
         ]
     },
     {
@@ -195,20 +141,11 @@
         ]
     },
     {
-        "otazka": "Čo je umelá inteligencia?",
+        "otazka": "Ako sa nazýva simulácia ľudského myslenia?",
         "odpovede": [
-            "Simulácia ľudského uvažovania",
-            "SiMuLaCiA LuDsKeHo uVaZoVaNiA",
-            "simulacia ludskeho uvazovania",
-            "sIMULACIA LUDSKEHO UVAZOVANIA",
-            "Simulacia Ludskeho Uvazovania",
-            "Simulacia ludskeho uvazovania",
-            "SIMULACIA LUDSKEHO UVAZOVANIA",
-            "simulácia ľudského uvažovania",
-            "Simulácia Ľudského Uvažovania",
-            "SiMuLáCiA ĽuDsKéHo uVaŽoVaNiA",
-            "SIMULÁCIA ĽUDSKÉHO UVAŽOVANIA",
-            "sIMULÁCIA ĽUDSKÉHO UVAŽOVANIA"
+            "Umelá inteligencia",
+            "UMELA INTELIGENCIA",
+            "umela inteligencia"
         ]
     },
     {
@@ -224,52 +161,25 @@
     {
         "otazka": "Čo znamená skratka URL?",
         "odpovede": [
-            "Adresa webovej stránky",
-            "Adresa webovej stranky",
-            "adresa webovej stranky",
-            "aDRESA WEBOVEJ STRANKY",
-            "AdReSa wEbOvEj sTrAnKy",
-            "ADRESA WEBOVEJ STRANKY",
-            "Adresa Webovej Stranky",
-            "ADRESA WEBOVEJ STRÁNKY",
-            "Adresa Webovej Stránky",
-            "aDRESA WEBOVEJ STRÁNKY",
-            "adresa webovej stránky",
-            "AdReSa wEbOvEj sTrÁnKy"
+            "Webová adresa",
+            "WEBOVA ADRESA",
+            "webova adresa"
         ]
     },
     {
-        "otazka": "Ako sa nazýva kompresia dát?",
+        "otazka": "Ako sa nazýva zmenšenie súboru?",
         "odpovede": [
-            "Zmenšenie veľkosti súboru",
-            "ZMENSENIE VELKOSTI SUBORU",
-            "zmensenie velkosti suboru",
-            "ZmEnSeNiE VeLkOsTi sUbOrU",
-            "Zmensenie velkosti suboru",
-            "zMENSENIE VELKOSTI SUBORU",
-            "Zmensenie Velkosti Suboru",
-            "ZMENŠENIE VEĽKOSTI SÚBORU",
-            "zmenšenie veľkosti súboru",
-            "ZmEnŠeNiE VeĽkOsTi sÚbOrU",
-            "Zmenšenie Veľkosti Súboru",
-            "zMENŠENIE VEĽKOSTI SÚBORU"
+            "Kompresia",
+            "kompresia",
+            "KOMPRESIA"
         ]
     },
     {
-        "otazka": "Čo je phishing?",
+        "otazka": "Ako sa volá podvodné získavanie údajov?",
         "odpovede": [
-            "Podvodné získavanie údajov",
-            "pODVODNE ZISKAVANIE UDAJOV",
-            "podvodne ziskavanie udajov",
-            "PoDvOdNe zIsKaVaNiE UdAjOv",
-            "PODVODNE ZISKAVANIE UDAJOV",
-            "Podvodne Ziskavanie Udajov",
-            "Podvodne ziskavanie udajov",
-            "PoDvOdNé zÍsKaVaNiE ÚdAjOv",
-            "PODVODNÉ ZÍSKAVANIE ÚDAJOV",
-            "podvodné získavanie údajov",
-            "pODVODNÉ ZÍSKAVANIE ÚDAJOV",
-            "Podvodné Získavanie Údajov"
+            "Phishing",
+            "phishing",
+            "PHISHING"
         ]
     },
     {

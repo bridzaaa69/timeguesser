@@ -146,20 +146,11 @@
         ]
     },
     {
-        "otazka": "Čo je tranzistor?",
+        "otazka": "Ako sa nazýva polovodičová spínacia súčiastka?",
         "odpovede": [
-            "Polovodičová spínacia súčiastka",
-            "Polovodicova Spinacia Suciastka",
-            "Polovodicova spinacia suciastka",
-            "polovodicova spinacia suciastka",
-            "POLOVODICOVA SPINACIA SUCIASTKA",
-            "PoLoVoDiCoVa sPiNaCiA SuCiAsTkA",
-            "pOLOVODICOVA SPINACIA SUCIASTKA",
-            "pOLOVODIČOVÁ SPÍNACIA SÚČIASTKA",
-            "polovodičová spínacia súčiastka",
-            "POLOVODIČOVÁ SPÍNACIA SÚČIASTKA",
-            "Polovodičová Spínacia Súčiastka",
-            "PoLoVoDiČoVá sPíNaCiA SúČiAsTkA"
+            "Tranzistor",
+            "tranzistor",
+            "TRANZISTOR"
         ]
     },
     {
@@ -173,37 +164,19 @@
         ]
     },
     {
-        "otazka": "Čo robí poistka?",
+        "otazka": "Ako sa volá ochrana obvodu?",
         "odpovede": [
-            "Ochrana obvodu pred preťažením",
-            "OcHrAnA ObVoDu pReD PrEtAzEnIm",
-            "Ochrana Obvodu Pred Pretazenim",
-            "OCHRANA OBVODU PRED PRETAZENIM",
-            "oCHRANA OBVODU PRED PRETAZENIM",
-            "ochrana obvodu pred pretazenim",
-            "Ochrana obvodu pred pretazenim",
-            "OCHRANA OBVODU PRED PREŤAŽENÍM",
-            "Ochrana Obvodu Pred Preťažením",
-            "oCHRANA OBVODU PRED PREŤAŽENÍM",
-            "OcHrAnA ObVoDu pReD PrEťAžEnÍm",
-            "ochrana obvodu pred preťažením"
+            "Poistka",
+            "poistka",
+            "POISTKA"
         ]
     },
     {
-        "otazka": "Čo je striedavý prúd?",
+        "otazka": "Ako sa volá prúd meniaci smer?",
         "odpovede": [
-            "Prúd meniaci smer",
-            "PRUD MENIACI SMER",
-            "Prud Meniaci Smer",
-            "Prud meniaci smer",
-            "PrUd mEnIaCi sMeR",
-            "prud meniaci smer",
-            "pRUD MENIACI SMER",
-            "Prúd Meniaci Smer",
-            "pRÚD MENIACI SMER",
-            "PrÚd mEnIaCi sMeR",
-            "prúd meniaci smer",
-            "PRÚD MENIACI SMER"
+            "Striedavý prúd",
+            "STRIEDAVY PRUD",
+            "striedavy prud"
         ]
     },
     {
@@ -222,37 +195,19 @@
         ]
     },
     {
-        "otazka": "Čo je filter v elektronike?",
+        "otazka": "Ako sa nazýva súčiastka na odstránenie frekvencií?",
         "odpovede": [
-            "Súčiastka na odstránenie frekvencií",
-            "SuCiAsTkA Na oDsTrAnEnIe fReKvEnCiI",
-            "SUCIASTKA NA ODSTRANENIE FREKVENCII",
-            "Suciastka Na Odstranenie Frekvencii",
-            "Suciastka na odstranenie frekvencii",
-            "suciastka na odstranenie frekvencii",
-            "sUCIASTKA NA ODSTRANENIE FREKVENCII",
-            "SúČiAsTkA Na oDsTrÁnEnIe fReKvEnCiÍ",
-            "SÚČIASTKA NA ODSTRÁNENIE FREKVENCIÍ",
-            "súčiastka na odstránenie frekvencií",
-            "Súčiastka Na Odstránenie Frekvencií",
-            "sÚČIASTKA NA ODSTRÁNENIE FREKVENCIÍ"
+            "Filter",
+            "filter",
+            "FILTER"
         ]
     },
     {
-        "otazka": "Čo je kapacita?",
+        "otazka": "Ako sa volá schopnosť uchovať náboj?",
         "odpovede": [
-            "Schopnosť uchovať náboj",
-            "sCHOPNOST UCHOVAT NABOJ",
-            "SCHOPNOST UCHOVAT NABOJ",
-            "ScHoPnOsT UcHoVaT NaBoJ",
-            "schopnost uchovat naboj",
-            "Schopnost Uchovat Naboj",
-            "Schopnost uchovat naboj",
-            "Schopnosť Uchovať Náboj",
-            "schopnosť uchovať náboj",
-            "SCHOPNOSŤ UCHOVAŤ NÁBOJ",
-            "sCHOPNOSŤ UCHOVAŤ NÁBOJ",
-            "ScHoPnOsŤ UcHoVaŤ NáBoJ"
+            "Kapacita",
+            "kapacita",
+            "KAPACITA"
         ]
     },
     {
@@ -281,20 +236,11 @@
         ]
     },
     {
-        "otazka": "Čo je integrovaný obvod?",
+        "otazka": "Ako sa volá čip s viacerými súčiastkami?",
         "odpovede": [
-            "Čip s viacerými súčiastkami",
-            "CIP S VIACERYMI SUCIASTKAMI",
-            "CiP S ViAcErYmI SuCiAsTkAmI",
-            "Cip s viacerymi suciastkami",
-            "cip s viacerymi suciastkami",
-            "cIP S VIACERYMI SUCIASTKAMI",
-            "Cip S Viacerymi Suciastkami",
-            "ČIP S VIACERÝMI SÚČIASTKAMI",
-            "Čip S Viacerými Súčiastkami",
-            "čIP S VIACERÝMI SÚČIASTKAMI",
-            "čip s viacerými súčiastkami",
-            "ČiP S ViAcErÝmI SúČiAsTkAmI"
+            "Integrovaný obvod",
+            "INTEGROVANY OBVOD",
+            "integrovany obvod"
         ]
     }
 ]

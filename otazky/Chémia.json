@@ -108,20 +108,11 @@
         ]
     },
     {
-        "otazka": "Čo je katalyzátor?",
+        "otazka": "Ako sa nazýva látka urýchľujúca reakciu?",
         "odpovede": [
-            "Látka urýchľujúca reakciu",
-            "LaTkA UrYcHlUjUcA ReAkCiU",
-            "lATKA URYCHLUJUCA REAKCIU",
-            "LATKA URYCHLUJUCA REAKCIU",
-            "Latka urychlujuca reakciu",
-            "Latka Urychlujuca Reakciu",
-            "latka urychlujuca reakciu",
-            "lÁTKA URÝCHĽUJÚCA REAKCIU",
-            "Látka Urýchľujúca Reakciu",
-            "látka urýchľujúca reakciu",
-            "LÁTKA URÝCHĽUJÚCA REAKCIU",
-            "LáTkA UrÝcHľUjÚcA ReAkCiU"
+            "Katalyzátor",
+            "katalyzátor",
+            "KATALYZÁTOR"
         ]
     },
     {
@@ -166,20 +157,11 @@
         ]
     },
     {
-        "otazka": "Čo je ión?",
+        "otazka": "Ako sa nazýva nabitá častica?",
         "odpovede": [
-            "Nabitý atóm alebo skupina atómov",
-            "NABITY ATOM ALEBO SKUPINA ATOMOV",
-            "nabity atom alebo skupina atomov",
-            "nABITY ATOM ALEBO SKUPINA ATOMOV",
-            "NaBiTy aToM AlEbO SkUpInA AtOmOv",
-            "Nabity atom alebo skupina atomov",
-            "Nabity Atom Alebo Skupina Atomov",
-            "NABITÝ ATÓM ALEBO SKUPINA ATÓMOV",
-            "nABITÝ ATÓM ALEBO SKUPINA ATÓMOV",
-            "Nabitý Atóm Alebo Skupina Atómov",
-            "NaBiTý aTóM AlEbO SkUpInA AtÓmOv",
-            "nabitý atóm alebo skupina atómov"
+            "Ión",
+            "ión",
+            "IÓN"
         ]
     },
     {

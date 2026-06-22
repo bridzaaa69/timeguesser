@@ -2,12 +2,9 @@
     {
         "otazka": "Kto vynašiel telefón?",
         "odpovede": [
-            "Alexander Graham Bell",
-            "aLEXANDER GRAHAM BELL",
-            "Alexander graham bell",
-            "ALEXANDER GRAHAM BELL",
-            "alexander graham bell",
-            "AlExAnDeR GrAhAm bElL"
+            "Bell",
+            "bell",
+            "BELL"
         ]
     },
     {
@@ -33,15 +30,11 @@
         ]
     },
     {
-        "otazka": "Kto namaľoval Monu Lízu?",
+        "otazka": "Kto namaľoval Monu?",
         "odpovede": [
-            "Leonardo da Vinci",
-            "Leonardo da vinci",
-            "lEONARDO DA VINCI",
-            "LeOnArDo dA ViNcI",
-            "leonardo da vinci",
-            "Leonardo Da Vinci",
-            "LEONARDO DA VINCI"
+            "Vinci",
+            "vinci",
+            "VINCI"
         ]
     },
     {

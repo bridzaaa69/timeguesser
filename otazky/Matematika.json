@@ -77,20 +77,11 @@
         ]
     },
     {
-        "otazka": "Čo je priemer?",
+        "otazka": "Ako sa volá stredná hodnota?",
         "odpovede": [
-            "Súčet hodnôt delený ich počtom",
-            "sucet hodnot deleny ich poctom",
-            "Sucet hodnot deleny ich poctom",
-            "SUCET HODNOT DELENY ICH POCTOM",
-            "Sucet Hodnot Deleny Ich Poctom",
-            "sUCET HODNOT DELENY ICH POCTOM",
-            "SuCeT HoDnOt dElEnY IcH PoCtOm",
-            "SúČeT HoDnÔt dElEnÝ IcH PoČtOm",
-            "súčet hodnôt delený ich počtom",
-            "SÚČET HODNÔT DELENÝ ICH POČTOM",
-            "Súčet Hodnôt Delený Ich Počtom",
-            "sÚČET HODNÔT DELENÝ ICH POČTOM"
+            "Priemer",
+            "priemer",
+            "PRIEMER"
         ]
     },
     {
@@ -110,54 +101,27 @@
         ]
     },
     {
-        "otazka": "Čo je rovnica?",
+        "otazka": "Ako sa volá rovnosť s neznámou?",
         "odpovede": [
-            "Rovnosť s neznámou",
-            "rovnost s neznamou",
-            "rOVNOST S NEZNAMOU",
-            "ROVNOST S NEZNAMOU",
-            "RoVnOsT S NeZnAmOu",
-            "Rovnost s neznamou",
-            "Rovnost S Neznamou",
-            "ROVNOSŤ S NEZNÁMOU",
-            "RoVnOsŤ S NeZnÁmOu",
-            "Rovnosť S Neznámou",
-            "rOVNOSŤ S NEZNÁMOU",
-            "rovnosť s neznámou"
+            "Rovnica",
+            "rovnica",
+            "ROVNICA"
         ]
     },
     {
-        "otazka": "Čo je odmocnina?",
+        "otazka": "Ako sa volá opačná operácia k mocnine?",
         "odpovede": [
-            "Opačná operácia k mocnine",
-            "Opacna operacia k mocnine",
-            "opacna operacia k mocnine",
-            "oPACNA OPERACIA K MOCNINE",
-            "OPACNA OPERACIA K MOCNINE",
-            "Opacna Operacia K Mocnine",
-            "OpAcNa oPeRaCiA K MoCnInE",
-            "oPAČNÁ OPERÁCIA K MOCNINE",
-            "OPAČNÁ OPERÁCIA K MOCNINE",
-            "opačná operácia k mocnine",
-            "OpAčNá oPeRáCiA K MoCnInE",
-            "Opačná Operácia K Mocnine"
+            "Odmocnina",
+            "odmocnina",
+            "ODMOCNINA"
         ]
     },
     {
-        "otazka": "Čo je pravouhlý trojuholník?",
+        "otazka": "Ako sa volá trojuholník s pravým uhlom?",
         "odpovede": [
-            "Trojuholník s pravým uhlom",
-            "Trojuholnik S Pravym Uhlom",
-            "trojuholnik s pravym uhlom",
-            "TROJUHOLNIK S PRAVYM UHLOM",
-            "TrOjUhOlNiK S PrAvYm uHlOm",
-            "Trojuholnik s pravym uhlom",
-            "tROJUHOLNIK S PRAVYM UHLOM",
-            "tROJUHOLNÍK S PRAVÝM UHLOM",
-            "TrOjUhOlNíK S PrAvÝm uHlOm",
-            "Trojuholník S Pravým Uhlom",
-            "trojuholník s pravým uhlom",
-            "TROJUHOLNÍK S PRAVÝM UHLOM"
+            "Pravouhlý trojuholník",
+            "PRAVOUHLÝ TROJUHOLNÍK",
+            "pravouhlý trojuholník"
         ]
     },
     {
@@ -200,37 +164,19 @@
         ]
     },
     {
-        "otazka": "Čo je obvod obdĺžnika?",
+        "otazka": "Ako sa počíta obvod?",
         "odpovede": [
-            "Súčet dĺžok všetkých strán",
-            "sUCET DLZOK VSETKYCH STRAN",
-            "sucet dlzok vsetkych stran",
-            "SUCET DLZOK VSETKYCH STRAN",
-            "SuCeT DlZoK VsEtKyCh sTrAn",
-            "Sucet Dlzok Vsetkych Stran",
-            "Sucet dlzok vsetkych stran",
-            "SÚČET DĹŽOK VŠETKÝCH STRÁN",
-            "SúČeT DĺŽoK VšEtKýCh sTrÁn",
-            "súčet dĺžok všetkých strán",
-            "Súčet Dĺžok Všetkých Strán",
-            "sÚČET DĹŽOK VŠETKÝCH STRÁN"
+            "Súčet strán",
+            "SUCET STRAN",
+            "sucet stran"
         ]
     },
     {
-        "otazka": "Čo je diagram?",
+        "otazka": "Ako sa volá grafické znázornenie?",
         "odpovede": [
-            "Grafické znázornenie dát",
-            "GrAfIcKe zNaZoRnEnIe dAt",
-            "Graficke znazornenie dat",
-            "Graficke Znazornenie Dat",
-            "graficke znazornenie dat",
-            "GRAFICKE ZNAZORNENIE DAT",
-            "gRAFICKE ZNAZORNENIE DAT",
-            "gRAFICKÉ ZNÁZORNENIE DÁT",
-            "Grafické Znázornenie Dát",
-            "GRAFICKÉ ZNÁZORNENIE DÁT",
-            "GrAfIcKé zNáZoRnEnIe dÁt",
-            "grafické znázornenie dát"
+            "Diagram",
+            "diagram",
+            "DIAGRAM"
         ]
     },
     {

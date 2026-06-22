@@ -1,19 +1,10 @@
 [
     {
-        "otazka": "Čo je bunka?",
+        "otazka": "Ako sa nazýva základná jednotka života?",
         "odpovede": [
-            "Základná stavebná jednotka života",
-            "ZAKLADNA STAVEBNA JEDNOTKA ZIVOTA",
-            "Zakladna Stavebna Jednotka Zivota",
-            "ZaKlAdNa sTaVeBnA JeDnOtKa zIvOtA",
-            "Zakladna stavebna jednotka zivota",
-            "zakladna stavebna jednotka zivota",
-            "zAKLADNA STAVEBNA JEDNOTKA ZIVOTA",
-            "základná stavebná jednotka života",
-            "Základná Stavebná Jednotka Života",
-            "ZáKlAdNá sTaVeBnÁ JeDnOtKa žIvOtA",
-            "zÁKLADNÁ STAVEBNÁ JEDNOTKA ŽIVOTA",
-            "ZÁKLADNÁ STAVEBNÁ JEDNOTKA ŽIVOTA"
+            "Bunka",
+            "bunka",
+            "BUNKA"
         ]
     },
     {
@@ -265,20 +256,11 @@
         ]
     },
     {
-        "otazka": "Čo je to evolúcia?",
+        "otazka": "Ako sa nazýva vývoj druhov?",
         "odpovede": [
-            "Vývoj druhov v čase",
-            "VYVOJ DRUHOV V CASE",
-            "vyvoj druhov v case",
-            "Vyvoj Druhov V Case",
-            "vYVOJ DRUHOV V CASE",
-            "Vyvoj druhov v case",
-            "VyVoJ DrUhOv v cAsE",
-            "VÝVOJ DRUHOV V ČASE",
-            "Vývoj Druhov V Čase",
-            "vÝVOJ DRUHOV V ČASE",
-            "vývoj druhov v čase",
-            "VýVoJ DrUhOv v čAsE"
+            "Evolúcia",
+            "evolúcia",
+            "EVOLÚCIA"
         ]
     }
 ]

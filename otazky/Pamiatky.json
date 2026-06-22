@@ -111,20 +111,11 @@
         ]
     },
     {
-        "otazka": "Ktorá stavba v Číne je známa ako Veľký múr?",
+        "otazka": "Ako sa volá múr v Číne?",
         "odpovede": [
-            "Veľký čínsky múr",
-            "VELKY CINSKY MUR",
-            "Velky Cinsky Mur",
-            "velky cinsky mur",
-            "Velky cinsky mur",
-            "vELKY CINSKY MUR",
-            "VeLkY CiNsKy mUr",
-            "veľký čínsky múr",
-            "VEĽKÝ ČÍNSKY MÚR",
-            "vEĽKÝ ČÍNSKY MÚR",
-            "VeĽkÝ ČíNsKy mÚr",
-            "Veľký Čínsky Múr"
+            "Veľký múr",
+            "VELKY MUR",
+            "velky mur"
         ]
     },
     {
@@ -190,22 +181,11 @@
         ]
     },
     {
-        "otazka": "Ako sa volá kláštor na hore Athos?",
+        "otazka": "Ako sa volá kláštor na hore?",
         "odpovede": [
-            "Svätá hora Athos",
-            "Svata hora Athos",
-            "Svata hora athos",
-            "SvAtA HoRa aThOs",
-            "Svata Hora Athos",
-            "SVATA HORA ATHOS",
-            "svata hora athos",
-            "sVATA HORA ATHOS",
-            "SvÄtÁ HoRa aThOs",
-            "SVÄTÁ HORA ATHOS",
-            "svätá hora athos",
-            "sVÄTÁ HORA ATHOS",
-            "Svätá Hora Athos",
-            "Svätá hora athos"
+            "Svätá hora",
+            "SVATA HORA",
+            "svata hora"
         ]
     },
     {

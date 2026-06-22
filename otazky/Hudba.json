@@ -1,19 +1,10 @@
 [
     {
-        "otazka": "Čo je refrén?",
+        "otazka": "Ako sa volá opakujúca sa časť piesne?",
         "odpovede": [
-            "Opakujúca sa časť piesne",
-            "OpAkUjUcA Sa cAsT PiEsNe",
-            "Opakujuca sa cast piesne",
-            "oPAKUJUCA SA CAST PIESNE",
-            "OPAKUJUCA SA CAST PIESNE",
-            "Opakujuca Sa Cast Piesne",
-            "opakujuca sa cast piesne",
-            "Opakujúca Sa Časť Piesne",
-            "OPAKUJÚCA SA ČASŤ PIESNE",
-            "oPAKUJÚCA SA ČASŤ PIESNE",
-            "opakujúca sa časť piesne",
-            "OpAkUjÚcA Sa čAsŤ PiEsNe"
+            "Refrén",
+            "refrén",
+            "REFRÉN"
         ]
     },
     {
@@ -84,20 +75,11 @@
         ]
     },
     {
-        "otazka": "Čo je melódia?",
+        "otazka": "Ako sa volá hlavná hudobná línia?",
         "odpovede": [
-            "Hlavná hudobná línia",
-            "hLAVNA HUDOBNA LINIA",
-            "HlAvNa hUdObNa lInIa",
-            "hlavna hudobna linia",
-            "HLAVNA HUDOBNA LINIA",
-            "Hlavna Hudobna Linia",
-            "Hlavna hudobna linia",
-            "Hlavná Hudobná Línia",
-            "hlavná hudobná línia",
-            "HLAVNÁ HUDOBNÁ LÍNIA",
-            "hLAVNÁ HUDOBNÁ LÍNIA",
-            "HlAvNá hUdObNá lÍnIa"
+            "Melódia",
+            "melódia",
+            "MELÓDIA"
         ]
     },
     {
@@ -121,20 +103,11 @@
         ]
     },
     {
-        "otazka": "Čo je oktáva?",
+        "otazka": "Ako sa nazýva interval ôsmich tónov?",
         "odpovede": [
-            "Interval ôsmich tónov",
-            "Interval Osmich Tonov",
-            "InTeRvAl oSmIcH ToNoV",
-            "Interval osmich tonov",
-            "interval osmich tonov",
-            "INTERVAL OSMICH TONOV",
-            "iNTERVAL OSMICH TONOV",
-            "interval ôsmich tónov",
-            "INTERVAL ÔSMICH TÓNOV",
-            "iNTERVAL ÔSMICH TÓNOV",
-            "Interval Ôsmich Tónov",
-            "InTeRvAl ôSmIcH TóNoV"
+            "Oktáva",
+            "oktáva",
+            "OKTÁVA"
         ]
     },
     {
@@ -169,20 +142,11 @@
         ]
     },
     {
-        "otazka": "Čo je koncert?",
+        "otazka": "Ako sa volá vystúpenie pred publikom?",
         "odpovede": [
-            "Vystúpenie pred publikom",
-            "VyStUpEnIe pReD PuBlIkOm",
-            "vYSTUPENIE PRED PUBLIKOM",
-            "VYSTUPENIE PRED PUBLIKOM",
-            "Vystupenie pred publikom",
-            "vystupenie pred publikom",
-            "Vystupenie Pred Publikom",
-            "Vystúpenie Pred Publikom",
-            "vystúpenie pred publikom",
-            "VyStÚpEnIe pReD PuBlIkOm",
-            "vYSTÚPENIE PRED PUBLIKOM",
-            "VYSTÚPENIE PRED PUBLIKOM"
+            "Koncert",
+            "koncert",
+            "KONCERT"
         ]
     },
     {
@@ -201,20 +165,11 @@
         ]
     },
     {
-        "otazka": "Čo je notová osnova?",
+        "otazka": "Na koľkých čiarach sa píšu noty?",
         "odpovede": [
-            "Päť čiar na zapisovanie nôt",
-            "PAT CIAR NA ZAPISOVANIE NOT",
-            "pat ciar na zapisovanie not",
-            "Pat Ciar Na Zapisovanie Not",
-            "PaT CiAr nA ZaPiSoVaNiE NoT",
-            "pAT CIAR NA ZAPISOVANIE NOT",
-            "Pat ciar na zapisovanie not",
-            "Päť Čiar Na Zapisovanie Nôt",
-            "PÄŤ ČIAR NA ZAPISOVANIE NÔT",
-            "päť čiar na zapisovanie nôt",
-            "pÄŤ ČIAR NA ZAPISOVANIE NÔT",
-            "PäŤ ČiAr nA ZaPiSoVaNiE NôT"
+            "Päť",
+            "päť",
+            "PÄŤ"
         ]
     },
     {
@@ -243,20 +198,11 @@
         ]
     },
     {
-        "otazka": "Čo je synkopa?",
+        "otazka": "Ako sa nazýva posun dôrazu v rytme?",
         "odpovede": [
-            "Posun dôrazu v rytme",
-            "posun dorazu v rytme",
-            "Posun dorazu v rytme",
-            "Posun Dorazu V Rytme",
-            "pOSUN DORAZU V RYTME",
-            "POSUN DORAZU V RYTME",
-            "PoSuN DoRaZu v rYtMe",
-            "Posun Dôrazu V Rytme",
-            "PoSuN DôRaZu v rYtMe",
-            "posun dôrazu v rytme",
-            "pOSUN DÔRAZU V RYTME",
-            "POSUN DÔRAZU V RYTME"
+            "Synkopa",
+            "synkopa",
+            "SYNKOPA"
         ]
     },
     {
